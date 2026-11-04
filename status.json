@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T12:04:07",
+ "generated_at": "2026-11-04T12:30:02",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -149,14 +149,12 @@
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-04T12:04:07",
+  "last_heartbeat": "2026-11-04T12:30:02",
   "last_success": "2026-11-04T11:30:29",
   "last_error": null
  },
  "youtube": null,
  "log_tail": [
-  "10:14:49 INFO    Cerebro (claude_code): generando revisión de calidad...",
-  "10:14:58 INFO    Guion listo: 'The Banshee - The Irish Wail That Warns of a Death' — 9 escenas, 141 palabras.",
   "10:15:02 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
   "10:15:05 INFO    Voz 1/9 (5.3s)",
   "10:15:06 INFO    Voz 2/9 (5.6s)",
@@ -274,6 +272,8 @@
   "11:49:10 INFO    Estado publicado para el panel: https://raw.githubusercontent.com/Juandegates/forgotten-folklore-status/main/status.json",
   "11:49:53 INFO    Estado publicado para el panel: https://raw.githubusercontent.com/Juandegates/forgotten-folklore-status/main/status.json",
   "11:54:47 INFO    Panel (index.html) actualizado en GitHub.",
-  "11:54:50 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
+  "11:54:50 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "12:04:09 INFO    Panel (index.html) actualizado en GitHub.",
+  "12:04:11 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
  ]
 }

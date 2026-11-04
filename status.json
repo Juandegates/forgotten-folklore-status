@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T12:30:02",
+ "generated_at": "2026-11-04T17:22:59",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -96,7 +96,13 @@
    "elapsed_minutes": 0.2,
    "published": false,
    "images": null,
-   "error": null
+   "error": null,
+   "tiktok": null,
+   "tiktok_error": null,
+   "instagram": null,
+   "instagram_error": null,
+   "facebook": null,
+   "facebook_error": null
   },
   {
    "created": "2026-11-04T00:00:00",
@@ -108,7 +114,13 @@
    "elapsed_minutes": 2.9,
    "published": false,
    "images": null,
-   "error": null
+   "error": null,
+   "tiktok": null,
+   "tiktok_error": null,
+   "instagram": null,
+   "instagram_error": null,
+   "facebook": null,
+   "facebook_error": null
   },
   {
    "created": "2026-11-04T00:00:00",
@@ -120,7 +132,13 @@
    "elapsed_minutes": 4.0,
    "published": true,
    "images": null,
-   "error": null
+   "error": null,
+   "tiktok": null,
+   "tiktok_error": null,
+   "instagram": null,
+   "instagram_error": null,
+   "facebook": null,
+   "facebook_error": null
   },
   {
    "created": "2026-11-04T00:00:00",
@@ -132,7 +150,13 @@
    "elapsed_minutes": 4.1,
    "published": true,
    "images": null,
-   "error": null
+   "error": null,
+   "tiktok": null,
+   "tiktok_error": null,
+   "instagram": null,
+   "instagram_error": null,
+   "facebook": null,
+   "facebook_error": null
   }
  ],
  "errors": [],
@@ -142,23 +166,19 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 2,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 905.5,
+  "disk_free_gb": 904.4,
   "topics_pending_short": 217,
   "topics_pending_long": 221,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-04T12:30:02",
+  "last_heartbeat": "2026-11-04T17:23:00",
   "last_success": "2026-11-04T11:30:29",
   "last_error": null
  },
  "youtube": null,
  "log_tail": [
-  "10:15:02 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
-  "10:15:05 INFO    Voz 1/9 (5.3s)",
-  "10:15:06 INFO    Voz 2/9 (5.6s)",
-  "10:15:07 INFO    Voz 3/9 (7.0s)",
   "10:15:08 INFO    Voz 4/9 (6.0s)",
   "10:15:10 INFO    Voz 5/9 (7.2s)",
   "10:15:11 INFO    Voz 6/9 (5.8s)",
@@ -274,6 +294,10 @@
   "11:54:47 INFO    Panel (index.html) actualizado en GitHub.",
   "11:54:50 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
   "12:04:09 INFO    Panel (index.html) actualizado en GitHub.",
-  "12:04:11 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
+  "12:04:11 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "12:30:05 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "16:14:19 INFO    Video alojado en Zernio.",
+  "16:35:47 INFO    Video alojado en Zernio.",
+  "16:37:00 INFO    Video alojado en Zernio."
  ]
 }

@@ -32,6 +32,7 @@
   --ok: #1f8f4c; --warn: #b7781a; --bad: #c43d35; --info: #2f6fb3; color-scheme: light;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.45; }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
 .wrap { max-width: 760px; margin: 0 auto; padding-block: 12px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 18px; }
@@ -166,6 +167,7 @@ footer { color: var(--muted); font-size: .8rem; text-align: center; }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]; }); }
   function fmtDate(iso) {
     if (!iso) return "—";
+    if (/T00:00:00$/.test(iso)) { var d0 = new Date(iso.slice(0, 10) + "T12:00:00"); return d0.toLocaleDateString("es-MX", { day: "numeric", month: "short" }); }
     var d = new Date(iso); if (isNaN(d)) return esc(iso);
     return d.toLocaleString("es-MX", { timeZone: "America/Mexico_City", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
   }

@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d0f15">
+<title>Forgotten Folklore Daily</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: una columna para celular; tarjetas solo donde hay estado que leer de un vistazo.
+   Paleta tomada del logo del canal: tinta nocturna y dorado; semáforo aparte del acento. */
+:root {
+  --bg: #0d0f15; --surface: #151924; --surface2: #1c2130; --line: #2a3042;
+  --fg: #e8e4da; --muted: #9a9bab; --accent: #e8b848; --accent-ink: #1a1405;
+  --ok: #4fc47a; --warn: #e3a93c; --bad: #e5574f; --info: #6fa8dc;
+  --display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", Consolas, "Courier New", monospace;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #f5f1e8; --surface: #ffffff; --surface2: #efe9dc; --line: #d8d0bf;
+    --fg: #1b1a17; --muted: #68665f; --accent: #a8780f; --accent-ink: #ffffff;
+    --ok: #1f8f4c; --warn: #b7781a; --bad: #c43d35; --info: #2f6fb3; color-scheme: light;
+  }
+}
+:root[data-theme="light"] {
+  --bg: #f5f1e8; --surface: #ffffff; --surface2: #efe9dc; --line: #d8d0bf;
+  --fg: #1b1a17; --muted: #68665f; --accent: #a8780f; --accent-ink: #ffffff;
+  --ok: #1f8f4c; --warn: #b7781a; --bad: #c43d35; --info: #2f6fb3; color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.45; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 12px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 18px; }
+header { display: flex; align-items: center; gap: 12px; }
+header .emblem { width: 44px; height: 44px; flex: 0 0 44px; }
+header h1 { font-family: var(--display); font-weight: 700; font-size: 1.7rem; margin: 0; line-height: 1.1; text-wrap: balance; }
+header .sub { color: var(--muted); font-size: .85rem; margin: 2px 0 0; }
+.refresh { margin-left: auto; background: var(--surface2); color: var(--fg); border: 1px solid var(--line); border-radius: 999px; padding: 8px 14px; font: inherit; font-size: .85rem; cursor: pointer; }
+.refresh:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.hero { border-radius: 14px; padding: 18px; background: var(--surface); border: 1px solid var(--line); display: grid; gap: 10px; }
+.hero.ok { border-color: color-mix(in srgb, var(--ok) 60%, var(--line)); }
+.hero.error { border-color: color-mix(in srgb, var(--bad) 70%, var(--line)); }
+.hero.warn { border-color: color-mix(in srgb, var(--warn) 70%, var(--line)); }
+.status-line { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.dot { width: 14px; height: 14px; border-radius: 50%; background: var(--muted); flex: 0 0 14px; box-shadow: 0 0 0 4px color-mix(in srgb, currentColor 18%, transparent); }
+.dot.ok { background: var(--ok); color: var(--ok); } .dot.error { background: var(--bad); color: var(--bad); } .dot.warn { background: var(--warn); color: var(--warn); } .dot.pending { background: var(--info); color: var(--info); }
+.status-line strong { font-size: 1.15rem; }
+.status-line .when { color: var(--muted); font-size: .85rem; margin-left: auto; }
+.hero p { margin: 0; }
+.video-row { display: grid; gap: 4px; padding: 10px 12px; background: var(--surface2); border-radius: 10px; }
+.video-row .t { font-weight: 600; }
+.video-row .m { color: var(--muted); font-size: .85rem; display: flex; gap: 10px; flex-wrap: wrap; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip { font-size: .78rem; padding: 3px 9px; border-radius: 999px; background: var(--surface2); border: 1px solid var(--line); color: var(--muted); }
+.chip.ok { color: var(--ok); border-color: color-mix(in srgb, var(--ok) 50%, var(--line)); }
+.chip.bad { color: var(--bad); border-color: color-mix(in srgb, var(--bad) 50%, var(--line)); }
+.chip.warn { color: var(--warn); border-color: color-mix(in srgb, var(--warn) 50%, var(--line)); }
+.chip.fmt { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 50%, var(--line)); }
+
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.35rem; margin: 0; }
+section { display: grid; gap: 10px; }
+.sec-head { display: flex; align-items: baseline; gap: 10px; }
+.sec-head .hint { color: var(--muted); font-size: .85rem; }
+.list { display: grid; gap: 6px; }
+.row { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; padding: 10px 12px; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); align-items: center; min-width: 0; }
+.row .title { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
+.row .meta { color: var(--muted); font-size: .82rem; display: flex; gap: 10px; flex-wrap: wrap; grid-column: 1 / -1; }
+.row .right { font-family: var(--mono); font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.row.next-today { border-color: color-mix(in srgb, var(--accent) 50%, var(--line)); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 4px; min-width: 0; }
+.tile .k { font-size: .76rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.tile .v { font-family: var(--mono); font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+.tile .bar { height: 6px; background: var(--surface2); border-radius: 999px; overflow: hidden; }
+.tile .bar i { display: block; height: 100%; background: var(--ok); border-radius: 999px; }
+.tile .bar i.warn { background: var(--warn); } .tile .bar i.bad { background: var(--bad); }
+.tile .s { font-size: .78rem; color: var(--muted); }
+.err { border-color: color-mix(in srgb, var(--bad) 45%, var(--line)); }
+.err .exp { color: var(--fg); }
+.err .msg { font-family: var(--mono); font-size: .76rem; color: var(--muted); overflow-wrap: anywhere; }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+summary { cursor: pointer; font-weight: 600; }
+pre.log { margin: 10px 0 0; max-height: 320px; overflow: auto; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font-family: var(--mono); font-size: .72rem; line-height: 1.4; white-space: pre; }
+.btn { background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 8px; padding: 8px 14px; font: inherit; font-weight: 600; cursor: pointer; }
+.btn.ghost { background: var(--surface2); color: var(--fg); border: 1px solid var(--line); }
+.empty { color: var(--muted); font-style: italic; }
+a { color: var(--accent); }
+.progress { display: grid; gap: 6px; }
+.progress .lbl { display: flex; justify-content: space-between; font-size: .85rem; color: var(--muted); }
+.progress .bar { height: 10px; background: var(--surface2); border-radius: 999px; overflow: hidden; border: 1px solid var(--line); }
+.progress .bar i { display: block; height: 100%; background: var(--accent); }
+footer { color: var(--muted); font-size: .8rem; text-align: center; }
+.toast { position: fixed; left: 50%; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--surface2); border: 1px solid var(--line); color: var(--fg); padding: 8px 14px; border-radius: 999px; font-size: .85rem; }
+@media (prefers-reduced-motion: no-preference) { .refresh.spin svg { animation: spin 1s linear infinite; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header>
+    <svg class="emblem" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="#101420" stroke="#e8b848" stroke-width="3"/><circle cx="50" cy="50" r="40" fill="none" stroke="#e8b848" stroke-width="1.2"/><circle cx="50" cy="47" r="22" fill="#e8b848"/><circle cx="58" cy="44" r="22" fill="#101420"/><path d="M60 47c-3 0-5 2-5 5s3 5 6 4 4-5 2-8" fill="none" stroke="#e8b848" stroke-width="1.6"/></svg>
+    <div>
+      <h1>Forgotten Folklore Daily</h1>
+      <p class="sub">Panel del canal · hora del centro de México</p>
+    </div>
+    <button class="refresh" id="refresh" type="button" aria-label="Actualizar"><span id="refresh-label">Actualizar</span></button>
+  </header>
+
+  <div class="hero" id="hero">
+    <div class="status-line"><span class="dot pending"></span><strong id="h-title">Cargando estado…</strong><span class="when" id="h-when"></span></div>
+    <p id="h-text" class="empty">Leyendo el último reporte de la PC.</p>
+    <div id="h-videos" class="list"></div>
+  </div>
+
+  <section id="alerts" hidden>
+    <div class="sec-head"><h2>Atención</h2></div>
+    <div class="list" id="alerts-list"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Próximos videos</h2><span class="hint">según la rotación de temas</span></div>
+    <div class="list" id="next"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>YouTube</h2><span class="hint" id="yt-hint"></span></div>
+    <div id="yt"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Salud del sistema</h2><span class="hint">cuotas gratuitas y máquina</span></div>
+    <div class="tiles" id="health"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Historial</h2><span class="hint">últimas corridas</span></div>
+    <div class="list" id="history"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Errores</h2><span class="hint">con explicación</span></div>
+    <div class="list" id="errors"></div>
+    <details id="logbox">
+      <summary>Log del día (para pegárselo a Claude)</summary>
+      <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><button class="btn ghost" type="button" id="copylog">Copiar log</button><button class="btn ghost" type="button" id="copystatus">Copiar reporte completo</button></div>
+      <pre class="log" id="log"></pre>
+    </details>
+  </section>
+
+  <footer id="foot">Fuente: status.json publicado por la PC en GitHub.</footer>
+</div>
+
+<script>
+(function () {
+  var SRC = "status.json";
+  var $ = function (id) { return document.getElementById(id); };
+  var STATUS = null;
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]; }); }
+  function fmtDate(iso) {
+    if (!iso) return "—";
+    var d = new Date(iso); if (isNaN(d)) return esc(iso);
+    return d.toLocaleString("es-MX", { timeZone: "America/Mexico_City", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+  }
+  function fmtDay(iso) {
+    var d = new Date(iso + "T12:00:00"); if (isNaN(d)) return esc(iso);
+    return d.toLocaleDateString("es-MX", { weekday: "short", day: "numeric", month: "short" });
+  }
+  function hoursSince(iso) { var d = new Date(iso); return isNaN(d) ? 1e9 : (Date.now() - d.getTime()) / 36e5; }
+  function ago(iso) {
+    var h = hoursSince(iso);
+    if (h > 1e8) return "sin fecha";
+    if (h < 1) return "hace " + Math.max(1, Math.round(h * 60)) + " min";
+    if (h < 48) return "hace " + Math.round(h) + " h";
+    return "hace " + Math.round(h / 24) + " días";
+  }
+  function fmtChip(f) { return '<span class="chip fmt">' + (f === "long" ? "Documental" : "Short") + "</span>"; }
+  function num(n) { return (n == null ? 0 : n).toLocaleString("es-MX"); }
+  function ytSearch(title) { return "https://www.youtube.com/results?search_query=" + encodeURIComponent(title || ""); }
+
+  function render(st) {
+    STATUS = st;
+    var t = st.today || {}, alerts = [];
+    var hb = hoursSince((st.system || {}).last_heartbeat || st.generated_at);
+    var hero = $("hero"), dot = hero.querySelector(".dot");
+    var cls = "pending", title = "Hoy todavía no hay video", text = "La tarea de las 5:00 aún no corre (o está en proceso).";
+    if (t.status === "ok") { cls = "ok"; title = "Hoy salió bien"; text = t.is_long_day ? "Short y documental producidos y entregados." : "Short producido y entregado a Drive; Zapier lo sube a YouTube en menos de 15 minutos."; }
+    else if (t.status === "partial") { cls = "warn"; title = "Hoy falta un video"; text = "Parte del día está hecha; revisa abajo cuál falta."; }
+    else if (t.status === "error") { cls = "error"; title = "Hoy falló la producción"; text = "Mira la sección Errores; la tarea de respaldo reintenta a las 9:00 (largo a las 10:00)."; }
+    var hour = new Date().toLocaleString("en-US", { timeZone: "America/Mexico_City", hour: "numeric", hour12: false });
+    if (t.status === "pending" && parseInt(hour, 10) >= 10) { cls = "warn"; title = "Hoy no hay video y ya pasaron las corridas"; text = "Ni la tarea de las 5:00 ni el respaldo de las 9:00 produjeron. Revisa que la PC esté con sesión iniciada."; }
+    if (hb > 26) { cls = "error"; alerts.push({ k: "bad", t: "La PC no ha reportado en " + Math.round(hb) + " horas", s: "Puede estar apagada, sin internet o con la sesión de Windows cerrada. El panel muestra el último estado conocido." }); }
+    hero.className = "hero " + (cls === "pending" ? "" : cls);
+    dot.className = "dot " + cls;
+    $("h-title").textContent = title;
+    $("h-text").textContent = text; $("h-text").className = "";
+    $("h-when").textContent = "reporte " + ago(st.generated_at);
+
+    var vids = [];
+    [["short", t.short], ["long", t.long]].forEach(function (p) {
+      var r = p[1]; if (!r) return;
+      var ok = r.status === "ok";
+      vids.push('<div class="video-row"><div class="t">' + (ok ? '<a href="' + ytSearch(r.title) + '" target="_blank" rel="noopener">' + esc(r.title) + "</a>" : esc(r.title || r.topic)) + "</div><div class=\"m\">" + fmtChip(p[0]) +
+        '<span class="chip ' + (ok ? "ok" : "bad") + '">' + (ok ? "producido " + fmtDate(r.created) : "falló") + "</span>" +
+        (ok ? '<span class="chip ' + (r.published && String(r.published).indexOf("no") !== 0 ? "ok" : "warn") + '">' + (r.published && String(r.published).indexOf("no") !== 0 ? "en Drive → YouTube" : "no entregado") + "</span>" : "") +
+        (ok ? "<span>" + Math.round(r.duration || 0) + " s · " + (r.elapsed_minutes || "?") + " min de proceso</span>" : "") + "</div></div>");
+    });
+    $("h-videos").innerHTML = vids.join("");
+
+    // alertas de cuotas
+    var q = st.quotas || {};
+    if (q.cloudflare_neurons_estimate > 8500) alerts.push({ k: "warn", t: "Cloudflare casi sin cuota hoy", s: "Las siguientes imágenes del día saldrán de Pollinations (menor calidad)." });
+    if (q.zapier_tasks_month_estimate > 85) alerts.push({ k: "warn", t: "Zapier cerca del límite mensual (100)", s: "Si se agota, los videos quedan en Drive sin subir hasta el mes siguiente." });
+    if (q.disk_free_gb >= 0 && q.disk_free_gb < 10) alerts.push({ k: "bad", t: "Poco espacio en disco: " + q.disk_free_gb + " GB", s: "Borra videos viejos de C:\\Mythforge\\output\\ready." });
+    if (q.topics_pending_short < 15) alerts.push({ k: "warn", t: "Quedan pocos temas nuevos (" + q.topics_pending_short + ")", s: "Pídele a Claude que amplíe topics.json." });
+    (st.errors || []).slice(-1).forEach(function (e) { if (hoursSince(e.when) < 24) alerts.push({ k: "bad", t: "Error reciente: " + (e.topic || ""), s: e.explanation }); });
+    $("alerts").hidden = alerts.length === 0;
+    $("alerts-list").innerHTML = alerts.map(function (a) { return '<div class="row ' + (a.k === "bad" ? "err" : "") + '"><div class="title">' + esc(a.t) + '</div><div class="meta"><span>' + esc(a.s) + "</span></div></div>"; }).join("");
+
+    // próximos
+    $("next").innerHTML = (st.next || []).length ? st.next.map(function (n, i) {
+      return '<div class="row' + (i === 0 ? " next-today" : "") + '"><div class="title">' + esc(n.title) + '</div><div class="right">' + fmtDay(n.date) + '</div><div class="meta">' + fmtChip(n.format) + "<span>" + esc(n.region) + "</span>" + (i === 0 ? "<span>mañana a las 5:00</span>" : "") + "</div></div>";
+    }).join("") : '<p class="empty">Sin datos.</p>';
+
+    // youtube
+    var y = st.youtube;
+    if (!y) { $("yt").innerHTML = '<p class="empty">Estadísticas desactivadas. Al agregar la llave de YouTube Data API en secrets.json aparecen aquí suscriptores, vistas y avance a la monetización.</p>'; $("yt-hint").textContent = ""; }
+    else if (y.error) { $("yt").innerHTML = '<p class="empty">No se pudieron leer: ' + esc(y.error) + "</p>"; }
+    else {
+      $("yt-hint").textContent = "leído " + ago(y.fetched);
+      var subs = y.subscribers || 0, views = y.views || 0;
+      var html = '<div class="tiles">' +
+        '<div class="tile"><div class="k">Suscriptores</div><div class="v">' + num(subs) + "</div></div>" +
+        '<div class="tile"><div class="k">Vistas totales</div><div class="v">' + num(views) + "</div></div>" +
+        '<div class="tile"><div class="k">Videos</div><div class="v">' + num(y.video_count) + "</div></div></div>" +
+        '<div class="progress" style="margin-top:10px"><div class="lbl"><span>Monetización: 1,000 suscriptores</span><span>' + Math.min(100, Math.round(subs / 10)) + "%</span></div><div class=\"bar\"><i style=\"width:" + Math.min(100, subs / 10) + '%"></i></div></div>' +
+        '<div class="progress" style="margin-top:8px"><div class="lbl"><span>10 millones de vistas de Shorts en 90 días</span><span>' + Math.min(100, (views / 1e5)).toFixed(1) + "%</span></div><div class=\"bar\"><i style=\"width:" + Math.min(100, views / 1e5) + '%"></i></div></div>';
+      if ((y.videos || []).length) {
+        html += '<div class="list" style="margin-top:10px">' + y.videos.slice(0, 12).map(function (v) {
+          return '<div class="row"><div class="title"><a href="https://www.youtube.com/watch?v=' + esc(v.id) + '" target="_blank" rel="noopener">' + esc(v.title) + '</a></div><div class="right">' + num(v.views) + ' vistas</div><div class="meta"><span>' + fmtDate(v.published) + "</span><span>" + num(v.likes) + " me gusta</span><span>" + num(v.comments) + " comentarios</span></div></div>";
+        }).join("") + "</div>";
+      }
+      $("yt").innerHTML = html;
+    }
+
+    // salud
+    var cf = q.cloudflare_neurons_estimate || 0, cfl = q.cloudflare_neurons_limit || 10000, zp = q.zapier_tasks_month_estimate || 0, zl = q.zapier_tasks_limit || 100;
+    function tile(k, v, s, pct) {
+      var c = pct == null ? "" : pct > 85 ? "bad" : pct > 65 ? "warn" : "";
+      return '<div class="tile"><div class="k">' + k + '</div><div class="v">' + v + "</div>" + (pct == null ? "" : '<div class="bar"><i class="' + c + '" style="width:' + Math.min(100, pct) + '%"></i></div>') + '<div class="s">' + s + "</div></div>";
+    }
+    $("health").innerHTML =
+      tile("Última señal de la PC", ago((st.system || {}).last_heartbeat), hb > 26 ? "más de un día sin reportar" : "reporta cada 6 h y tras cada video", null) +
+      tile("Imágenes hoy (Cloudflare)", num(q.images_today), "≈ " + num(cf) + " de " + num(cfl) + " créditos gratis", cf / cfl * 100) +
+      tile("Zapier este mes", zp + " / " + zl, "subidas a YouTube (plan gratis)", zp / zl * 100) +
+      tile("Disco libre", (q.disk_free_gb >= 0 ? q.disk_free_gb + " GB" : "—"), "en la unidad de C:\\Mythforge", null) +
+      tile("Temas pendientes", num(q.topics_pending_short) + " Shorts · " + num(q.topics_pending_long) + " largos", "de " + num(q.topics_total) + " en la lista", null) +
+      tile("Horario", "05:00 · 06:15", "Short diario · documental mar/vie; respaldos 09:00 y 10:00", null);
+
+    // historial
+    var hist = (st.history || []).slice().reverse();
+    $("history").innerHTML = hist.length ? hist.map(function (r) {
+      var ok = r.status === "ok";
+      return '<div class="row' + (ok ? "" : " err") + '"><div class="title">' + esc(r.title || r.topic) + '</div><div class="right">' + fmtDate(r.created) + '</div><div class="meta">' + fmtChip(r.format) +
+        '<span class="chip ' + (ok ? "ok" : "bad") + '">' + (ok ? "listo" : "falló") + "</span>" + (ok ? "<span>" + Math.round(r.duration || 0) + " s</span><span>" + (r.elapsed_minutes || "?") + " min</span>" + (r.published ? "<span>entregado</span>" : '<span class="chip warn">sin entregar</span>') : "<span>" + esc(r.error || "") + "</span>") + "</div></div>";
+    }).join("") : '<p class="empty">Todavía no hay corridas registradas.</p>';
+
+    // errores
+    var errs = (st.errors || []).slice().reverse();
+    $("errors").innerHTML = errs.length ? errs.map(function (e) {
+      return '<div class="row err"><div class="title">' + esc(e.topic || "") + '</div><div class="right">' + fmtDate(e.when) + '</div><div class="meta" style="display:grid;gap:4px"><span class="exp">' + esc(e.explanation) + '</span><span class="msg">' + esc(e.message) + "</span></div></div>";
+    }).join("") : '<p class="empty">Sin errores registrados.</p>';
+    $("log").textContent = (st.log_tail || []).join("\n") || "(sin log hoy)";
+    $("foot").textContent = "Reporte generado " + fmtDate(st.generated_at) + " · " + ((st.system || {}).hostname || "PC") + " · fuente: GitHub";
+  }
+
+  function toast(msg) { var t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t); setTimeout(function () { t.remove(); }, 1800); }
+  function copy(text, label) {
+    var done = function () { toast(label + " copiado"); };
+    try { navigator.clipboard.writeText(text).then(done, function () { fallback(); }); } catch (e) { fallback(); }
+    function fallback() { var ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); done(); } catch (e) { toast("Selecciona y copia el texto"); } ta.remove(); }
+  }
+  $("copylog").addEventListener("click", function () { copy($("log").textContent, "Log"); });
+  $("copystatus").addEventListener("click", function () { copy(JSON.stringify(STATUS, null, 1), "Reporte"); });
+
+  function load() {
+    var b = $("refresh"); b.classList.add("spin"); $("refresh-label").textContent = "Cargando…";
+    fetch(SRC + "?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(render)
+      .catch(function (e) {
+        $("hero").className = "hero warn"; $("hero").querySelector(".dot").className = "dot warn";
+        $("h-title").textContent = "No se pudo leer el reporte";
+        $("h-text").textContent = "La PC todavía no publica status.json (o GitHub no responde). Corre en la PC: windows\\status.cmd. Detalle: " + e.message;
+      })
+      .finally(function () { b.classList.remove("spin"); $("refresh-label").textContent = "Actualizar"; });
+  }
+  $("refresh").addEventListener("click", load);
+  load();
+  setInterval(load, 5 * 60 * 1000);
+})();
+</script>
+
+</body>
+</html>

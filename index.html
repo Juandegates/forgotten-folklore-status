@@ -164,6 +164,13 @@ footer { color: var(--muted); font-size: .8rem; text-align: center; }
   var $ = function (id) { return document.getElementById(id); };
   var STATUS = null;
 
+  function socialChips(r, short) {
+    return [["tiktok", "TikTok"], ["instagram", "Instagram"], ["facebook", "Facebook"]].map(function (p) {
+      var v = r[p[0]]; if (!v) return "";
+      var ok = v === "ok";
+      return '<span class="chip ' + (ok ? "ok" : "bad") + '">' + p[1] + (short ? (ok ? " ✓" : " ✗") : (ok ? " publicado" : " falló")) + "</span>";
+    }).join("");
+  }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]; }); }
   function fmtDate(iso) {
     if (!iso) return "—";
@@ -183,7 +190,7 @@ footer { color: var(--muted); font-size: .8rem; text-align: center; }
     if (h < 48) return "hace " + Math.round(h) + " h";
     return "hace " + Math.round(h / 24) + " días";
   }
-  function fmtChip(f) { return '<span class="chip fmt">' + (f === "long" ? "Documental" : "Short") + "</span>"; }
+  function fmtChip(f) { return '<span class="chip fmt">' + ({ long: "Documental", tiktok: "TikTok", instagram: "Instagram", facebook: "Facebook" }[f] || "Short") + "</span>"; }
   function num(n) { return (n == null ? 0 : n).toLocaleString("es-MX"); }
   function ytSearch(title) { return "https://www.youtube.com/results?search_query=" + encodeURIComponent(title || ""); }
 
@@ -212,6 +219,7 @@ footer { color: var(--muted); font-size: .8rem; text-align: center; }
       vids.push('<div class="video-row"><div class="t">' + (ok ? '<a href="' + ytSearch(r.title) + '" target="_blank" rel="noopener">' + esc(r.title) + "</a>" : esc(r.title || r.topic)) + "</div><div class=\"m\">" + fmtChip(p[0]) +
         '<span class="chip ' + (ok ? "ok" : "bad") + '">' + (ok ? "producido " + fmtDate(r.created) : "falló") + "</span>" +
         (ok ? '<span class="chip ' + (r.published && String(r.published).indexOf("no") !== 0 ? "ok" : "warn") + '">' + (r.published && String(r.published).indexOf("no") !== 0 ? "en Drive → YouTube" : "no entregado") + "</span>" : "") +
+        (ok ? socialChips(r, false) : "") +
         (ok ? "<span>" + Math.round(r.duration || 0) + " s · " + (r.elapsed_minutes || "?") + " min de proceso</span>" : "") + "</div></div>");
     });
     $("h-videos").innerHTML = vids.join("");
@@ -271,7 +279,7 @@ footer { color: var(--muted); font-size: .8rem; text-align: center; }
     $("history").innerHTML = hist.length ? hist.map(function (r) {
       var ok = r.status === "ok";
       return '<div class="row' + (ok ? "" : " err") + '"><div class="title">' + esc(r.title || r.topic) + '</div><div class="right">' + fmtDate(r.created) + '</div><div class="meta">' + fmtChip(r.format) +
-        '<span class="chip ' + (ok ? "ok" : "bad") + '">' + (ok ? "listo" : "falló") + "</span>" + (ok ? "<span>" + Math.round(r.duration || 0) + " s</span><span>" + (r.elapsed_minutes || "?") + " min</span>" + (r.published ? "<span>entregado</span>" : '<span class="chip warn">sin entregar</span>') : "<span>" + esc(r.error || "") + "</span>") + "</div></div>";
+        '<span class="chip ' + (ok ? "ok" : "bad") + '">' + (ok ? "listo" : "falló") + "</span>" + (ok ? "<span>" + Math.round(r.duration || 0) + " s</span><span>" + (r.elapsed_minutes || "?") + " min</span>" + (r.published ? "<span>entregado</span>" : '<span class="chip warn">sin entregar</span>') + socialChips(r, true) : "<span>" + esc(r.error || "") + "</span>") + "</div></div>";
     }).join("") : '<p class="empty">Todavía no hay corridas registradas.</p>';
 
     // errores

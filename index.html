@@ -167,6 +167,7 @@ footer { color: var(--muted); font-size: .8rem; text-align: center; }
   function socialChips(r, short) {
     return [["tiktok", "TikTok"], ["instagram", "Instagram"], ["facebook", "Facebook"]].map(function (p) {
       var v = r[p[0]]; if (!v) return "";
+      if (v === "manual") return '<span class="chip warn">' + p[1] + (short ? " ✋" : " a mano (en Drive)") + "</span>";
       var ok = v === "ok";
       return '<span class="chip ' + (ok ? "ok" : "bad") + '">' + p[1] + (short ? (ok ? " ✓" : " ✗") : (ok ? " publicado" : " falló")) + "</span>";
     }).join("");

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T17:22:59",
+ "generated_at": "2026-11-04T18:30:02",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -166,22 +166,19 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 2,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 904.4,
+  "disk_free_gb": 904.5,
   "topics_pending_short": 217,
   "topics_pending_long": 221,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-04T17:23:00",
+  "last_heartbeat": "2026-11-04T18:30:02",
   "last_success": "2026-11-04T11:30:29",
   "last_error": null
  },
  "youtube": null,
  "log_tail": [
-  "10:15:08 INFO    Voz 4/9 (6.0s)",
-  "10:15:10 INFO    Voz 5/9 (7.2s)",
-  "10:15:11 INFO    Voz 6/9 (5.8s)",
   "10:15:12 INFO    Voz 7/9 (6.0s)",
   "10:15:14 INFO    Voz 8/9 (8.8s)",
   "10:15:15 INFO    Voz 9/9 (5.1s)",
@@ -298,6 +295,9 @@
   "12:30:05 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
   "16:14:19 INFO    Video alojado en Zernio.",
   "16:35:47 INFO    Video alojado en Zernio.",
-  "16:37:00 INFO    Video alojado en Zernio."
+  "16:37:00 INFO    Video alojado en Zernio.",
+  "17:23:02 INFO    Panel (index.html) actualizado en GitHub.",
+  "17:23:04 INFO    Panel (privacy.html) actualizado en GitHub.",
+  "17:23:06 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
  ]
 }

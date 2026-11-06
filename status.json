@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T06:30:49",
+ "generated_at": "2026-11-06T12:24:17",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -240,22 +240,73 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 5,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 900.7,
+  "disk_free_gb": 900.2,
   "topics_pending_short": 215,
   "topics_pending_long": 220,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-06T06:30:49",
+  "last_heartbeat": "2026-11-06T12:24:17",
   "last_success": "2026-11-06T06:30:49",
   "last_error": null
  },
- "youtube": null,
+ "youtube": {
+  "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
+  "title": "Forgotten Folklore Daily",
+  "subscribers": 3,
+  "views": 514,
+  "video_count": 5,
+  "videos": [
+   {
+    "id": "rqaytZCHN_Q",
+    "title": "The Boto - The Amazon Dolphin Who Comes Ashore as a Man",
+    "published": "2026-11-06T12:33:27Z",
+    "views": 3,
+    "likes": 0,
+    "comments": 0,
+    "duration": "PT11M22S"
+   },
+   {
+    "id": "eqhWkOjHYsw",
+    "title": "The Pooka - The Golden-Eyed Horse of Irish Folklore",
+    "published": "2026-11-06T11:04:37Z",
+    "views": 16,
+    "likes": 1,
+    "comments": 0,
+    "duration": "PT1M11S"
+   },
+   {
+    "id": "2RxsttcjRZA",
+    "title": "Tengu - The Crow-Men Who Trained a Legend and Stole Monks",
+    "published": "2026-11-05T11:04:59Z",
+    "views": 180,
+    "likes": 10,
+    "comments": 0,
+    "duration": "PT1M12S"
+   },
+   {
+    "id": "CJ8ulYqjMpQ",
+    "title": "The 2,000-Year-Old Computer Found in a Greek Shipwreck",
+    "published": "2026-11-04T17:32:00Z",
+    "views": 255,
+    "likes": 16,
+    "comments": 0,
+    "duration": "PT1M13S"
+   },
+   {
+    "id": "5X5-LKOT7f8",
+    "title": "Lemuria and Mu - The Lost Continents Invented by Mistake",
+    "published": "2026-11-04T17:21:33Z",
+    "views": 95,
+    "likes": 5,
+    "comments": 0,
+    "duration": "PT1M13S"
+   }
+  ],
+  "fetched": "2026-11-06T12:24:17"
+ },
  "log_tail": [
-  "06:21:25 INFO    Voz 14/42 (16.1s)",
-  "06:21:28 INFO    Voz 15/42 (13.8s)",
-  "06:21:30 INFO    Voz 16/42 (14.5s)",
   "06:21:34 INFO    Voz 17/42 (18.0s)",
   "06:21:37 INFO    Voz 18/42 (17.3s)",
   "06:21:40 INFO    Voz 19/42 (15.4s)",
@@ -372,6 +423,9 @@
   "06:30:37 INFO    Video armado: output.mp4 (50.1 MB)",
   "06:30:37 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\The Boto - The Amazon Dolphin Who Comes Ashore as a Man",
   "06:30:49 INFO    Facebook: publicado (1476736794396598).",
-  "06:30:49 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Boto - The Amazon Dolphin Who Comes Ashore as a Man' (long, 681.7s). G:\\Mi unidad\\MythForge\\publicar\\The Boto - The Amazon Dolphin Who Comes Ashore as a Man"
+  "06:30:49 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Boto - The Amazon Dolphin Who Comes Ashore as a Man' (long, 681.7s). G:\\Mi unidad\\MythForge\\publicar\\The Boto - The Amazon Dolphin Who Comes Ashore as a Man",
+  "06:30:52 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "09:00:02 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
+  "10:00:02 INFO    Hoy ya hay un video 'long' exitoso; la corrida de respaldo no hace nada."
  ]
 }

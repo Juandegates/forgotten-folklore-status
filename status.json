@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T06:30:01",
+ "generated_at": "2026-11-06T06:30:49",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -13,7 +13,7 @@
  },
  "today": {
   "date": "2026-11-06",
-  "status": "partial",
+  "status": "ok",
   "is_long_day": true,
   "short": {
    "status": "ok",
@@ -32,7 +32,22 @@
    "instagram": "ok",
    "facebook": "ok"
   },
-  "long": null
+  "long": {
+   "status": "ok",
+   "title": "The Boto - The Amazon Dolphin Who Comes Ashore as a Man",
+   "topic": "The Boto, the dolphin who becomes a man",
+   "format": "long",
+   "duration": 681.7,
+   "elapsed_minutes": 15.8,
+   "images": 42,
+   "created": "2026-11-06T06:30:49",
+   "work": "C:\\Mythforge\\output\\work\\20261106_the-boto-the-dolphin-who-becomes-a-man_long",
+   "ready_mp4": "C:\\Mythforge\\output\\ready\\The Boto - The Amazon Dolphin Who Comes Ashore as a Man.mp4",
+   "meta": "C:\\Mythforge\\output\\ready\\The Boto - The Amazon Dolphin Who Comes Ashore as a Man.json",
+   "thumbnail": "C:\\Mythforge\\output\\ready\\The Boto - The Amazon Dolphin Who Comes Ashore as a Man.jpg",
+   "published": "G:\\Mi unidad\\MythForge\\publicar\\The Boto - The Amazon Dolphin Who Comes Ashore as a Man",
+   "facebook": "ok"
+  }
  },
  "next": [
   {
@@ -62,8 +77,8 @@
   {
    "date": "2026-11-10",
    "format": "long",
-   "title": "The Boto, the dolphin who becomes a man",
-   "region": "Brazil (Amazon)"
+   "title": "The Banshee",
+   "region": "Ireland"
   },
   {
    "date": "2026-11-11",
@@ -86,8 +101,8 @@
   {
    "date": "2026-11-13",
    "format": "long",
-   "title": "The Banshee",
-   "region": "Ireland"
+   "title": "Lemuria and Mu, the invented continents",
+   "region": "Pacific / Indian Ocean"
   }
  ],
  "history": [
@@ -198,42 +213,46 @@
    "instagram_error": null,
    "facebook": "ok",
    "facebook_error": null
+  },
+  {
+   "created": "2026-11-06T06:30:49",
+   "format": "long",
+   "title": "The Boto - The Amazon Dolphin Who Comes Ashore as a Man",
+   "topic": "The Boto, the dolphin who becomes a man",
+   "status": "ok",
+   "duration": 681.7,
+   "elapsed_minutes": 15.8,
+   "published": true,
+   "images": 42,
+   "error": null,
+   "tiktok": null,
+   "tiktok_error": null,
+   "instagram": null,
+   "instagram_error": null,
+   "facebook": "ok",
+   "facebook_error": null
   }
  ],
  "errors": [],
  "quotas": {
-  "images_today": 9,
-  "cloudflare_neurons_estimate": 2700,
+  "images_today": 51,
+  "cloudflare_neurons_estimate": 9420,
   "cloudflare_neurons_limit": 10000,
-  "zapier_tasks_month_estimate": 4,
+  "zapier_tasks_month_estimate": 5,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 901.2,
+  "disk_free_gb": 900.7,
   "topics_pending_short": 215,
-  "topics_pending_long": 221,
+  "topics_pending_long": 220,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-06T06:30:01",
-  "last_success": "2026-11-06T05:04:42",
+  "last_heartbeat": "2026-11-06T06:30:49",
+  "last_success": "2026-11-06T06:30:49",
   "last_error": null
  },
  "youtube": null,
  "log_tail": [
-  "06:20:41 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
-  "06:20:46 INFO    Voz 1/42 (16.3s)",
-  "06:20:48 INFO    Voz 2/42 (14.4s)",
-  "06:20:51 INFO    Voz 3/42 (14.4s)",
-  "06:20:54 INFO    Voz 4/42 (13.8s)",
-  "06:20:56 INFO    Voz 5/42 (13.5s)",
-  "06:20:59 INFO    Voz 6/42 (13.8s)",
-  "06:21:02 INFO    Voz 7/42 (12.4s)",
-  "06:21:05 INFO    Voz 8/42 (16.3s)",
-  "06:21:08 INFO    Voz 9/42 (17.2s)",
-  "06:21:12 INFO    Voz 10/42 (19.0s)",
-  "06:21:16 INFO    Voz 11/42 (23.6s)",
-  "06:21:19 INFO    Voz 12/42 (17.4s)",
-  "06:21:22 INFO    Voz 13/42 (14.0s)",
   "06:21:25 INFO    Voz 14/42 (16.1s)",
   "06:21:28 INFO    Voz 15/42 (13.8s)",
   "06:21:30 INFO    Voz 16/42 (14.5s)",
@@ -339,6 +358,20 @@
   "06:29:55 INFO    Render escena 30/42 (16.4s)",
   "06:29:57 INFO    Render escena 31/42 (18.9s)",
   "06:29:59 INFO    Render escena 32/42 (17.5s)",
-  "06:30:01 INFO    Render escena 33/42 (18.8s)"
+  "06:30:01 INFO    Render escena 33/42 (18.8s)",
+  "06:30:03 INFO    Render escena 34/42 (13.3s)",
+  "06:30:05 INFO    Render escena 35/42 (17.4s)",
+  "06:30:05 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "06:30:07 INFO    Render escena 36/42 (18.4s)",
+  "06:30:09 INFO    Render escena 37/42 (15.4s)",
+  "06:30:11 INFO    Render escena 38/42 (16.2s)",
+  "06:30:13 INFO    Render escena 39/42 (16.9s)",
+  "06:30:15 INFO    Render escena 40/42 (17.4s)",
+  "06:30:17 INFO    Render escena 41/42 (13.0s)",
+  "06:30:18 INFO    Render escena 42/42 (16.1s)",
+  "06:30:37 INFO    Video armado: output.mp4 (50.1 MB)",
+  "06:30:37 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\The Boto - The Amazon Dolphin Who Comes Ashore as a Man",
+  "06:30:49 INFO    Facebook: publicado (1476736794396598).",
+  "06:30:49 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Boto - The Amazon Dolphin Who Comes Ashore as a Man' (long, 681.7s). G:\\Mi unidad\\MythForge\\publicar\\The Boto - The Amazon Dolphin Who Comes Ashore as a Man"
  ]
 }

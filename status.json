@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T12:30:02",
+ "generated_at": "2026-11-06T18:30:03",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -240,14 +240,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 5,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 900.0,
+  "disk_free_gb": 897.9,
   "topics_pending_short": 215,
   "topics_pending_long": 220,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-06T12:30:02",
+  "last_heartbeat": "2026-11-06T18:30:03",
   "last_success": "2026-11-06T06:30:49",
   "last_error": null
  },
@@ -255,14 +255,14 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 3,
-  "views": 514,
+  "views": 528,
   "video_count": 5,
   "videos": [
    {
     "id": "rqaytZCHN_Q",
     "title": "The Boto - The Amazon Dolphin Who Comes Ashore as a Man",
     "published": "2026-11-06T12:33:27Z",
-    "views": 3,
+    "views": 6,
     "likes": 0,
     "comments": 0,
     "duration": "PT11M22S"
@@ -271,7 +271,7 @@
     "id": "eqhWkOjHYsw",
     "title": "The Pooka - The Golden-Eyed Horse of Irish Folklore",
     "published": "2026-11-06T11:04:37Z",
-    "views": 16,
+    "views": 18,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M11S"
@@ -280,7 +280,7 @@
     "id": "2RxsttcjRZA",
     "title": "Tengu - The Crow-Men Who Trained a Legend and Stole Monks",
     "published": "2026-11-05T11:04:59Z",
-    "views": 180,
+    "views": 181,
     "likes": 10,
     "comments": 0,
     "duration": "PT1M12S"
@@ -289,7 +289,7 @@
     "id": "CJ8ulYqjMpQ",
     "title": "The 2,000-Year-Old Computer Found in a Greek Shipwreck",
     "published": "2026-11-04T17:32:00Z",
-    "views": 258,
+    "views": 257,
     "likes": 16,
     "comments": 0,
     "duration": "PT1M13S"
@@ -298,16 +298,15 @@
     "id": "5X5-LKOT7f8",
     "title": "Lemuria and Mu - The Lost Continents Invented by Mistake",
     "published": "2026-11-04T17:21:33Z",
-    "views": 97,
+    "views": 98,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-06T12:30:02"
+  "fetched": "2026-11-06T18:30:03"
  },
  "log_tail": [
-  "06:21:37 INFO    Voz 18/42 (17.3s)",
   "06:21:40 INFO    Voz 19/42 (15.4s)",
   "06:21:43 INFO    Voz 20/42 (14.8s)",
   "06:21:45 INFO    Voz 21/42 (10.9s)",
@@ -426,6 +425,7 @@
   "06:30:52 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
   "09:00:02 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
   "10:00:02 INFO    Hoy ya hay un video 'long' exitoso; la corrida de respaldo no hace nada.",
-  "12:24:21 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
+  "12:24:21 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "12:30:06 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
  ]
 }

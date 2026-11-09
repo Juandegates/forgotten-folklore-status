@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-08T18:30:03",
+ "generated_at": "2026-11-09T00:30:03",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -12,40 +12,18 @@
   "long": "martes y viernes 06:15 (respaldo 10:00)"
  },
  "today": {
-  "date": "2026-11-08",
-  "status": "ok",
+  "date": "2026-11-09",
+  "status": "pending",
   "is_long_day": false,
-  "short": {
-   "status": "ok",
-   "title": "The Roc - The Giant Bird That Carried Elephants Across the Sea",
-   "topic": "The Roc",
-   "format": "short",
-   "duration": 68.3,
-   "elapsed_minutes": 4.8,
-   "images": 10,
-   "created": "2026-11-08T05:04:53",
-   "work": "C:\\Mythforge\\output\\work\\20261108_the-roc_short",
-   "ready_mp4": "C:\\Mythforge\\output\\ready\\The Roc - The Giant Bird That Carried Elephants Across the Sea.mp4",
-   "meta": "C:\\Mythforge\\output\\ready\\The Roc - The Giant Bird That Carried Elephants Across the Sea.json",
-   "published": "G:\\Mi unidad\\MythForge\\publicar\\The Roc - The Giant Bird That Carried Elephants Across the Sea",
-   "tiktok": "manual",
-   "instagram": "ok",
-   "facebook": "ok"
-  },
+  "short": null,
   "long": null
  },
  "next": [
   {
-   "date": "2026-11-09",
+   "date": "2026-11-10",
    "format": "short",
    "title": "La Sayona",
    "region": "Venezuela"
-  },
-  {
-   "date": "2026-11-10",
-   "format": "short",
-   "title": "The Pied Piper of Hamelin",
-   "region": "Germany"
   },
   {
    "date": "2026-11-10",
@@ -56,20 +34,20 @@
   {
    "date": "2026-11-11",
    "format": "short",
-   "title": "The Manananggal",
-   "region": "Philippines"
+   "title": "The Pied Piper of Hamelin",
+   "region": "Germany"
   },
   {
    "date": "2026-11-12",
    "format": "short",
-   "title": "Resurrection Mary",
-   "region": "USA"
+   "title": "The Manananggal",
+   "region": "Philippines"
   },
   {
    "date": "2026-11-13",
    "format": "short",
-   "title": "Taniwha, guardians of the waters",
-   "region": "New Zealand (Maori)"
+   "title": "Resurrection Mary",
+   "region": "USA"
   },
   {
    "date": "2026-11-13",
@@ -80,11 +58,17 @@
   {
    "date": "2026-11-14",
    "format": "short",
+   "title": "Taniwha, guardians of the waters",
+   "region": "New Zealand (Maori)"
+  },
+  {
+   "date": "2026-11-15",
+   "format": "short",
    "title": "The Wild Hunt",
    "region": "Northern Europe"
   },
   {
-   "date": "2026-11-15",
+   "date": "2026-11-16",
    "format": "short",
    "title": "The nine levels of Mictlan",
    "region": "Mexico (Aztec)"
@@ -256,19 +240,19 @@
  ],
  "errors": [],
  "quotas": {
-  "images_today": 10,
-  "cloudflare_neurons_estimate": 3000,
+  "images_today": 0,
+  "cloudflare_neurons_estimate": 0,
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 7,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 903.2,
+  "disk_free_gb": 902.9,
   "topics_pending_short": 213,
   "topics_pending_long": 220,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-08T18:30:03",
+  "last_heartbeat": "2026-11-09T00:30:03",
   "last_success": "2026-11-08T05:04:53",
   "last_error": null
  },
@@ -276,14 +260,14 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 3,
-  "views": 769,
+  "views": 1124,
   "video_count": 7,
   "videos": [
    {
     "id": "OELbz1k_yp4",
     "title": "The Roc - The Giant Bird That Carried Elephants Across the Sea",
     "published": "2026-11-08T11:05:45Z",
-    "views": 352,
+    "views": 358,
     "likes": 25,
     "comments": 1,
     "duration": "PT1M9S"
@@ -292,7 +276,7 @@
     "id": "fE1lZLrUVQc",
     "title": "The Bell Witch - The Tennessee Spirit That Spoke and Sang",
     "published": "2026-11-07T11:05:51Z",
-    "views": 183,
+    "views": 184,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M14S"
@@ -319,7 +303,7 @@
     "id": "2RxsttcjRZA",
     "title": "Tengu - The Crow-Men Who Trained a Legend and Stole Monks",
     "published": "2026-11-05T11:04:59Z",
-    "views": 186,
+    "views": 185,
     "likes": 10,
     "comments": 0,
     "duration": "PT1M12S"
@@ -337,66 +321,13 @@
     "id": "5X5-LKOT7f8",
     "title": "Lemuria and Mu - The Lost Continents Invented by Mistake",
     "published": "2026-11-04T17:21:33Z",
-    "views": 107,
+    "views": 106,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-08T18:30:03"
+  "fetched": "2026-11-09T00:30:03"
  },
- "log_tail": [
-  "00:30:06 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "05:00:02 INFO    === MythForge run: formato=short proveedores=config ===",
-  "05:00:02 INFO    Tema: The Roc (Arabia / Indian Ocean) [short]",
-  "05:00:02 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
-  "05:00:44 INFO    Cerebro (claude_code): generando revisión de calidad...",
-  "05:01:18 INFO    QA encontró 4 punto(s): Scene 8 image prompt: the 'lavish throne' could make the image generator draw Kublai Khan, a real historical person. Changed it to an empty throne.; Scene 9 narration: 'Many historians link' stated a theory too firmly and named the wrong field. Softened to 'Many scholars believe the legend may be linked', which follows the honesty rule.; Scene 9 narration: added that the elephant bird died out centuries ago. Without that, viewers might think the animal still lives, and the closing question works better with it.; Scene 8 narration: said the envoys were sent by Kublai Khan, which matches Marco P",
-  "05:01:18 INFO    QA aplicó correcciones al guion.",
-  "05:01:18 INFO    Guion listo: 'The Roc - The Giant Bird That Carried Elephants Across the Sea' — 10 escenas, 158 palabras.",
-  "05:01:40 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
-  "05:01:44 INFO    Voz 1/10 (6.0s)",
-  "05:01:45 INFO    Voz 2/10 (5.0s)",
-  "05:01:46 INFO    Voz 3/10 (5.7s)",
-  "05:01:47 INFO    Voz 4/10 (4.3s)",
-  "05:01:48 INFO    Voz 5/10 (6.9s)",
-  "05:01:49 INFO    Voz 6/10 (6.2s)",
-  "05:01:50 INFO    Voz 7/10 (5.2s)",
-  "05:01:52 INFO    Voz 8/10 (7.8s)",
-  "05:01:54 INFO    Voz 9/10 (10.9s)",
-  "05:01:55 INFO    Voz 10/10 (6.8s)",
-  "05:01:55 INFO    Audio total: 68.3s",
-  "05:02:04 INFO    Imagen 1/10 lista",
-  "05:02:17 INFO    Imagen 2/10 lista",
-  "05:02:26 INFO    Imagen 3/10 lista",
-  "05:02:36 INFO    Imagen 4/10 lista",
-  "05:02:46 INFO    Imagen 5/10 lista",
-  "05:02:58 INFO    Imagen 6/10 lista",
-  "05:03:06 INFO    Imagen 7/10 lista",
-  "05:03:17 INFO    Imagen 8/10 lista",
-  "05:03:26 INFO    Imagen 9/10 lista",
-  "05:03:36 INFO    Imagen 10/10 lista",
-  "05:03:36 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
-  "05:03:36 INFO    Render escena 1/10 (6.3s)",
-  "05:03:37 INFO    Render escena 2/10 (5.3s)",
-  "05:03:38 INFO    Render escena 3/10 (6.1s)",
-  "05:03:39 INFO    Render escena 4/10 (4.7s)",
-  "05:03:39 INFO    Render escena 5/10 (7.2s)",
-  "05:03:40 INFO    Render escena 6/10 (6.5s)",
-  "05:03:41 INFO    Render escena 7/10 (5.5s)",
-  "05:03:42 INFO    Render escena 8/10 (8.2s)",
-  "05:03:43 INFO    Render escena 9/10 (11.2s)",
-  "05:03:45 INFO    Render escena 10/10 (7.2s)",
-  "05:03:53 INFO    Video armado: output.mp4 (11.3 MB)",
-  "05:03:53 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\The Roc - The Giant Bird That Carried Elephants Across the Sea",
-  "05:03:53 INFO    TikTok en pausa (calentamiento): Short dejado en G:\\Mi unidad\\MythForge\\TikTok manual\\2026-11-08 The Roc - The Giant Bird That Carried Elephants Across the Sea.mp4 para subirlo a mano.",
-  "05:03:57 INFO    Video alojado en Zernio.",
-  "05:04:02 INFO    Instagram: publicado (post 6af0571e32c788037880caf7).",
-  "05:04:53 INFO    Facebook: publicado (1463715895891617).",
-  "05:04:53 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Roc - The Giant Bird That Carried Elephants Across the Sea' (short, 68.3s). G:\\Mi unidad\\MythForge\\publicar\\The Roc - The Giant Bird That Carried Elephants Across the Sea",
-  "05:04:59 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "06:30:13 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "09:00:02 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
-  "12:30:10 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
- ]
+ "log_tail": []
 }

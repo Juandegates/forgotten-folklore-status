@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-08T12:30:02",
+ "generated_at": "2026-11-08T18:30:03",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -261,14 +261,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 7,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 896.9,
+  "disk_free_gb": 903.2,
   "topics_pending_short": 213,
   "topics_pending_long": 220,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-08T12:30:02",
+  "last_heartbeat": "2026-11-08T18:30:03",
   "last_success": "2026-11-08T05:04:53",
   "last_error": null
  },
@@ -283,7 +283,7 @@
     "id": "OELbz1k_yp4",
     "title": "The Roc - The Giant Bird That Carried Elephants Across the Sea",
     "published": "2026-11-08T11:05:45Z",
-    "views": 270,
+    "views": 352,
     "likes": 25,
     "comments": 1,
     "duration": "PT1M9S"
@@ -292,7 +292,7 @@
     "id": "fE1lZLrUVQc",
     "title": "The Bell Witch - The Tennessee Spirit That Spoke and Sang",
     "published": "2026-11-07T11:05:51Z",
-    "views": 184,
+    "views": 183,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M14S"
@@ -310,7 +310,7 @@
     "id": "eqhWkOjHYsw",
     "title": "The Pooka - The Golden-Eyed Horse of Irish Folklore",
     "published": "2026-11-06T11:04:37Z",
-    "views": 33,
+    "views": 35,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M11S"
@@ -337,13 +337,13 @@
     "id": "5X5-LKOT7f8",
     "title": "Lemuria and Mu - The Lost Continents Invented by Mistake",
     "published": "2026-11-04T17:21:33Z",
-    "views": 106,
+    "views": 107,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-08T12:30:02"
+  "fetched": "2026-11-08T18:30:03"
  },
  "log_tail": [
   "00:30:06 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
@@ -396,6 +396,7 @@
   "05:04:53 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Roc - The Giant Bird That Carried Elephants Across the Sea' (short, 68.3s). G:\\Mi unidad\\MythForge\\publicar\\The Roc - The Giant Bird That Carried Elephants Across the Sea",
   "05:04:59 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
   "06:30:13 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "09:00:02 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada."
+  "09:00:02 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
+  "12:30:10 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
  ]
 }

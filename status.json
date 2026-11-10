@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-10T06:15:03",
+ "generated_at": "2026-11-10T06:30:02",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -337,7 +337,7 @@
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-10T06:15:03",
+  "last_heartbeat": "2026-11-10T06:30:02",
   "last_success": "2026-11-09T05:05:02",
   "last_error": {
    "when": "2026-11-10T06:15:02",
@@ -425,7 +425,7 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-10T06:15:03"
+  "fetched": "2026-11-10T06:30:02"
  },
  "log_tail": [
   "00:30:09 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
@@ -438,6 +438,8 @@
   "06:15:01 INFO    === MythForge run: formato=long proveedores=config ===",
   "06:15:01 INFO    Tema: The Banshee (Ireland) [long]",
   "06:15:01 INFO    Cerebro (claude_code): generando esquema (intento 1)...",
-  "06:15:02 INFO    AVISO: ❌ Forgotten Folklore Daily: falló la producción de 'The Banshee' (long): C:\\Users\\Juan De\\.local\\bin\\claude.EXE terminó con código 1: "
+  "06:15:02 INFO    AVISO: ❌ Forgotten Folklore Daily: falló la producción de 'The Banshee' (long): C:\\Users\\Juan De\\.local\\bin\\claude.EXE terminó con código 1: ",
+  "06:15:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "06:15:07 ERROR   La producción falló: C:\\Users\\Juan De\\.local\\bin\\claude.EXE terminó con código 1: "
  ]
 }

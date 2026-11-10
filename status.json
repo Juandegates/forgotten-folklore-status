@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T18:30:03",
+ "generated_at": "2026-11-10T00:30:04",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -12,82 +12,66 @@
   "long": "martes y viernes 06:15 (respaldo 10:00)"
  },
  "today": {
-  "date": "2026-11-09",
-  "status": "ok",
-  "is_long_day": false,
-  "short": {
-   "status": "ok",
-   "title": "La Sayona - The Woman in White Who Hunts Unfaithful Men",
-   "topic": "La Sayona",
-   "format": "short",
-   "duration": 69.5,
-   "elapsed_minutes": 5.0,
-   "images": 10,
-   "created": "2026-11-09T05:05:02",
-   "work": "C:\\Mythforge\\output\\work\\20261109_la-sayona_short",
-   "ready_mp4": "C:\\Mythforge\\output\\ready\\La Sayona - The Woman in White Who Hunts Unfaithful Men.mp4",
-   "meta": "C:\\Mythforge\\output\\ready\\La Sayona - The Woman in White Who Hunts Unfaithful Men.json",
-   "published": "G:\\Mi unidad\\MythForge\\publicar\\La Sayona - The Woman in White Who Hunts Unfaithful Men",
-   "tiktok": "manual",
-   "instagram": "ok",
-   "facebook": "ok"
-  },
+  "date": "2026-11-10",
+  "status": "pending",
+  "is_long_day": true,
+  "short": null,
   "long": null
  },
  "next": [
   {
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "format": "short",
    "title": "The Pied Piper of Hamelin",
    "region": "Germany"
   },
   {
-   "date": "2026-11-10",
-   "format": "long",
-   "title": "The Banshee",
-   "region": "Ireland"
-  },
-  {
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "format": "short",
    "title": "The Manananggal",
    "region": "Philippines"
   },
   {
-   "date": "2026-11-12",
+   "date": "2026-11-13",
    "format": "short",
    "title": "Resurrection Mary",
    "region": "USA"
   },
   {
    "date": "2026-11-13",
+   "format": "long",
+   "title": "The Banshee",
+   "region": "Ireland"
+  },
+  {
+   "date": "2026-11-14",
    "format": "short",
    "title": "Taniwha, guardians of the waters",
    "region": "New Zealand (Maori)"
   },
   {
-   "date": "2026-11-13",
-   "format": "long",
-   "title": "Lemuria and Mu, the invented continents",
-   "region": "Pacific / Indian Ocean"
-  },
-  {
-   "date": "2026-11-14",
+   "date": "2026-11-15",
    "format": "short",
    "title": "The Wild Hunt",
    "region": "Northern Europe"
   },
   {
-   "date": "2026-11-15",
+   "date": "2026-11-16",
    "format": "short",
    "title": "The nine levels of Mictlan",
    "region": "Mexico (Aztec)"
   },
   {
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "format": "short",
    "title": "Tuatha De Danann, the people of the goddess Danu",
    "region": "Ireland"
+  },
+  {
+   "date": "2026-11-17",
+   "format": "long",
+   "title": "Lemuria and Mu, the invented continents",
+   "region": "Pacific / Indian Ocean"
   }
  ],
  "history": [
@@ -274,19 +258,19 @@
  ],
  "errors": [],
  "quotas": {
-  "images_today": 10,
-  "cloudflare_neurons_estimate": 3000,
+  "images_today": 0,
+  "cloudflare_neurons_estimate": 0,
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 8,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 858.9,
+  "disk_free_gb": 856.4,
   "topics_pending_short": 212,
   "topics_pending_long": 220,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-09T18:30:03",
+  "last_heartbeat": "2026-11-10T00:30:05",
   "last_success": "2026-11-09T05:05:02",
   "last_error": null
  },
@@ -294,7 +278,7 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 3,
-  "views": 1141,
+  "views": 1193,
   "video_count": 8,
   "videos": [
    {
@@ -310,7 +294,7 @@
     "id": "OELbz1k_yp4",
     "title": "The Roc - The Giant Bird That Carried Elephants Across the Sea",
     "published": "2026-11-08T11:05:45Z",
-    "views": 359,
+    "views": 360,
     "likes": 25,
     "comments": 1,
     "duration": "PT1M9S"
@@ -347,7 +331,7 @@
     "title": "Tengu - The Crow-Men Who Trained a Legend and Stole Monks",
     "published": "2026-11-05T11:04:59Z",
     "views": 185,
-    "likes": 10,
+    "likes": 11,
     "comments": 0,
     "duration": "PT1M12S"
    },
@@ -370,60 +354,7 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-09T18:30:03"
+  "fetched": "2026-11-10T00:30:04"
  },
- "log_tail": [
-  "00:30:06 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "05:00:02 INFO    === MythForge run: formato=short proveedores=config ===",
-  "05:00:02 INFO    Tema: La Sayona (Venezuela) [short]",
-  "05:00:02 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
-  "05:00:54 INFO    Cerebro (claude_code): generando revisión de calidad...",
-  "05:01:27 INFO    QA encontró 5 punto(s): Scene one hook is a little generic. It now opens on a concrete image: a lone woman on a dark road.; Scene four was unclear about what happens to the husband and baby, so the story's turning point felt vague. It now says plainly, without graphic detail, that the family never wakes.; Scene eight stated 'Only a prayer drives her away' as fact. It is now framed as folklore.; Scene nine was one long sentence that is hard for text-to-speech. It is now split into two short sentences, and 'restless husbands' is changed to 'unfaithful husbands' to fit the rest of the script.; Scene nine image prompt di",
-  "05:01:27 INFO    QA aplicó correcciones al guion.",
-  "05:01:27 INFO    Guion listo: 'La Sayona - The Woman in White Who Hunts Unfaithful Men' — 10 escenas, 163 palabras.",
-  "05:01:50 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
-  "05:01:55 INFO    Voz 1/10 (7.8s)",
-  "05:01:57 INFO    Voz 2/10 (5.8s)",
-  "05:01:58 INFO    Voz 3/10 (6.7s)",
-  "05:01:59 INFO    Voz 4/10 (6.2s)",
-  "05:02:00 INFO    Voz 5/10 (5.4s)",
-  "05:02:02 INFO    Voz 6/10 (6.2s)",
-  "05:02:03 INFO    Voz 7/10 (5.8s)",
-  "05:02:04 INFO    Voz 8/10 (8.0s)",
-  "05:02:06 INFO    Voz 9/10 (8.8s)",
-  "05:02:07 INFO    Voz 10/10 (5.2s)",
-  "05:02:07 INFO    Audio total: 69.5s",
-  "05:02:18 INFO    Imagen 1/10 lista",
-  "05:02:26 INFO    Imagen 2/10 lista",
-  "05:02:35 INFO    Imagen 3/10 lista",
-  "05:02:45 INFO    Imagen 4/10 lista",
-  "05:02:53 INFO    Imagen 5/10 lista",
-  "05:03:05 INFO    Imagen 6/10 lista",
-  "05:03:14 INFO    Imagen 7/10 lista",
-  "05:03:21 INFO    Imagen 8/10 lista",
-  "05:03:32 INFO    Imagen 9/10 lista",
-  "05:03:40 INFO    Imagen 10/10 lista",
-  "05:03:40 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
-  "05:03:41 INFO    Render escena 1/10 (8.1s)",
-  "05:03:42 INFO    Render escena 2/10 (6.1s)",
-  "05:03:43 INFO    Render escena 3/10 (7.1s)",
-  "05:03:44 INFO    Render escena 4/10 (6.6s)",
-  "05:03:45 INFO    Render escena 5/10 (5.8s)",
-  "05:03:46 INFO    Render escena 6/10 (6.6s)",
-  "05:03:47 INFO    Render escena 7/10 (6.2s)",
-  "05:03:48 INFO    Render escena 8/10 (8.3s)",
-  "05:03:49 INFO    Render escena 9/10 (9.2s)",
-  "05:03:50 INFO    Render escena 10/10 (5.5s)",
-  "05:03:59 INFO    Video armado: output.mp4 (10.0 MB)",
-  "05:03:59 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\La Sayona - The Woman in White Who Hunts Unfaithful Men",
-  "05:03:59 INFO    TikTok en pausa (calentamiento): Short dejado en G:\\Mi unidad\\MythForge\\TikTok manual\\2026-11-09 La Sayona - The Woman in White Who Hunts Unfaithful Men.mp4 para subirlo a mano.",
-  "05:04:02 INFO    Video alojado en Zernio.",
-  "05:04:08 INFO    Instagram: publicado (post 6af1a8a263c0ff1eb66e54c1).",
-  "05:05:02 INFO    Facebook: publicado (2048932132484489).",
-  "05:05:02 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'La Sayona - The Woman in White Who Hunts Unfaithful Men' (short, 69.5s). G:\\Mi unidad\\MythForge\\publicar\\La Sayona - The Woman in White Who Hunts Unfaithful Men",
-  "05:05:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "06:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "09:00:03 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
-  "12:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
- ]
+ "log_tail": []
 }

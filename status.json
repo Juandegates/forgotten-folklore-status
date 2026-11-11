@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T06:30:03",
+ "generated_at": "2026-11-11T12:30:04",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -384,14 +384,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 11,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 827.2,
+  "disk_free_gb": 831.8,
   "topics_pending_short": 210,
   "topics_pending_long": 219,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-11T06:30:03",
+  "last_heartbeat": "2026-11-11T12:30:04",
   "last_success": "2026-11-11T05:04:55",
   "last_error": {
    "when": "2026-11-10T06:15:02",
@@ -410,8 +410,8 @@
     "id": "lKXKOlyOCZw",
     "title": "The Manananggal - The Filipino Legend Who Leaves Half Behind",
     "published": "2026-11-11T11:04:47Z",
-    "views": 8,
-    "likes": 0,
+    "views": 35,
+    "likes": 2,
     "comments": 0,
     "duration": "PT1M10S"
    },
@@ -428,7 +428,7 @@
     "id": "3th5jgtAZ5Y",
     "title": "The Pied Piper of Hamelin - What Happened to the 130 Lost Children",
     "published": "2026-11-10T15:06:45Z",
-    "views": 242,
+    "views": 243,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M12S"
@@ -506,7 +506,7 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-11T06:30:03"
+  "fetched": "2026-11-11T12:30:04"
  },
  "log_tail": [
   "00:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
@@ -557,6 +557,8 @@
   "05:04:03 INFO    Instagram: publicado (post 6af44b9c32dbd7f4d271b581).",
   "05:04:55 INFO    Facebook: publicado (1763820338038994).",
   "05:04:55 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Manananggal - The Filipino Legend Who Leaves Half Behind' (short, 69.5s). G:\\Mi unidad\\MythForge\\publicar\\The Manananggal - The Filipino Legend Who Leaves Half Behind",
-  "05:05:00 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
+  "05:05:00 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "06:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "09:00:03 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada."
  ]
 }

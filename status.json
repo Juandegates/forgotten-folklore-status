@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T18:30:03",
+ "generated_at": "2026-11-13T00:30:04",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -12,82 +12,66 @@
   "long": "martes y viernes 06:15 (respaldo 10:00)"
  },
  "today": {
-  "date": "2026-11-12",
-  "status": "ok",
-  "is_long_day": false,
-  "short": {
-   "status": "ok",
-   "title": "Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
-   "topic": "Resurrection Mary",
-   "format": "short",
-   "duration": 72.6,
-   "elapsed_minutes": 5.2,
-   "images": 10,
-   "created": "2026-11-12T05:05:17",
-   "work": "C:\\Mythforge\\output\\work\\20261112_resurrection-mary_short",
-   "ready_mp4": "C:\\Mythforge\\output\\ready\\Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate.mp4",
-   "meta": "C:\\Mythforge\\output\\ready\\Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate.json",
-   "published": "G:\\Mi unidad\\MythForge\\publicar\\Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
-   "tiktok": "ok",
-   "instagram": "ok",
-   "facebook": "ok"
-  },
+  "date": "2026-11-13",
+  "status": "pending",
+  "is_long_day": true,
+  "short": null,
   "long": null
  },
  "next": [
   {
-   "date": "2026-11-13",
+   "date": "2026-11-14",
    "format": "short",
    "title": "Taniwha, guardians of the waters",
    "region": "New Zealand (Maori)"
   },
   {
-   "date": "2026-11-13",
-   "format": "long",
-   "title": "Lemuria and Mu, the invented continents",
-   "region": "Pacific / Indian Ocean"
-  },
-  {
-   "date": "2026-11-14",
+   "date": "2026-11-15",
    "format": "short",
    "title": "The Wild Hunt",
    "region": "Northern Europe"
   },
   {
-   "date": "2026-11-15",
+   "date": "2026-11-16",
    "format": "short",
    "title": "The nine levels of Mictlan",
    "region": "Mexico (Aztec)"
   },
   {
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "format": "short",
    "title": "Tuatha De Danann, the people of the goddess Danu",
    "region": "Ireland"
   },
   {
    "date": "2026-11-17",
+   "format": "long",
+   "title": "Lemuria and Mu, the invented continents",
+   "region": "Pacific / Indian Ocean"
+  },
+  {
+   "date": "2026-11-18",
    "format": "short",
    "title": "Mami Wata in the Americas",
    "region": "Caribbean / Africa"
   },
   {
-   "date": "2026-11-17",
-   "format": "long",
-   "title": "The Antikythera mechanism",
-   "region": "Greece"
-  },
-  {
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "format": "short",
    "title": "The Man in the Iron Mask",
    "region": "France"
   },
   {
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "format": "short",
    "title": "Pele, goddess of volcanoes",
    "region": "Hawaii"
+  },
+  {
+   "date": "2026-11-20",
+   "format": "long",
+   "title": "The Antikythera mechanism",
+   "region": "Greece"
   }
  ],
  "history": [
@@ -397,19 +381,19 @@
   }
  ],
  "quotas": {
-  "images_today": 10,
-  "cloudflare_neurons_estimate": 3000,
+  "images_today": 0,
+  "cloudflare_neurons_estimate": 0,
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 12,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 826.8,
+  "disk_free_gb": 826.5,
   "topics_pending_short": 209,
   "topics_pending_long": 219,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-12T18:30:03",
+  "last_heartbeat": "2026-11-13T00:30:04",
   "last_success": "2026-11-12T05:05:17",
   "last_error": {
    "when": "2026-11-10T06:15:02",
@@ -428,7 +412,7 @@
     "id": "tBIoEZwxf-Y",
     "title": "Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
     "published": "2026-11-12T11:05:20Z",
-    "views": 37,
+    "views": 39,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
@@ -437,7 +421,7 @@
     "id": "lKXKOlyOCZw",
     "title": "The Manananggal - The Filipino Legend Who Leaves Half Behind",
     "published": "2026-11-11T11:04:47Z",
-    "views": 93,
+    "views": 95,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M10S"
@@ -455,7 +439,7 @@
     "id": "3th5jgtAZ5Y",
     "title": "The Pied Piper of Hamelin - What Happened to the 130 Lost Children",
     "published": "2026-11-10T15:06:45Z",
-    "views": 286,
+    "views": 288,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M12S"
@@ -533,61 +517,7 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-12T18:30:03"
+  "fetched": "2026-11-13T00:30:04"
  },
- "log_tail": [
-  "00:30:08 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "05:00:03 INFO    === MythForge run: formato=short proveedores=config ===",
-  "05:00:03 INFO    Tema: Resurrection Mary (USA) [short]",
-  "05:00:03 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
-  "05:00:46 INFO    Cerebro (claude_code): generando revisión de calidad...",
-  "05:01:14 INFO    QA encontró 6 punto(s): Scene one states the haunting as fact. Added 'according to the legend' to frame it as folklore from the first line.; The scene four image prompt asks for a 'neon glow'. Image generators often draw neon signs with letters, so it is now soft colored lights.; Scene eight presents the bent gate bars without the well-known everyday explanation. Added a short line saying the cemetery blamed a truck, to keep the telling honest.; Scene nine says 'killed'. Changed it to the more accurate 'died in a car crash' and softened the claim to 'many locals'. No name is used.; The scene nine sepia photograph pro",
-  "05:01:14 INFO    QA aplicó correcciones al guion.",
-  "05:01:14 INFO    Guion listo: 'Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate' — 10 escenas, 169 palabras.",
-  "05:01:36 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
-  "05:01:42 INFO    Voz 1/10 (7.8s)",
-  "05:01:43 INFO    Voz 2/10 (7.7s)",
-  "05:01:44 INFO    Voz 3/10 (5.8s)",
-  "05:01:45 INFO    Voz 4/10 (4.4s)",
-  "05:01:46 INFO    Voz 5/10 (5.4s)",
-  "05:01:48 INFO    Voz 6/10 (6.3s)",
-  "05:01:49 INFO    Voz 7/10 (8.0s)",
-  "05:01:51 INFO    Voz 8/10 (9.0s)",
-  "05:01:53 INFO    Voz 9/10 (9.5s)",
-  "05:01:54 INFO    Voz 10/10 (5.1s)",
-  "05:01:54 INFO    Audio total: 72.6s",
-  "05:02:02 INFO    Imagen 1/10 lista",
-  "05:02:11 INFO    Imagen 2/10 lista",
-  "05:02:21 INFO    Imagen 3/10 lista",
-  "05:02:30 INFO    Imagen 4/10 lista",
-  "05:02:42 INFO    Imagen 5/10 lista",
-  "05:02:49 INFO    Imagen 6/10 lista",
-  "05:02:58 INFO    Imagen 7/10 lista",
-  "05:03:04 WARNING Cloudflare falló (intento 1/4): HTTP 400: {\"errors\":[{\"message\":\"AiError: AiError: Your output has been flagged. Please choose another prompt / input image combination (58e9377f-7750-4b79-82ad-6da1ca0682a7)\",\"code\":3030}],\"success\":false,\"res",
-  "05:03:16 INFO    Imagen 8/10 lista",
-  "05:03:27 INFO    Imagen 9/10 lista",
-  "05:03:37 INFO    Imagen 10/10 lista",
-  "05:03:37 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
-  "05:03:37 INFO    Render escena 1/10 (8.1s)",
-  "05:03:39 INFO    Render escena 2/10 (8.0s)",
-  "05:03:40 INFO    Render escena 3/10 (6.1s)",
-  "05:03:41 INFO    Render escena 4/10 (4.8s)",
-  "05:03:42 INFO    Render escena 5/10 (5.7s)",
-  "05:03:43 INFO    Render escena 6/10 (6.6s)",
-  "05:03:43 INFO    Render escena 7/10 (8.4s)",
-  "05:03:45 INFO    Render escena 8/10 (9.4s)",
-  "05:03:46 INFO    Render escena 9/10 (9.8s)",
-  "05:03:47 INFO    Render escena 10/10 (5.5s)",
-  "05:03:56 INFO    Video armado: output.mp4 (11.1 MB)",
-  "05:03:56 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
-  "05:04:00 INFO    Video alojado en Zernio.",
-  "05:04:16 INFO    TikTok: publicado (post 6af59d2089d348d91103b750).",
-  "05:04:21 INFO    Instagram: publicado (post 6af59d2f8fa336a54e8edae9).",
-  "05:05:17 INFO    Facebook: publicado (1836786167360960).",
-  "05:05:17 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate' (short, 72.6s). G:\\Mi unidad\\MythForge\\publicar\\Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
-  "05:05:21 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "06:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "09:00:03 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
-  "12:30:08 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
- ]
+ "log_tail": []
 }

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-14T00:30:03",
+ "generated_at": "2026-11-14T14:28:09",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -13,29 +13,45 @@
  },
  "today": {
   "date": "2026-11-14",
-  "status": "pending",
+  "status": "ok",
   "is_long_day": false,
-  "short": null,
+  "short": {
+   "status": "ok",
+   "title": "The Wild Hunt - The Ghost Army That Rides the Winter Sky",
+   "topic": "The Wild Hunt",
+   "format": "short",
+   "duration": 66.8,
+   "elapsed_minutes": 5.2,
+   "images": 9,
+   "created": "2026-11-14T14:28:08",
+   "work": "C:\\Mythforge\\output\\work\\20261114_the-wild-hunt_short",
+   "ready_mp4": "C:\\Mythforge\\output\\ready\\The Wild Hunt - The Ghost Army That Rides the Winter Sky.mp4",
+   "meta": "C:\\Mythforge\\output\\ready\\The Wild Hunt - The Ghost Army That Rides the Winter Sky.json",
+   "published": "G:\\Mi unidad\\MythForge\\publicar\\The Wild Hunt - The Ghost Army That Rides the Winter Sky",
+   "tiktok": "ok",
+   "instagram": "ok",
+   "facebook": "ok"
+  },
   "long": null
  },
  "next": [
   {
    "date": "2026-11-15",
    "format": "short",
-   "title": "The Wild Hunt",
-   "region": "Northern Europe"
-  },
-  {
-   "date": "2026-11-16",
-   "format": "short",
    "title": "The nine levels of Mictlan",
    "region": "Mexico (Aztec)"
   },
   {
-   "date": "2026-11-17",
+   "date": "2026-11-16",
    "format": "short",
    "title": "Tuatha De Danann, the people of the goddess Danu",
    "region": "Ireland"
+  },
+  {
+   "date": "2026-11-17",
+   "format": "short",
+   "title": "Mami Wata in the Americas",
+   "region": "Caribbean / Africa"
   },
   {
    "date": "2026-11-17",
@@ -46,20 +62,20 @@
   {
    "date": "2026-11-18",
    "format": "short",
-   "title": "Mami Wata in the Americas",
-   "region": "Caribbean / Africa"
-  },
-  {
-   "date": "2026-11-19",
-   "format": "short",
    "title": "The Man in the Iron Mask",
    "region": "France"
   },
   {
-   "date": "2026-11-20",
+   "date": "2026-11-19",
    "format": "short",
    "title": "Pele, goddess of volcanoes",
    "region": "Hawaii"
+  },
+  {
+   "date": "2026-11-20",
+   "format": "short",
+   "title": "The Toyol",
+   "region": "Malaysia / Indonesia"
   },
   {
    "date": "2026-11-20",
@@ -70,8 +86,8 @@
   {
    "date": "2026-11-21",
    "format": "short",
-   "title": "The Toyol",
-   "region": "Malaysia / Indonesia"
+   "title": "The Golem of Prague",
+   "region": "Czech Republic"
   }
  ],
  "history": [
@@ -398,6 +414,60 @@
    "instagram_error": null,
    "facebook": "ok",
    "facebook_error": null
+  },
+  {
+   "created": "2026-11-14T05:03:04",
+   "format": "short",
+   "title": "The Wild Hunt",
+   "topic": "The Wild Hunt",
+   "status": "error",
+   "duration": null,
+   "elapsed_minutes": 3.0,
+   "published": false,
+   "images": null,
+   "error": "Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
+   "tiktok": null,
+   "tiktok_error": null,
+   "instagram": null,
+   "instagram_error": null,
+   "facebook": null,
+   "facebook_error": null
+  },
+  {
+   "created": "2026-11-14T09:02:58",
+   "format": "short",
+   "title": "The Wild Hunt",
+   "topic": "The Wild Hunt",
+   "status": "error",
+   "duration": null,
+   "elapsed_minutes": 2.9,
+   "published": false,
+   "images": null,
+   "error": "Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
+   "tiktok": null,
+   "tiktok_error": null,
+   "instagram": null,
+   "instagram_error": null,
+   "facebook": null,
+   "facebook_error": null
+  },
+  {
+   "created": "2026-11-14T14:28:08",
+   "format": "short",
+   "title": "The Wild Hunt - The Ghost Army That Rides the Winter Sky",
+   "topic": "The Wild Hunt",
+   "status": "ok",
+   "duration": 66.8,
+   "elapsed_minutes": 5.2,
+   "published": true,
+   "images": 9,
+   "error": null,
+   "tiktok": "ok",
+   "tiktok_error": null,
+   "instagram": "ok",
+   "instagram_error": null,
+   "facebook": "ok",
+   "facebook_error": null
   }
  ],
  "errors": [
@@ -414,34 +484,48 @@
    "topic": "The Banshee",
    "message": "C:\\Users\\Juan De\\.local\\bin\\claude.EXE terminó con código 1: ",
    "explanation": "Claude Code no respondió. Abre una terminal, escribe `claude` y revisa que la sesión siga iniciada."
+  },
+  {
+   "when": "2026-11-14T05:03:04",
+   "format": "short",
+   "topic": "The Wild Hunt",
+   "message": "Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
+   "explanation": "Claude Code no respondió. Abre una terminal, escribe `claude` y revisa que la sesión siga iniciada."
+  },
+  {
+   "when": "2026-11-14T09:02:58",
+   "format": "short",
+   "topic": "The Wild Hunt",
+   "message": "Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
+   "explanation": "Claude Code no respondió. Abre una terminal, escribe `claude` y revisa que la sesión siga iniciada."
   }
  ],
  "quotas": {
-  "images_today": 0,
-  "cloudflare_neurons_estimate": 0,
+  "images_today": 9,
+  "cloudflare_neurons_estimate": 2700,
   "cloudflare_neurons_limit": 10000,
-  "zapier_tasks_month_estimate": 14,
+  "zapier_tasks_month_estimate": 15,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 820.5,
-  "topics_pending_short": 208,
+  "disk_free_gb": 820.4,
+  "topics_pending_short": 207,
   "topics_pending_long": 218,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-14T00:30:04",
-  "last_success": "2026-11-13T06:32:08",
+  "last_heartbeat": "2026-11-14T14:28:09",
+  "last_success": "2026-11-14T14:28:08",
   "last_error": {
-   "when": "2026-11-10T06:15:02",
-   "error": "C:\\Users\\Juan De\\.local\\bin\\claude.EXE terminó con código 1: ",
-   "topic": "The Banshee"
+   "when": "2026-11-14T09:02:58",
+   "error": "Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
+   "topic": "The Wild Hunt"
   }
  },
  "youtube": {
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
-  "subscribers": 8,
-  "views": 1667,
+  "subscribers": 10,
+  "views": 2216,
   "video_count": 14,
   "videos": [
    {
@@ -457,16 +541,16 @@
     "id": "6MC0MmMtOSY",
     "title": "Taniwha - The Water Guardians That Changed a New Zealand Highway",
     "published": "2026-11-13T11:05:20Z",
-    "views": 228,
-    "likes": 15,
-    "comments": 2,
+    "views": 633,
+    "likes": 28,
+    "comments": 4,
     "duration": "PT1M15S"
    },
    {
     "id": "tBIoEZwxf-Y",
     "title": "Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
     "published": "2026-11-12T11:05:20Z",
-    "views": 57,
+    "views": 62,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
@@ -475,7 +559,7 @@
     "id": "lKXKOlyOCZw",
     "title": "The Manananggal - The Filipino Legend Who Leaves Half Behind",
     "published": "2026-11-11T11:04:47Z",
-    "views": 133,
+    "views": 148,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M10S"
@@ -493,7 +577,7 @@
     "id": "3th5jgtAZ5Y",
     "title": "The Pied Piper of Hamelin - What Happened to the 130 Lost Children",
     "published": "2026-11-10T15:06:45Z",
-    "views": 291,
+    "views": 294,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M12S"
@@ -502,7 +586,7 @@
     "id": "J-51QABb0Es",
     "title": "La Sayona - The Woman in White Who Hunts Unfaithful Men",
     "published": "2026-11-09T11:05:40Z",
-    "views": 59,
+    "views": 60,
     "likes": 12,
     "comments": 0,
     "duration": "PT1M10S"
@@ -565,13 +649,76 @@
     "id": "5X5-LKOT7f8",
     "title": "Lemuria and Mu - The Lost Continents Invented by Mistake",
     "published": "2026-11-04T17:21:33Z",
-    "views": 114,
+    "views": 118,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-14T00:30:03"
+  "fetched": "2026-11-14T14:28:09"
  },
- "log_tail": []
+ "log_tail": [
+  "00:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "05:00:02 INFO    === MythForge run: formato=short proveedores=config ===",
+  "05:00:02 INFO    Tema: The Wild Hunt (Northern Europe) [short]",
+  "05:00:02 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
+  "05:03:04 INFO    AVISO: ❌ Forgotten Folklore Daily: falló la producción de 'The Wild Hunt' (short): Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
+  "05:03:04 WARNING No se pudieron leer las estadísticas de YouTube: HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/channels?part=statistics%2CcontentDetails%2Csnippet&forHandle=ForgottenFolkloreDaily&key=AIzaSyAF3GsGY2bC2VYbOEOSiwvGwwi1czbFG9w (Caused by NameResolutionError(\"HTTPSConnection(host='www.googleapis.com', port=443): Failed to resolve 'www.googleapis.com' ([Errno 11001] getaddrinfo failed)\"))",
+  "05:03:04 WARNING No se pudo publicar el estado al panel: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Juandegates/forgotten-folklore-status/contents/index.html?ref=main (Caused by NameResolutionError(\"HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 11001] getaddrinfo failed)\"))",
+  "05:03:04 ERROR   La producción falló: Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
+  "06:30:02 WARNING No se pudieron leer las estadísticas de YouTube: HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/channels?part=statistics%2CcontentDetails%2Csnippet&forHandle=ForgottenFolkloreDaily&key=AIzaSyAF3GsGY2bC2VYbOEOSiwvGwwi1czbFG9w (Caused by NameResolutionError(\"HTTPSConnection(host='www.googleapis.com', port=443): Failed to resolve 'www.googleapis.com' ([Errno 11001] getaddrinfo failed)\"))",
+  "06:30:02 WARNING No se pudo publicar el estado al panel: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Juandegates/forgotten-folklore-status/contents/index.html?ref=main (Caused by NameResolutionError(\"HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 11001] getaddrinfo failed)\"))",
+  "09:00:03 INFO    === MythForge run: formato=short proveedores=config ===",
+  "09:00:03 INFO    Tema: The Wild Hunt (Northern Europe) [short]",
+  "09:00:03 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
+  "09:02:58 INFO    AVISO: ❌ Forgotten Folklore Daily: falló la producción de 'The Wild Hunt' (short): Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
+  "09:02:58 WARNING No se pudieron leer las estadísticas de YouTube: HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/channels?part=statistics%2CcontentDetails%2Csnippet&forHandle=ForgottenFolkloreDaily&key=AIzaSyAF3GsGY2bC2VYbOEOSiwvGwwi1czbFG9w (Caused by NameResolutionError(\"HTTPSConnection(host='www.googleapis.com', port=443): Failed to resolve 'www.googleapis.com' ([Errno 11001] getaddrinfo failed)\"))",
+  "09:02:58 WARNING No se pudo publicar el estado al panel: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Juandegates/forgotten-folklore-status/contents/index.html?ref=main (Caused by NameResolutionError(\"HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 11001] getaddrinfo failed)\"))",
+  "09:02:58 ERROR   La producción falló: Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
+  "12:30:02 WARNING No se pudieron leer las estadísticas de YouTube: HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/channels?part=statistics%2CcontentDetails%2Csnippet&forHandle=ForgottenFolkloreDaily&key=AIzaSyAF3GsGY2bC2VYbOEOSiwvGwwi1czbFG9w (Caused by NameResolutionError(\"HTTPSConnection(host='www.googleapis.com', port=443): Failed to resolve 'www.googleapis.com' ([Errno 11001] getaddrinfo failed)\"))",
+  "12:30:02 WARNING No se pudo publicar el estado al panel: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Juandegates/forgotten-folklore-status/contents/index.html?ref=main (Caused by NameResolutionError(\"HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 11001] getaddrinfo failed)\"))",
+  "14:22:56 INFO    Latido: hoy falta el video 'short'; se produce ahora como respaldo.",
+  "14:22:56 INFO    === MythForge run: formato=short proveedores=config ===",
+  "14:22:56 INFO    Tema: The Wild Hunt (Northern Europe) [short]",
+  "14:22:56 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
+  "14:23:46 INFO    Cerebro (claude_code): generando revisión de calidad...",
+  "14:24:05 INFO    Guion listo: 'The Wild Hunt - The Ghost Army That Rides the Winter Sky' — 9 escenas, 150 palabras.",
+  "14:24:32 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
+  "14:24:38 INFO    Voz 1/9 (6.9s)",
+  "14:24:40 INFO    Voz 2/9 (7.3s)",
+  "14:24:43 INFO    Voz 3/9 (7.7s)",
+  "14:24:45 INFO    Voz 4/9 (7.2s)",
+  "14:24:47 INFO    Voz 5/9 (7.6s)",
+  "14:24:49 INFO    Voz 6/9 (6.6s)",
+  "14:24:51 INFO    Voz 7/9 (6.1s)",
+  "14:24:53 INFO    Voz 8/9 (9.1s)",
+  "14:24:55 INFO    Voz 9/9 (5.1s)",
+  "14:24:55 INFO    Audio total: 66.8s",
+  "14:25:08 INFO    Imagen 1/9 lista",
+  "14:25:18 INFO    Imagen 2/9 lista",
+  "14:25:27 INFO    Imagen 3/9 lista",
+  "14:25:37 INFO    Imagen 4/9 lista",
+  "14:25:47 INFO    Imagen 5/9 lista",
+  "14:25:57 INFO    Imagen 6/9 lista",
+  "14:26:08 INFO    Imagen 7/9 lista",
+  "14:26:19 INFO    Imagen 8/9 lista",
+  "14:26:31 INFO    Imagen 9/9 lista",
+  "14:26:31 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
+  "14:26:32 INFO    Render escena 1/9 (7.2s)",
+  "14:26:34 INFO    Render escena 2/9 (7.6s)",
+  "14:26:35 INFO    Render escena 3/9 (8.0s)",
+  "14:26:36 INFO    Render escena 4/9 (7.5s)",
+  "14:26:37 INFO    Render escena 5/9 (8.0s)",
+  "14:26:38 INFO    Render escena 6/9 (7.0s)",
+  "14:26:39 INFO    Render escena 7/9 (6.5s)",
+  "14:26:40 INFO    Render escena 8/9 (9.4s)",
+  "14:26:41 INFO    Render escena 9/9 (5.5s)",
+  "14:26:50 INFO    Video armado: output.mp4 (9.8 MB)",
+  "14:26:50 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\The Wild Hunt - The Ghost Army That Rides the Winter Sky",
+  "14:26:53 INFO    Video alojado en Zernio.",
+  "14:27:10 INFO    TikTok: publicado (post 6af8c40b8766bdb2cb40aca4).",
+  "14:27:14 INFO    Instagram: publicado (post 6af8c41a8766bdb2cb40ad03).",
+  "14:28:08 INFO    Facebook: publicado (1719575956278215).",
+  "14:28:08 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Wild Hunt - The Ghost Army That Rides the Winter Sky' (short, 66.8s). G:\\Mi unidad\\MythForge\\publicar\\The Wild Hunt - The Ghost Army That Rides the Winter Sky"
+ ]
 }

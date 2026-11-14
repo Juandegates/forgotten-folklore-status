@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T12:30:03",
+ "generated_at": "2026-11-13T18:30:03",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -453,14 +453,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 14,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 823.7,
+  "disk_free_gb": 821.5,
   "topics_pending_short": 208,
   "topics_pending_long": 218,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-13T12:30:03",
+  "last_heartbeat": "2026-11-13T18:30:03",
   "last_success": "2026-11-13T06:32:08",
   "last_error": {
    "when": "2026-11-10T06:15:02",
@@ -471,7 +471,7 @@
  "youtube": {
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
-  "subscribers": 7,
+  "subscribers": 8,
   "views": 1667,
   "video_count": 14,
   "videos": [
@@ -488,16 +488,16 @@
     "id": "6MC0MmMtOSY",
     "title": "Taniwha - The Water Guardians That Changed a New Zealand Highway",
     "published": "2026-11-13T11:05:20Z",
-    "views": 63,
-    "likes": 5,
-    "comments": 0,
+    "views": 100,
+    "likes": 9,
+    "comments": 2,
     "duration": "PT1M15S"
    },
    {
     "id": "tBIoEZwxf-Y",
     "title": "Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
     "published": "2026-11-12T11:05:20Z",
-    "views": 54,
+    "views": 55,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
@@ -506,7 +506,7 @@
     "id": "lKXKOlyOCZw",
     "title": "The Manananggal - The Filipino Legend Who Leaves Half Behind",
     "published": "2026-11-11T11:04:47Z",
-    "views": 120,
+    "views": 123,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M10S"
@@ -569,7 +569,7 @@
     "id": "eqhWkOjHYsw",
     "title": "The Pooka - The Golden-Eyed Horse of Irish Folklore",
     "published": "2026-11-06T11:04:37Z",
-    "views": 37,
+    "views": 39,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M11S"
@@ -602,10 +602,9 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-13T12:30:03"
+  "fetched": "2026-11-13T18:30:03"
  },
  "log_tail": [
-  "06:22:27 INFO    Voz 23/44 (12.8s)",
   "06:22:30 INFO    Voz 24/44 (16.0s)",
   "06:22:33 INFO    Voz 25/44 (19.3s)",
   "06:22:36 INFO    Voz 26/44 (17.9s)",
@@ -724,6 +723,7 @@
   "06:32:08 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'Lemuria and Mu - How a Theory About Lemurs Became a Lost World' (long, 706.5s). G:\\Mi unidad\\MythForge\\publicar\\Lemuria and Mu - How a Theory About Lemurs Became a Lost World",
   "06:32:13 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
   "09:00:03 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
-  "10:00:00 INFO    Hoy ya hay un video 'long' exitoso; la corrida de respaldo no hace nada."
+  "10:00:00 INFO    Hoy ya hay un video 'long' exitoso; la corrida de respaldo no hace nada.",
+  "12:30:08 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
  ]
 }

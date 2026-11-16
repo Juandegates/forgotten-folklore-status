@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-16T06:30:03",
+ "generated_at": "2026-11-16T12:30:05",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -542,14 +542,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 17,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 816.0,
+  "disk_free_gb": 821.1,
   "topics_pending_short": 205,
   "topics_pending_long": 218,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-16T06:30:03",
+  "last_heartbeat": "2026-11-16T12:30:05",
   "last_success": "2026-11-16T05:05:27",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -562,14 +562,32 @@
   "title": "Forgotten Folklore Daily",
   "subscribers": 14,
   "views": 3235,
-  "video_count": 17,
+  "video_count": 19,
   "videos": [
+   {
+    "id": "WwrCIssMh9k",
+    "title": "Do you dare with the Judge of Mictlán? 🌑 Ecos del Umbral",
+    "published": "2026-11-16T15:38:01Z",
+    "views": 2,
+    "likes": 0,
+    "comments": 0,
+    "duration": "PT1M6S"
+   },
+   {
+    "id": "XSLI5uxfsy0",
+    "title": "Do you dare with the Judge of Mictlán? 🌑 Ecos del Umbral",
+    "published": "2026-11-16T15:37:09Z",
+    "views": 17,
+    "likes": 0,
+    "comments": 0,
+    "duration": "PT31S"
+   },
    {
     "id": "2sbwQrXv2YA",
     "title": "The Tuatha De Danann - Irish Gods Who Became the Fairies",
     "published": "2026-11-16T11:05:01Z",
-    "views": 8,
-    "likes": 1,
+    "views": 60,
+    "likes": 6,
     "comments": 0,
     "duration": "PT1M13S"
    },
@@ -577,7 +595,7 @@
     "id": "e0lgW998Ju4",
     "title": "The Nine Levels of Mictlan - The Aztec Journey of the Dead",
     "published": "2026-11-15T11:07:11Z",
-    "views": 391,
+    "views": 402,
     "likes": 7,
     "comments": 0,
     "duration": "PT1M22S"
@@ -586,7 +604,7 @@
     "id": "UsfwCX-ae7g",
     "title": "The Wild Hunt - The Ghost Army That Rides the Winter Sky",
     "published": "2026-11-14T20:29:24Z",
-    "views": 396,
+    "views": 400,
     "likes": 17,
     "comments": 0,
     "duration": "PT1M7S"
@@ -604,7 +622,7 @@
     "id": "6MC0MmMtOSY",
     "title": "Taniwha - The Water Guardians That Changed a New Zealand Highway",
     "published": "2026-11-13T11:05:20Z",
-    "views": 832,
+    "views": 835,
     "likes": 30,
     "comments": 6,
     "duration": "PT1M15S"
@@ -613,7 +631,7 @@
     "id": "tBIoEZwxf-Y",
     "title": "Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
     "published": "2026-11-12T11:05:20Z",
-    "views": 65,
+    "views": 67,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
@@ -631,7 +649,7 @@
     "id": "__gP0Wyl0kw",
     "title": "The Banshee - The Irish Wailing Woman Who Cries Before a Death",
     "published": "2026-11-10T16:22:47Z",
-    "views": 0,
+    "views": 2,
     "likes": 0,
     "comments": 0,
     "duration": "PT11M34S"
@@ -640,7 +658,7 @@
     "id": "3th5jgtAZ5Y",
     "title": "The Pied Piper of Hamelin - What Happened to the 130 Lost Children",
     "published": "2026-11-10T15:06:45Z",
-    "views": 295,
+    "views": 296,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M12S"
@@ -658,7 +676,7 @@
     "id": "OELbz1k_yp4",
     "title": "The Roc - The Giant Bird That Carried Elephants Across the Sea",
     "published": "2026-11-08T11:05:45Z",
-    "views": 371,
+    "views": 372,
     "likes": 25,
     "comments": 1,
     "duration": "PT1M9S"
@@ -718,7 +736,7 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-16T06:30:03"
+  "fetched": "2026-11-16T12:30:05"
  },
  "log_tail": [
   "00:30:08 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
@@ -766,6 +784,8 @@
   "05:04:13 INFO    Instagram: publicado (post 6afae3254ebbbb9cc2d55992).",
   "05:05:27 INFO    Facebook: publicado (3053845674956128).",
   "05:05:27 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Tuatha De Danann - Irish Gods Who Became the Fairies' (short, 72.1s). G:\\Mi unidad\\MythForge\\publicar\\The Tuatha De Danann - Irish Gods Who Became the Fairies",
-  "05:05:32 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
+  "05:05:32 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "06:30:08 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "09:00:03 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada."
  ]
 }

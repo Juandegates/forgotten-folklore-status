@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-16T00:30:05",
+ "generated_at": "2026-11-16T05:05:28",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -13,17 +13,33 @@
  },
  "today": {
   "date": "2026-11-16",
-  "status": "pending",
+  "status": "ok",
   "is_long_day": false,
-  "short": null,
+  "short": {
+   "status": "ok",
+   "title": "The Tuatha De Danann - Irish Gods Who Became the Fairies",
+   "topic": "Tuatha De Danann, the people of the goddess Danu",
+   "format": "short",
+   "duration": 72.1,
+   "elapsed_minutes": 5.4,
+   "images": 9,
+   "created": "2026-11-16T05:05:27",
+   "work": "C:\\Mythforge\\output\\work\\20261116_tuatha-de-danann-the-people-of-the-goddess-danu_short",
+   "ready_mp4": "C:\\Mythforge\\output\\ready\\The Tuatha De Danann - Irish Gods Who Became the Fairies.mp4",
+   "meta": "C:\\Mythforge\\output\\ready\\The Tuatha De Danann - Irish Gods Who Became the Fairies.json",
+   "published": "G:\\Mi unidad\\MythForge\\publicar\\The Tuatha De Danann - Irish Gods Who Became the Fairies",
+   "tiktok": "ok",
+   "instagram": "ok",
+   "facebook": "ok"
+  },
   "long": null
  },
  "next": [
   {
    "date": "2026-11-17",
    "format": "short",
-   "title": "Tuatha De Danann, the people of the goddess Danu",
-   "region": "Ireland"
+   "title": "Mami Wata in the Americas",
+   "region": "Caribbean / Africa"
   },
   {
    "date": "2026-11-17",
@@ -34,20 +50,20 @@
   {
    "date": "2026-11-18",
    "format": "short",
-   "title": "Mami Wata in the Americas",
-   "region": "Caribbean / Africa"
-  },
-  {
-   "date": "2026-11-19",
-   "format": "short",
    "title": "The Man in the Iron Mask",
    "region": "France"
   },
   {
-   "date": "2026-11-20",
+   "date": "2026-11-19",
    "format": "short",
    "title": "Pele, goddess of volcanoes",
    "region": "Hawaii"
+  },
+  {
+   "date": "2026-11-20",
+   "format": "short",
+   "title": "The Toyol",
+   "region": "Malaysia / Indonesia"
   },
   {
    "date": "2026-11-20",
@@ -58,20 +74,20 @@
   {
    "date": "2026-11-21",
    "format": "short",
-   "title": "The Toyol",
-   "region": "Malaysia / Indonesia"
-  },
-  {
-   "date": "2026-11-22",
-   "format": "short",
    "title": "The Golem of Prague",
    "region": "Czech Republic"
   },
   {
-   "date": "2026-11-23",
+   "date": "2026-11-22",
    "format": "short",
    "title": "The Ghoul",
    "region": "Arabia"
+  },
+  {
+   "date": "2026-11-23",
+   "format": "short",
+   "title": "Urashima Taro",
+   "region": "Japan"
   }
  ],
  "history": [
@@ -470,6 +486,24 @@
    "instagram_error": null,
    "facebook": "ok",
    "facebook_error": null
+  },
+  {
+   "created": "2026-11-16T05:05:27",
+   "format": "short",
+   "title": "The Tuatha De Danann - Irish Gods Who Became the Fairies",
+   "topic": "Tuatha De Danann, the people of the goddess Danu",
+   "status": "ok",
+   "duration": 72.1,
+   "elapsed_minutes": 5.4,
+   "published": true,
+   "images": 9,
+   "error": null,
+   "tiktok": "ok",
+   "tiktok_error": null,
+   "instagram": "ok",
+   "instagram_error": null,
+   "facebook": "ok",
+   "facebook_error": null
   }
  ],
  "errors": [
@@ -503,20 +537,20 @@
   }
  ],
  "quotas": {
-  "images_today": 0,
-  "cloudflare_neurons_estimate": 0,
+  "images_today": 9,
+  "cloudflare_neurons_estimate": 2700,
   "cloudflare_neurons_limit": 10000,
-  "zapier_tasks_month_estimate": 16,
+  "zapier_tasks_month_estimate": 17,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 816.3,
-  "topics_pending_short": 206,
+  "disk_free_gb": 816.0,
+  "topics_pending_short": 205,
   "topics_pending_long": 218,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-16T00:30:05",
-  "last_success": "2026-11-15T05:05:59",
+  "last_heartbeat": "2026-11-16T05:05:28",
+  "last_success": "2026-11-16T05:05:27",
   "last_error": {
    "when": "2026-11-14T09:02:58",
    "error": "Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
@@ -528,13 +562,22 @@
   "title": "Forgotten Folklore Daily",
   "subscribers": 13,
   "views": 3235,
-  "video_count": 16,
+  "video_count": 17,
   "videos": [
+   {
+    "id": "2sbwQrXv2YA",
+    "title": "The Tuatha De Danann - Irish Gods Who Became the Fairies",
+    "published": "2026-11-16T11:05:01Z",
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "duration": "PT1M13S"
+   },
    {
     "id": "e0lgW998Ju4",
     "title": "The Nine Levels of Mictlan - The Aztec Journey of the Dead",
     "published": "2026-11-15T11:07:11Z",
-    "views": 368,
+    "views": 384,
     "likes": 6,
     "comments": 0,
     "duration": "PT1M22S"
@@ -543,7 +586,7 @@
     "id": "UsfwCX-ae7g",
     "title": "The Wild Hunt - The Ghost Army That Rides the Winter Sky",
     "published": "2026-11-14T20:29:24Z",
-    "views": 380,
+    "views": 388,
     "likes": 17,
     "comments": 0,
     "duration": "PT1M7S"
@@ -561,7 +604,7 @@
     "id": "6MC0MmMtOSY",
     "title": "Taniwha - The Water Guardians That Changed a New Zealand Highway",
     "published": "2026-11-13T11:05:20Z",
-    "views": 832,
+    "views": 833,
     "likes": 30,
     "comments": 6,
     "duration": "PT1M15S"
@@ -675,7 +718,53 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-16T00:30:05"
+  "fetched": "2026-11-16T05:05:28"
  },
- "log_tail": []
+ "log_tail": [
+  "00:30:08 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "05:00:03 INFO    === MythForge run: formato=short proveedores=config ===",
+  "05:00:03 INFO    Tema: Tuatha De Danann, the people of the goddess Danu (Ireland) [short]",
+  "05:00:03 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
+  "05:00:49 INFO    Cerebro (claude_code): generando revisión de calidad...",
+  "05:01:18 INFO    QA encontró 5 punto(s): Scene 8 image prompt asks for an open illuminated manuscript, which image models tend to fill with fake lettering. Changed it to knotwork and painted borders with no readable writing.; Scene 8 narration 'the gods shrank in memory into the fairies' reads awkwardly for text-to-speech. Rewrote it into two short, clear sentences.; Scene 6 says the bargain happened as fact, but the medieval tellings disagree on how the land was divided. Added a light 'the legend says' frame.; Scene 1 says farmers plow around mounds in general, which is too broad. Softened it to 'some farmers'.; Scene 9 image prompt",
+  "05:01:18 INFO    QA aplicó correcciones al guion.",
+  "05:01:18 INFO    Guion listo: 'The Tuatha De Danann - Irish Gods Who Became the Fairies' — 9 escenas, 158 palabras.",
+  "05:01:43 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
+  "05:01:49 INFO    Voz 1/9 (7.8s)",
+  "05:01:51 INFO    Voz 2/9 (7.9s)",
+  "05:01:53 INFO    Voz 3/9 (7.8s)",
+  "05:01:54 INFO    Voz 4/9 (6.3s)",
+  "05:01:56 INFO    Voz 5/9 (6.9s)",
+  "05:01:57 INFO    Voz 6/9 (8.7s)",
+  "05:01:59 INFO    Voz 7/9 (6.5s)",
+  "05:02:01 INFO    Voz 8/9 (11.5s)",
+  "05:02:03 INFO    Voz 9/9 (5.6s)",
+  "05:02:03 INFO    Audio total: 72.1s",
+  "05:02:13 INFO    Imagen 1/9 lista",
+  "05:02:21 INFO    Imagen 2/9 lista",
+  "05:02:31 INFO    Imagen 3/9 lista",
+  "05:02:39 INFO    Imagen 4/9 lista",
+  "05:02:49 INFO    Imagen 5/9 lista",
+  "05:02:57 INFO    Imagen 6/9 lista",
+  "05:03:07 INFO    Imagen 7/9 lista",
+  "05:03:16 INFO    Imagen 8/9 lista",
+  "05:03:24 INFO    Imagen 9/9 lista",
+  "05:03:24 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
+  "05:03:25 INFO    Render escena 1/9 (8.2s)",
+  "05:03:27 INFO    Render escena 2/9 (8.2s)",
+  "05:03:28 INFO    Render escena 3/9 (8.2s)",
+  "05:03:29 INFO    Render escena 4/9 (6.6s)",
+  "05:03:30 INFO    Render escena 5/9 (7.2s)",
+  "05:03:31 INFO    Render escena 6/9 (9.0s)",
+  "05:03:32 INFO    Render escena 7/9 (6.8s)",
+  "05:03:33 INFO    Render escena 8/9 (11.8s)",
+  "05:03:35 INFO    Render escena 9/9 (5.9s)",
+  "05:03:44 INFO    Video armado: output.mp4 (10.5 MB)",
+  "05:03:44 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\The Tuatha De Danann - Irish Gods Who Became the Fairies",
+  "05:03:48 INFO    Video alojado en Zernio.",
+  "05:04:06 INFO    TikTok: publicado (post 6afae3144ebbbb9cc2d558db).",
+  "05:04:13 INFO    Instagram: publicado (post 6afae3254ebbbb9cc2d55992).",
+  "05:05:27 INFO    Facebook: publicado (3053845674956128).",
+  "05:05:27 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Tuatha De Danann - Irish Gods Who Became the Fairies' (short, 72.1s). G:\\Mi unidad\\MythForge\\publicar\\The Tuatha De Danann - Irish Gods Who Became the Fairies"
+ ]
 }

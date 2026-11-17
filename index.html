@@ -273,7 +273,8 @@ footer { color: var(--muted); font-size: .8rem; text-align: center; }
       tile("Zapier este mes", zp + " / " + zl, "subidas a YouTube (plan gratis)", zp / zl * 100) +
       tile("Disco libre", (q.disk_free_gb >= 0 ? q.disk_free_gb + " GB" : "—"), "en la unidad de C:\\Mythforge", null) +
       tile("Temas pendientes", num(q.topics_pending_short) + " Shorts · " + num(q.topics_pending_long) + " largos", "de " + num(q.topics_total) + " en la lista", null) +
-      tile("Horario", "05:00 · 06:15", "Short diario · documental mar/vie; respaldos 09:00 y 10:00", null);
+      tile("Partes verticales", st.parts ? (num(st.parts.pending) + " en cola") : "—", st.parts ? ("hoy " + st.parts.published_today + "/" + st.parts.per_day + " · TikTok e Instagram" + (st.parts.next ? " · sigue: " + esc(st.parts.next) : "")) : "documentales en partes de 1-3 min", null) +
+      tile("Horario", "05:00 · 06:15", "Short diario · documental mar/vie; partes 12:30 y 18:30", null);
 
     // historial
     var hist = (st.history || []).slice().reverse();

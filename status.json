@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-17T18:33:09",
+ "generated_at": "2026-11-18T00:31:41",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -12,61 +12,24 @@
   "long": "martes y viernes 06:15 (respaldo 10:00)"
  },
  "today": {
-  "date": "2026-11-17",
-  "status": "ok",
-  "is_long_day": true,
-  "short": {
-   "status": "ok",
-   "title": "Mami Wata: The Water Spirit Who Crossed the Atlantic",
-   "topic": "Mami Wata in the Americas",
-   "format": "short",
-   "duration": 71.9,
-   "elapsed_minutes": 5.4,
-   "images": 10,
-   "created": "2026-11-17T05:05:29",
-   "work": "C:\\Mythforge\\output\\work\\20261117_mami-wata-in-the-americas_short",
-   "ready_mp4": "C:\\Mythforge\\output\\ready\\Mami Wata - The Water Spirit Who Crossed the Atlantic.mp4",
-   "meta": "C:\\Mythforge\\output\\ready\\Mami Wata - The Water Spirit Who Crossed the Atlantic.json",
-   "published": "G:\\Mi unidad\\MythForge\\publicar\\Mami Wata - The Water Spirit Who Crossed the Atlantic",
-   "tiktok": "ok",
-   "instagram": "ok",
-   "facebook": "ok"
-  },
-  "long": {
-   "status": "ok",
-   "title": "The Antikythera Mechanism - A 2,000-Year-Old Computer From the Sea",
-   "topic": "The Antikythera mechanism",
-   "format": "long",
-   "duration": 706.3,
-   "elapsed_minutes": 15.7,
-   "images": 43,
-   "created": "2026-11-17T06:30:41",
-   "work": "C:\\Mythforge\\output\\work\\20261117_the-antikythera-mechanism_long",
-   "ready_mp4": "C:\\Mythforge\\output\\ready\\The Antikythera Mechanism - A 2,000-Year-Old Computer From the Sea.mp4",
-   "meta": "C:\\Mythforge\\output\\ready\\The Antikythera Mechanism - A 2,000-Year-Old Computer From the Sea.json",
-   "thumbnail": "C:\\Mythforge\\output\\ready\\The Antikythera Mechanism - A 2,000-Year-Old Computer From the Sea.jpg",
-   "published": "G:\\Mi unidad\\MythForge\\publicar\\The Antikythera Mechanism - A 2,000-Year-Old Computer From the Sea",
-   "facebook": "ok"
-  }
+  "date": "2026-11-18",
+  "status": "pending",
+  "is_long_day": false,
+  "short": null,
+  "long": null
  },
  "next": [
   {
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "format": "short",
    "title": "The Man in the Iron Mask",
    "region": "France"
   },
   {
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "format": "short",
    "title": "Pele, goddess of volcanoes",
    "region": "Hawaii"
-  },
-  {
-   "date": "2026-11-20",
-   "format": "short",
-   "title": "The Toyol",
-   "region": "Malaysia / Indonesia"
   },
   {
    "date": "2026-11-20",
@@ -77,32 +40,38 @@
   {
    "date": "2026-11-21",
    "format": "short",
+   "title": "The Toyol",
+   "region": "Malaysia / Indonesia"
+  },
+  {
+   "date": "2026-11-22",
+   "format": "short",
    "title": "The Golem of Prague",
    "region": "Czech Republic"
   },
   {
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "format": "short",
    "title": "The Ghoul",
    "region": "Arabia"
   },
   {
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "format": "short",
    "title": "Urashima Taro",
    "region": "Japan"
   },
   {
    "date": "2026-11-24",
-   "format": "short",
-   "title": "The Huldra",
-   "region": "Norway / Sweden"
-  },
-  {
-   "date": "2026-11-24",
    "format": "long",
    "title": "The Puca",
    "region": "Ireland"
+  },
+  {
+   "date": "2026-11-25",
+   "format": "short",
+   "title": "The Huldra",
+   "region": "Norway / Sweden"
   }
  ],
  "history": [
@@ -588,19 +557,19 @@
   }
  ],
  "quotas": {
-  "images_today": 53,
-  "cloudflare_neurons_estimate": 9880,
+  "images_today": 0,
+  "cloudflare_neurons_estimate": 0,
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 19,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 815.3,
+  "disk_free_gb": 812.5,
   "topics_pending_short": 204,
   "topics_pending_long": 217,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-17T18:33:09",
+  "last_heartbeat": "2026-11-18T00:31:41",
   "last_success": "2026-11-17T06:30:41",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -612,7 +581,7 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 14,
-  "views": 3650,
+  "views": 3735,
   "video_count": 21,
   "videos": [
    {
@@ -628,7 +597,7 @@
     "id": "bd2gdwEFmq0",
     "title": "Mami Wata - The Water Spirit Who Crossed the Atlantic",
     "published": "2026-11-17T11:05:07Z",
-    "views": 32,
+    "views": 40,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M12S"
@@ -637,7 +606,7 @@
     "id": "WwrCIssMh9k",
     "title": "Do you dare with the Judge of Mictlán? 🌑 Ecos del Umbral",
     "published": "2026-11-16T15:38:01Z",
-    "views": 30,
+    "views": 35,
     "likes": 0,
     "comments": 0,
     "duration": "PT1M6S"
@@ -655,8 +624,8 @@
     "id": "2sbwQrXv2YA",
     "title": "The Tuatha De Danann - Irish Gods Who Became the Fairies",
     "published": "2026-11-16T11:05:01Z",
-    "views": 150,
-    "likes": 8,
+    "views": 171,
+    "likes": 11,
     "comments": 0,
     "duration": "PT1M13S"
    },
@@ -664,7 +633,7 @@
     "id": "e0lgW998Ju4",
     "title": "The Nine Levels of Mictlan - The Aztec Journey of the Dead",
     "published": "2026-11-15T11:07:11Z",
-    "views": 466,
+    "views": 469,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M22S"
@@ -736,7 +705,7 @@
     "id": "J-51QABb0Es",
     "title": "La Sayona - The Woman in White Who Hunts Unfaithful Men",
     "published": "2026-11-09T11:05:40Z",
-    "views": 61,
+    "views": 63,
     "likes": 12,
     "comments": 0,
     "duration": "PT1M10S"
@@ -805,12 +774,12 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-17T18:33:09"
+  "fetched": "2026-11-18T00:31:41"
  },
  "parts": {
-  "pending": 10,
+  "pending": 16,
   "published_total": 2,
-  "published_today": 2,
+  "published_today": 0,
   "per_day": 2,
   "next": "The Boto · parte 3/6",
   "recent": [
@@ -830,125 +799,12 @@
   "errors": []
  },
  "log_tail": [
-  "06:22:41 INFO    Imagen 1/43 lista",
-  "06:22:51 INFO    Imagen 2/43 lista",
-  "06:22:59 INFO    Imagen 3/43 lista",
-  "06:23:07 INFO    Imagen 4/43 lista",
-  "06:23:16 INFO    Imagen 5/43 lista",
-  "06:23:29 INFO    Imagen 6/43 lista",
-  "06:23:37 INFO    Imagen 7/43 lista",
-  "06:23:46 INFO    Imagen 8/43 lista",
-  "06:23:55 INFO    Imagen 9/43 lista",
-  "06:24:02 INFO    Imagen 10/43 lista",
-  "06:24:12 INFO    Imagen 11/43 lista",
-  "06:24:19 INFO    Imagen 12/43 lista",
-  "06:24:26 INFO    Imagen 13/43 lista",
-  "06:24:35 INFO    Imagen 14/43 lista",
-  "06:24:44 INFO    Imagen 15/43 lista",
-  "06:24:52 INFO    Imagen 16/43 lista",
-  "06:25:01 INFO    Imagen 17/43 lista",
-  "06:25:12 INFO    Imagen 18/43 lista",
-  "06:25:20 INFO    Imagen 19/43 lista",
-  "06:25:28 INFO    Imagen 20/43 lista",
-  "06:25:38 INFO    Imagen 21/43 lista",
-  "06:25:46 INFO    Imagen 22/43 lista",
-  "06:25:54 INFO    Imagen 23/43 lista",
-  "06:26:02 INFO    Imagen 24/43 lista",
-  "06:26:10 INFO    Imagen 25/43 lista",
-  "06:26:19 INFO    Imagen 26/43 lista",
-  "06:26:26 INFO    Imagen 27/43 lista",
-  "06:26:34 INFO    Imagen 28/43 lista",
-  "06:26:42 INFO    Imagen 29/43 lista",
-  "06:26:53 INFO    Imagen 30/43 lista",
-  "06:27:00 INFO    Imagen 31/43 lista",
-  "06:27:08 INFO    Imagen 32/43 lista",
-  "06:27:18 INFO    Imagen 33/43 lista",
-  "06:27:28 INFO    Imagen 34/43 lista",
-  "06:27:35 INFO    Imagen 35/43 lista",
-  "06:27:45 INFO    Imagen 36/43 lista",
-  "06:27:54 INFO    Imagen 37/43 lista",
-  "06:28:03 INFO    Imagen 38/43 lista",
-  "06:28:11 INFO    Imagen 39/43 lista",
-  "06:28:18 INFO    Imagen 40/43 lista",
-  "06:28:27 INFO    Imagen 41/43 lista",
-  "06:28:35 INFO    Imagen 42/43 lista",
-  "06:28:41 INFO    Imagen 43/43 lista",
-  "06:28:41 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
-  "06:28:48 INFO    Render escena 1/43 (17.1s)",
-  "06:28:50 INFO    Render escena 2/43 (17.4s)",
-  "06:28:52 INFO    Render escena 3/43 (13.7s)",
-  "06:28:54 INFO    Render escena 4/43 (16.0s)",
-  "06:28:56 INFO    Render escena 5/43 (13.7s)",
-  "06:28:58 INFO    Render escena 6/43 (16.7s)",
-  "06:29:00 INFO    Render escena 7/43 (15.0s)",
-  "06:29:02 INFO    Render escena 8/43 (17.9s)",
-  "06:29:04 INFO    Render escena 9/43 (16.5s)",
-  "06:29:06 INFO    Render escena 10/43 (17.5s)",
-  "06:29:08 INFO    Render escena 11/43 (17.9s)",
-  "06:29:10 INFO    Render escena 12/43 (15.2s)",
-  "06:29:11 INFO    Render escena 13/43 (16.3s)",
-  "06:29:13 INFO    Render escena 14/43 (17.2s)",
-  "06:29:16 INFO    Render escena 15/43 (13.5s)",
-  "06:29:17 INFO    Render escena 16/43 (12.4s)",
-  "06:29:19 INFO    Render escena 17/43 (13.2s)",
-  "06:29:20 INFO    Render escena 18/43 (13.5s)",
-  "06:29:22 INFO    Render escena 19/43 (18.1s)",
-  "06:29:24 INFO    Render escena 20/43 (17.6s)",
-  "06:29:26 INFO    Render escena 21/43 (16.9s)",
-  "06:29:28 INFO    Render escena 22/43 (16.4s)",
-  "06:29:30 INFO    Render escena 23/43 (17.7s)",
-  "06:29:32 INFO    Render escena 24/43 (19.3s)",
-  "06:29:34 INFO    Render escena 25/43 (16.5s)",
-  "06:29:36 INFO    Render escena 26/43 (17.0s)",
-  "06:29:38 INFO    Render escena 27/43 (17.3s)",
-  "06:29:40 INFO    Render escena 28/43 (16.8s)",
-  "06:29:42 INFO    Render escena 29/43 (19.7s)",
-  "06:29:45 INFO    Render escena 30/43 (17.6s)",
-  "06:29:47 INFO    Render escena 31/43 (18.1s)",
-  "06:29:49 INFO    Render escena 32/43 (20.0s)",
-  "06:29:51 INFO    Render escena 33/43 (15.5s)",
-  "06:29:53 INFO    Render escena 34/43 (18.7s)",
-  "06:29:55 INFO    Render escena 35/43 (18.1s)",
-  "06:29:57 INFO    Render escena 36/43 (16.0s)",
-  "06:29:59 INFO    Render escena 37/43 (17.0s)",
-  "06:30:01 INFO    Render escena 38/43 (14.4s)",
-  "06:30:02 INFO    Latido: hay una producción en curso; no se lanza el respaldo.",
-  "06:30:03 INFO    Render escena 39/43 (13.3s)",
-  "06:30:05 INFO    Render escena 40/43 (16.0s)",
-  "06:30:06 INFO    Render escena 41/43 (14.4s)",
-  "06:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "06:30:08 INFO    Render escena 42/43 (17.1s)",
-  "06:30:11 INFO    Render escena 43/43 (15.8s)",
-  "06:30:31 INFO    Video armado: output.mp4 (51.1 MB)",
-  "06:30:31 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\The Antikythera Mechanism - A 2,000-Year-Old Computer From the Sea",
-  "06:30:41 INFO    Facebook: publicado (1721131012770583).",
-  "06:30:41 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Antikythera Mechanism - A 2,000-Year-Old Computer From the Sea' (long, 706.3s). G:\\Mi unidad\\MythForge\\publicar\\The Antikythera Mechanism - A 2,000-Year-Old Computer From the Sea",
-  "06:30:46 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "09:00:03 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
-  "10:00:01 INFO    Hoy ya hay un video 'long' exitoso; la corrida de respaldo no hace nada.",
-  "12:30:02 INFO    Parte vertical 1/6 de 'The Boto - The Amazon Dolphin Who Comes Ashore as a Man' (0-100 s)",
-  "12:30:16 INFO    Parte vertical 2/6 de 'The Boto - The Amazon Dolphin Who Comes Ashore as a Man' (100-227 s)",
-  "12:30:32 INFO    Parte vertical 3/6 de 'The Boto - The Amazon Dolphin Who Comes Ashore as a Man' (227-334 s)",
-  "12:30:45 INFO    Parte vertical 4/6 de 'The Boto - The Amazon Dolphin Who Comes Ashore as a Man' (334-449 s)",
-  "12:31:00 INFO    Parte vertical 5/6 de 'The Boto - The Amazon Dolphin Who Comes Ashore as a Man' (449-568 s)",
-  "12:31:15 INFO    Parte vertical 6/6 de 'The Boto - The Amazon Dolphin Who Comes Ashore as a Man' (568-682 s)",
-  "12:31:29 INFO    Partes listas: 6 de 'The Boto - The Amazon Dolphin Who Comes Ashore as a Man'",
-  "12:31:33 INFO    Video alojado en Zernio.",
-  "12:31:50 INFO    TikTok: publicado (post 6afc9d84652d70451ca7b31a).",
-  "12:31:55 INFO    Instagram: publicado (post 6afc9d9356719737f27da58e).",
-  "12:31:55 INFO    Parte publicada: The Boto | Part 1/6: The Stranger in the White Hat (tiktok=ok, instagram=ok)",
-  "12:31:59 INFO    Panel (index.html) actualizado en GitHub.",
-  "12:32:01 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "18:30:03 INFO    Parte vertical 1/6 de 'The Banshee - The Irish Wailing Woman Who Cries Before a Death' (0-110 s)",
-  "18:30:22 INFO    Parte vertical 2/6 de 'The Banshee - The Irish Wailing Woman Who Cries Before a Death' (110-235 s)",
-  "18:30:48 INFO    Parte vertical 3/6 de 'The Banshee - The Irish Wailing Woman Who Cries Before a Death' (235-343 s)",
-  "18:31:16 INFO    Parte vertical 4/6 de 'The Banshee - The Irish Wailing Woman Who Cries Before a Death' (343-464 s)",
-  "18:31:46 INFO    Parte vertical 5/6 de 'The Banshee - The Irish Wailing Woman Who Cries Before a Death' (464-572 s)",
-  "18:32:12 INFO    Parte vertical 6/6 de 'The Banshee - The Irish Wailing Woman Who Cries Before a Death' (572-693 s)",
-  "18:32:41 INFO    Partes listas: 6 de 'The Banshee - The Irish Wailing Woman Who Cries Before a Death'",
-  "18:32:46 INFO    Video alojado en Zernio.",
-  "18:33:02 INFO    TikTok: publicado (post 6afcf22b03f287b7c2c7fd33).",
-  "18:33:07 INFO    Instagram: publicado (post 6afcf23aebb5fa946192737a).",
-  "18:33:07 INFO    Parte publicada: The Boto | Part 2/6: A River That Remembers (tiktok=ok, instagram=ok)"
+  "00:30:04 INFO    Parte vertical 1/6 de 'Lemuria and Mu - How a Theory About Lemurs Became a Lost World' (0-113 s)",
+  "00:30:19 INFO    Parte vertical 2/6 de 'Lemuria and Mu - How a Theory About Lemurs Became a Lost World' (113-234 s)",
+  "00:30:36 INFO    Parte vertical 3/6 de 'Lemuria and Mu - How a Theory About Lemurs Became a Lost World' (234-421 s)",
+  "00:31:00 INFO    Parte vertical 4/6 de 'Lemuria and Mu - How a Theory About Lemurs Became a Lost World' (421-502 s)",
+  "00:31:12 INFO    Parte vertical 5/6 de 'Lemuria and Mu - How a Theory About Lemurs Became a Lost World' (502-586 s)",
+  "00:31:23 INFO    Parte vertical 6/6 de 'Lemuria and Mu - How a Theory About Lemurs Became a Lost World' (586-707 s)",
+  "00:31:39 INFO    Partes listas: 6 de 'Lemuria and Mu - How a Theory About Lemurs Became a Lost World'"
  ]
 }

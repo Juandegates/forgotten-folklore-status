@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-18T12:30:26",
+ "generated_at": "2026-11-18T18:30:29",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -596,14 +596,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 20,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 812.5,
+  "disk_free_gb": 823.7,
   "topics_pending_short": 203,
   "topics_pending_long": 217,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-18T12:30:26",
+  "last_heartbeat": "2026-11-18T18:30:29",
   "last_success": "2026-11-18T05:05:44",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -622,7 +622,7 @@
     "id": "0ykF36sbyKs",
     "title": "The Man in the Iron Mask - The Prisoner France Kept Faceless",
     "published": "2026-11-18T11:05:33Z",
-    "views": 27,
+    "views": 47,
     "likes": 4,
     "comments": 0,
     "duration": "PT1M19S"
@@ -640,7 +640,7 @@
     "id": "bd2gdwEFmq0",
     "title": "Mami Wata - The Water Spirit Who Crossed the Atlantic",
     "published": "2026-11-17T11:05:07Z",
-    "views": 49,
+    "views": 57,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M12S"
@@ -676,8 +676,8 @@
     "id": "e0lgW998Ju4",
     "title": "The Nine Levels of Mictlan - The Aztec Journey of the Dead",
     "published": "2026-11-15T11:07:11Z",
-    "views": 470,
-    "likes": 11,
+    "views": 471,
+    "likes": 12,
     "comments": 0,
     "duration": "PT1M22S"
    },
@@ -685,7 +685,7 @@
     "id": "UsfwCX-ae7g",
     "title": "The Wild Hunt - The Ghost Army That Rides the Winter Sky",
     "published": "2026-11-14T20:29:24Z",
-    "views": 412,
+    "views": 414,
     "likes": 18,
     "comments": 0,
     "duration": "PT1M7S"
@@ -817,15 +817,21 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-18T12:30:26"
+  "fetched": "2026-11-18T18:30:29"
  },
  "parts": {
-  "pending": 21,
-  "published_total": 3,
-  "published_today": 1,
+  "pending": 20,
+  "published_total": 4,
+  "published_today": 2,
   "per_day": 2,
-  "next": "The Boto · parte 4/6",
+  "next": "The Boto · parte 5/6",
   "recent": [
+   {
+    "title": "The Boto · parte 4/6",
+    "when": "2026-11-18T18:30:03",
+    "tiktok": "ok",
+    "instagram": "ok"
+   },
    {
     "title": "The Boto · parte 3/6",
     "when": "2026-11-18T12:30:02",
@@ -914,6 +920,11 @@
   "12:30:07 INFO    Video alojado en Zernio.",
   "12:30:21 INFO    TikTok: publicado (post 6afdeeaf29449deebfe7f601).",
   "12:30:25 INFO    Instagram: publicado (post 6afdeeb99d7cfe70472469e0).",
-  "12:30:25 INFO    Parte publicada: The Boto | Part 3/6: The Dance Before Dawn (tiktok=ok, instagram=ok)"
+  "12:30:25 INFO    Parte publicada: The Boto | Part 3/6: The Dance Before Dawn (tiktok=ok, instagram=ok)",
+  "12:30:30 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "18:30:08 INFO    Video alojado en Zernio.",
+  "18:30:24 INFO    TikTok: publicado (post 6afe430cc9d790597a3bac0b).",
+  "18:30:28 INFO    Instagram: publicado (post 6afe431bc9d790597a3bac54).",
+  "18:30:28 INFO    Parte publicada: The Boto | Part 4/6: Many Rivers, Many Botos (tiktok=ok, instagram=ok)"
  ]
 }

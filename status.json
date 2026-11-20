@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-19T18:30:36",
+ "generated_at": "2026-11-20T00:30:03",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -12,82 +12,66 @@
   "long": "martes y viernes 06:15 (respaldo 10:00)"
  },
  "today": {
-  "date": "2026-11-19",
-  "status": "ok",
-  "is_long_day": false,
-  "short": {
-   "status": "ok",
-   "title": "Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele",
-   "topic": "Pele, goddess of volcanoes",
-   "format": "short",
-   "duration": 69.3,
-   "elapsed_minutes": 5.2,
-   "images": 9,
-   "created": "2026-11-19T05:05:13",
-   "work": "C:\\Mythforge\\output\\work\\20261119_pele-goddess-of-volcanoes_short",
-   "ready_mp4": "C:\\Mythforge\\output\\ready\\Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele.mp4",
-   "meta": "C:\\Mythforge\\output\\ready\\Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele.json",
-   "published": "G:\\Mi unidad\\MythForge\\publicar\\Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele",
-   "tiktok": "ok",
-   "instagram": "ok",
-   "facebook": "ok"
-  },
+  "date": "2026-11-20",
+  "status": "pending",
+  "is_long_day": true,
+  "short": null,
   "long": null
  },
  "next": [
   {
-   "date": "2026-11-20",
+   "date": "2026-11-21",
    "format": "short",
    "title": "The Toyol",
    "region": "Malaysia / Indonesia"
   },
   {
-   "date": "2026-11-20",
-   "format": "long",
-   "title": "Tengu",
-   "region": "Japan"
-  },
-  {
-   "date": "2026-11-21",
+   "date": "2026-11-22",
    "format": "short",
    "title": "The Golem of Prague",
    "region": "Czech Republic"
   },
   {
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "format": "short",
    "title": "The Ghoul",
    "region": "Arabia"
   },
   {
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "format": "short",
    "title": "Urashima Taro",
    "region": "Japan"
   },
   {
    "date": "2026-11-24",
+   "format": "long",
+   "title": "Tengu",
+   "region": "Japan"
+  },
+  {
+   "date": "2026-11-25",
    "format": "short",
    "title": "The Huldra",
    "region": "Norway / Sweden"
   },
   {
-   "date": "2026-11-24",
-   "format": "long",
-   "title": "The Puca",
-   "region": "Ireland"
-  },
-  {
-   "date": "2026-11-25",
+   "date": "2026-11-26",
    "format": "short",
    "title": "Mictecacihuatl, the Lady of the Dead",
    "region": "Mexico"
   },
   {
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "format": "short",
    "title": "Yasy Yatere, the little lord of the siesta",
    "region": "Paraguay"
+  },
+  {
+   "date": "2026-11-27",
+   "format": "long",
+   "title": "The Puca",
+   "region": "Ireland"
   }
  ],
  "history": [
@@ -609,19 +593,19 @@
   }
  ],
  "quotas": {
-  "images_today": 9,
-  "cloudflare_neurons_estimate": 2700,
+  "images_today": 0,
+  "cloudflare_neurons_estimate": 0,
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 21,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 822.9,
+  "disk_free_gb": 826.1,
   "topics_pending_short": 202,
   "topics_pending_long": 217,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-19T18:30:36",
+  "last_heartbeat": "2026-11-20T00:30:03",
   "last_success": "2026-11-19T05:05:13",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -633,14 +617,14 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 17,
-  "views": 3852,
+  "views": 4561,
   "video_count": 23,
   "videos": [
    {
     "id": "iDfNhuYxbcI",
     "title": "Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele",
     "published": "2026-11-19T11:10:12Z",
-    "views": 22,
+    "views": 24,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M10S"
@@ -649,7 +633,7 @@
     "id": "0ykF36sbyKs",
     "title": "The Man in the Iron Mask - The Prisoner France Kept Faceless",
     "published": "2026-11-18T11:05:33Z",
-    "views": 676,
+    "views": 772,
     "likes": 14,
     "comments": 0,
     "duration": "PT1M19S"
@@ -703,7 +687,7 @@
     "id": "e0lgW998Ju4",
     "title": "The Nine Levels of Mictlan - The Aztec Journey of the Dead",
     "published": "2026-11-15T11:07:11Z",
-    "views": 475,
+    "views": 481,
     "likes": 12,
     "comments": 0,
     "duration": "PT1M22S"
@@ -721,7 +705,7 @@
     "id": "JTBTsHuVXTc",
     "title": "Lemuria and Mu - How a Theory About Lemurs Became a Lost World",
     "published": "2026-11-13T12:33:40Z",
-    "views": 2,
+    "views": 3,
     "likes": 0,
     "comments": 0,
     "duration": "PT11M47S"
@@ -739,7 +723,7 @@
     "id": "tBIoEZwxf-Y",
     "title": "Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
     "published": "2026-11-12T11:05:20Z",
-    "views": 68,
+    "views": 70,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
@@ -748,7 +732,7 @@
     "id": "lKXKOlyOCZw",
     "title": "The Manananggal - The Filipino Legend Who Leaves Half Behind",
     "published": "2026-11-11T11:04:47Z",
-    "views": 148,
+    "views": 149,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M10S"
@@ -811,7 +795,7 @@
     "id": "eqhWkOjHYsw",
     "title": "The Pooka - The Golden-Eyed Horse of Irish Folklore",
     "published": "2026-11-06T11:04:37Z",
-    "views": 41,
+    "views": 44,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M11S"
@@ -844,12 +828,12 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-19T18:30:36"
+  "fetched": "2026-11-20T00:30:03"
  },
  "parts": {
   "pending": 18,
   "published_total": 6,
-  "published_today": 2,
+  "published_today": 0,
   "per_day": 2,
   "next": "The Banshee · parte 1/6",
   "recent": [
@@ -892,63 +876,5 @@
   ],
   "errors": []
  },
- "log_tail": [
-  "00:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "05:00:01 INFO    === MythForge run: formato=short proveedores=config ===",
-  "05:00:01 INFO    Tema: Pele, goddess of volcanoes (Hawaii) [short]",
-  "05:00:02 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
-  "05:00:42 INFO    Cerebro (claude_code): generando revisión de calidad...",
-  "05:01:12 INFO    QA encontró 6 punto(s): Scene 2: 'Hawaiians call it the home of Pele' talks about a living culture loosely and in the present tense. Reworded to 'In Hawaiian tradition, it is the home of Pele.'; Scene 3: Pele is still honored by many Native Hawaiians today. Added 'still honored today' so the script does not treat her only as a curse device.; Scene 1 image prompt: a 'handwritten letter' invites the image model to render text. Changed it to a folded letter turned face down.; Scene 6 image prompt: a post office counter tends to produce signs and lettering. Specified plain blank walls with no signage.; Scene 8 image prom",
-  "05:01:12 INFO    QA aplicó correcciones al guion.",
-  "05:01:12 INFO    Guion listo: 'Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele' — 9 escenas, 155 palabras.",
-  "05:01:37 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
-  "05:01:43 INFO    Voz 1/9 (7.9s)",
-  "05:01:44 INFO    Voz 2/9 (7.6s)",
-  "05:01:46 INFO    Voz 3/9 (8.6s)",
-  "05:01:47 INFO    Voz 4/9 (7.4s)",
-  "05:01:49 INFO    Voz 5/9 (8.2s)",
-  "05:01:50 INFO    Voz 6/9 (5.2s)",
-  "05:01:52 INFO    Voz 7/9 (7.9s)",
-  "05:01:53 INFO    Voz 8/9 (9.0s)",
-  "05:01:54 INFO    Voz 9/9 (4.2s)",
-  "05:01:54 INFO    Audio total: 69.3s",
-  "05:02:04 INFO    Imagen 1/9 lista",
-  "05:02:15 INFO    Imagen 2/9 lista",
-  "05:02:28 INFO    Imagen 3/9 lista",
-  "05:02:36 INFO    Imagen 4/9 lista",
-  "05:02:47 INFO    Imagen 5/9 lista",
-  "05:03:01 INFO    Imagen 6/9 lista",
-  "05:03:12 INFO    Imagen 7/9 lista",
-  "05:03:22 INFO    Imagen 8/9 lista",
-  "05:03:35 INFO    Imagen 9/9 lista",
-  "05:03:35 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
-  "05:03:36 INFO    Render escena 1/9 (8.3s)",
-  "05:03:37 INFO    Render escena 2/9 (7.9s)",
-  "05:03:38 INFO    Render escena 3/9 (9.0s)",
-  "05:03:40 INFO    Render escena 4/9 (7.8s)",
-  "05:03:41 INFO    Render escena 5/9 (8.6s)",
-  "05:03:42 INFO    Render escena 6/9 (5.6s)",
-  "05:03:43 INFO    Render escena 7/9 (8.3s)",
-  "05:03:44 INFO    Render escena 8/9 (9.3s)",
-  "05:03:45 INFO    Render escena 9/9 (4.5s)",
-  "05:03:54 INFO    Video armado: output.mp4 (11.9 MB)",
-  "05:03:54 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele",
-  "05:03:57 INFO    Video alojado en Zernio.",
-  "05:04:14 INFO    TikTok: publicado (post 6afed79e6d4ba6b057012dd4).",
-  "05:04:20 INFO    Instagram: publicado (post 6afed7adf654292a89d8cac2).",
-  "05:05:13 INFO    Facebook: publicado (3452849768238155).",
-  "05:05:13 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele' (short, 69.3s). G:\\Mi unidad\\MythForge\\publicar\\Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele",
-  "05:05:18 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "06:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "09:00:03 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
-  "12:30:07 INFO    Video alojado en Zernio.",
-  "12:30:20 INFO    TikTok: publicado (post 6aff402f3ade09d5d52d208b).",
-  "12:30:24 INFO    Instagram: publicado (post 6aff4039817a3e7513042d42).",
-  "12:30:24 INFO    Parte publicada: The Boto | Part 5/6: Behind the Enchantment (tiktok=ok, instagram=ok)",
-  "12:30:30 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "18:30:13 INFO    Video alojado en Zernio.",
-  "18:30:30 INFO    TikTok: publicado (post 6aff9492888fcadd6c1ffa9e).",
-  "18:30:34 INFO    Instagram: publicado (post 6aff94a1e9e8f565b8fb0f4b).",
-  "18:30:34 INFO    Parte publicada: The Boto | Part 6/6: Why the River Still Sings (tiktok=ok, instagram=ok)"
- ]
+ "log_tail": []
 }

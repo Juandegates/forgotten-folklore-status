@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-19T12:30:25",
+ "generated_at": "2026-11-19T18:30:36",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -614,14 +614,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 21,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 824.0,
+  "disk_free_gb": 822.9,
   "topics_pending_short": 202,
   "topics_pending_long": 217,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-19T12:30:26",
+  "last_heartbeat": "2026-11-19T18:30:36",
   "last_success": "2026-11-19T05:05:13",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -640,7 +640,7 @@
     "id": "iDfNhuYxbcI",
     "title": "Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele",
     "published": "2026-11-19T11:10:12Z",
-    "views": 13,
+    "views": 22,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M10S"
@@ -649,8 +649,8 @@
     "id": "0ykF36sbyKs",
     "title": "The Man in the Iron Mask - The Prisoner France Kept Faceless",
     "published": "2026-11-18T11:05:33Z",
-    "views": 582,
-    "likes": 13,
+    "views": 676,
+    "likes": 14,
     "comments": 0,
     "duration": "PT1M19S"
    },
@@ -667,7 +667,7 @@
     "id": "bd2gdwEFmq0",
     "title": "Mami Wata - The Water Spirit Who Crossed the Atlantic",
     "published": "2026-11-17T11:05:07Z",
-    "views": 66,
+    "views": 71,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M12S"
@@ -676,7 +676,7 @@
     "id": "WwrCIssMh9k",
     "title": "Do you dare with the Judge of Mictlán? 🌑 Ecos del Umbral",
     "published": "2026-11-16T15:38:01Z",
-    "views": 37,
+    "views": 36,
     "likes": 0,
     "comments": 0,
     "duration": "PT1M6S"
@@ -694,7 +694,7 @@
     "id": "2sbwQrXv2YA",
     "title": "The Tuatha De Danann - Irish Gods Who Became the Fairies",
     "published": "2026-11-16T11:05:01Z",
-    "views": 182,
+    "views": 183,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M13S"
@@ -703,7 +703,7 @@
     "id": "e0lgW998Ju4",
     "title": "The Nine Levels of Mictlan - The Aztec Journey of the Dead",
     "published": "2026-11-15T11:07:11Z",
-    "views": 473,
+    "views": 475,
     "likes": 12,
     "comments": 0,
     "duration": "PT1M22S"
@@ -844,15 +844,21 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-19T12:30:25"
+  "fetched": "2026-11-19T18:30:36"
  },
  "parts": {
-  "pending": 19,
-  "published_total": 5,
-  "published_today": 1,
+  "pending": 18,
+  "published_total": 6,
+  "published_today": 2,
   "per_day": 2,
-  "next": "The Boto · parte 6/6",
+  "next": "The Banshee · parte 1/6",
   "recent": [
+   {
+    "title": "The Boto · parte 6/6",
+    "when": "2026-11-19T18:30:06",
+    "tiktok": "ok",
+    "instagram": "ok"
+   },
    {
     "title": "The Boto · parte 5/6",
     "when": "2026-11-19T12:30:02",
@@ -938,6 +944,11 @@
   "12:30:07 INFO    Video alojado en Zernio.",
   "12:30:20 INFO    TikTok: publicado (post 6aff402f3ade09d5d52d208b).",
   "12:30:24 INFO    Instagram: publicado (post 6aff4039817a3e7513042d42).",
-  "12:30:24 INFO    Parte publicada: The Boto | Part 5/6: Behind the Enchantment (tiktok=ok, instagram=ok)"
+  "12:30:24 INFO    Parte publicada: The Boto | Part 5/6: Behind the Enchantment (tiktok=ok, instagram=ok)",
+  "12:30:30 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "18:30:13 INFO    Video alojado en Zernio.",
+  "18:30:30 INFO    TikTok: publicado (post 6aff9492888fcadd6c1ffa9e).",
+  "18:30:34 INFO    Instagram: publicado (post 6aff94a1e9e8f565b8fb0f4b).",
+  "18:30:34 INFO    Parte publicada: The Boto | Part 6/6: Why the River Still Sings (tiktok=ok, instagram=ok)"
  ]
 }

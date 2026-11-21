@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-20T12:32:14",
+ "generated_at": "2026-11-20T18:30:31",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -665,14 +665,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 23,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 822.1,
+  "disk_free_gb": 828.7,
   "topics_pending_short": 201,
   "topics_pending_long": 216,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-20T12:32:14",
+  "last_heartbeat": "2026-11-20T18:30:31",
   "last_success": "2026-11-20T06:34:56",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -684,7 +684,7 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 17,
-  "views": 4561,
+  "views": 4706,
   "video_count": 25,
   "videos": [
    {
@@ -700,8 +700,8 @@
     "id": "cehiEWM3mZE",
     "title": "The Toyol - The Jar Spirit of Malaysia That Steals Money",
     "published": "2026-11-20T11:13:53Z",
-    "views": 16,
-    "likes": 0,
+    "views": 27,
+    "likes": 1,
     "comments": 0,
     "duration": "PT1M6S"
    },
@@ -709,7 +709,7 @@
     "id": "iDfNhuYxbcI",
     "title": "Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele",
     "published": "2026-11-19T11:10:12Z",
-    "views": 30,
+    "views": 32,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M10S"
@@ -718,7 +718,7 @@
     "id": "0ykF36sbyKs",
     "title": "The Man in the Iron Mask - The Prisoner France Kept Faceless",
     "published": "2026-11-18T11:05:33Z",
-    "views": 828,
+    "views": 829,
     "likes": 14,
     "comments": 0,
     "duration": "PT1M19S"
@@ -736,7 +736,7 @@
     "id": "bd2gdwEFmq0",
     "title": "Mami Wata - The Water Spirit Who Crossed the Atlantic",
     "published": "2026-11-17T11:05:07Z",
-    "views": 79,
+    "views": 80,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M12S"
@@ -772,7 +772,7 @@
     "id": "e0lgW998Ju4",
     "title": "The Nine Levels of Mictlan - The Aztec Journey of the Dead",
     "published": "2026-11-15T11:07:11Z",
-    "views": 481,
+    "views": 484,
     "likes": 12,
     "comments": 0,
     "duration": "PT1M22S"
@@ -913,15 +913,21 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-20T12:32:14"
+  "fetched": "2026-11-20T18:30:31"
  },
  "parts": {
-  "pending": 23,
-  "published_total": 7,
-  "published_today": 1,
+  "pending": 22,
+  "published_total": 8,
+  "published_today": 2,
   "per_day": 2,
-  "next": "The Banshee · parte 2/6",
+  "next": "The Banshee · parte 3/6",
   "recent": [
+   {
+    "title": "The Banshee · parte 2/6",
+    "when": "2026-11-20T18:30:02",
+    "tiktok": "ok",
+    "instagram": "ok"
+   },
    {
     "title": "The Banshee · parte 1/6",
     "when": "2026-11-20T12:31:56",
@@ -951,22 +957,11 @@
     "when": "2026-11-18T12:30:02",
     "tiktok": "ok",
     "instagram": "ok"
-   },
-   {
-    "title": "The Boto · parte 2/6",
-    "when": "2026-11-17T18:32:41",
-    "tiktok": "ok",
-    "instagram": "ok"
    }
   ],
   "errors": []
  },
  "log_tail": [
-  "06:24:05 INFO    Voz 32/43 (20.4s)",
-  "06:24:08 INFO    Voz 33/43 (17.7s)",
-  "06:24:12 INFO    Voz 34/43 (17.8s)",
-  "06:24:15 INFO    Voz 35/43 (18.3s)",
-  "06:24:19 INFO    Voz 36/43 (19.9s)",
   "06:24:22 INFO    Voz 37/43 (17.4s)",
   "06:24:26 INFO    Voz 38/43 (16.8s)",
   "06:24:30 INFO    Voz 39/43 (21.3s)",
@@ -1081,6 +1076,11 @@
   "12:32:00 INFO    Video alojado en Zernio.",
   "12:32:08 INFO    TikTok: publicado (post 6b009220543f314852ed6596).",
   "12:32:12 INFO    Instagram: publicado (post 6b0092256bd8bb3689695be5).",
-  "12:32:12 INFO    Parte publicada: The Banshee | Part 1/6: The Cry Outside the Window (tiktok=ok, instagram=ok)"
+  "12:32:12 INFO    Parte publicada: The Banshee | Part 1/6: The Cry Outside the Window (tiktok=ok, instagram=ok)",
+  "12:32:17 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "18:30:06 INFO    Video alojado en Zernio.",
+  "18:30:23 INFO    TikTok: publicado (post 6b00e60d815f9fde92b331ec).",
+  "18:30:29 INFO    Instagram: publicado (post 6b00e61b712b8e494d65a227).",
+  "18:30:29 INFO    Parte publicada: The Banshee | Part 2/6: Woman of the Fairy Mound (tiktok=ok, instagram=ok)"
  ]
 }

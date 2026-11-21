@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-21T06:30:03",
+ "generated_at": "2026-11-21T12:30:30",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -668,14 +668,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 24,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 827.6,
+  "disk_free_gb": 824.0,
   "topics_pending_short": 200,
   "topics_pending_long": 216,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-21T06:30:03",
+  "last_heartbeat": "2026-11-21T12:30:30",
   "last_success": "2026-11-21T05:05:42",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -687,15 +687,15 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 17,
-  "views": 4730,
+  "views": 4741,
   "video_count": 26,
   "videos": [
    {
     "id": "qUwbnb_Jn-c",
     "title": "The Golem of Prague - The Clay Giant Hidden in a Synagogue Attic",
     "published": "2026-11-21T11:20:38Z",
-    "views": 9,
-    "likes": 0,
+    "views": 71,
+    "likes": 3,
     "comments": 0,
     "duration": "PT1M8S"
    },
@@ -703,7 +703,7 @@
     "id": "DFUC0kr9R9g",
     "title": "Tengu - The Crow-Men Who Trained Samurai and Stole Monks",
     "published": "2026-11-20T12:38:34Z",
-    "views": 2,
+    "views": 3,
     "likes": 0,
     "comments": 0,
     "duration": "PT11M54S"
@@ -712,7 +712,7 @@
     "id": "cehiEWM3mZE",
     "title": "The Toyol - The Jar Spirit of Malaysia That Steals Money",
     "published": "2026-11-20T11:13:53Z",
-    "views": 44,
+    "views": 56,
     "likes": 2,
     "comments": 0,
     "duration": "PT1M6S"
@@ -721,7 +721,7 @@
     "id": "iDfNhuYxbcI",
     "title": "Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele",
     "published": "2026-11-19T11:10:12Z",
-    "views": 34,
+    "views": 35,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M10S"
@@ -730,7 +730,7 @@
     "id": "0ykF36sbyKs",
     "title": "The Man in the Iron Mask - The Prisoner France Kept Faceless",
     "published": "2026-11-18T11:05:33Z",
-    "views": 829,
+    "views": 826,
     "likes": 14,
     "comments": 0,
     "duration": "PT1M19S"
@@ -775,7 +775,7 @@
     "id": "2sbwQrXv2YA",
     "title": "The Tuatha De Danann - Irish Gods Who Became the Fairies",
     "published": "2026-11-16T11:05:01Z",
-    "views": 187,
+    "views": 188,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M13S"
@@ -784,7 +784,7 @@
     "id": "e0lgW998Ju4",
     "title": "The Nine Levels of Mictlan - The Aztec Journey of the Dead",
     "published": "2026-11-15T11:07:11Z",
-    "views": 485,
+    "views": 484,
     "likes": 12,
     "comments": 0,
     "duration": "PT1M22S"
@@ -802,7 +802,7 @@
     "id": "JTBTsHuVXTc",
     "title": "Lemuria and Mu - How a Theory About Lemurs Became a Lost World",
     "published": "2026-11-13T12:33:40Z",
-    "views": 3,
+    "views": 5,
     "likes": 0,
     "comments": 0,
     "duration": "PT11M47S"
@@ -916,15 +916,21 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-21T06:30:03"
+  "fetched": "2026-11-21T12:30:30"
  },
  "parts": {
-  "pending": 22,
-  "published_total": 8,
-  "published_today": 0,
+  "pending": 21,
+  "published_total": 9,
+  "published_today": 1,
   "per_day": 2,
-  "next": "The Banshee · parte 3/6",
+  "next": "The Banshee · parte 4/6",
   "recent": [
+   {
+    "title": "The Banshee · parte 3/6",
+    "when": "2026-11-21T12:30:01",
+    "tiktok": "ok",
+    "instagram": "ok"
+   },
    {
     "title": "The Banshee · parte 2/6",
     "when": "2026-11-20T18:30:02",
@@ -952,12 +958,6 @@
    {
     "title": "The Boto · parte 4/6",
     "when": "2026-11-18T18:30:03",
-    "tiktok": "ok",
-    "instagram": "ok"
-   },
-   {
-    "title": "The Boto · parte 3/6",
-    "when": "2026-11-18T12:30:02",
     "tiktok": "ok",
     "instagram": "ok"
    }
@@ -1013,6 +1013,12 @@
   "05:04:51 INFO    Instagram: publicado (post 6b017ace699cef4f6773e39d).",
   "05:05:42 INFO    Facebook: publicado (1937058157673934).",
   "05:05:42 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Golem of Prague - The Clay Giant Hidden in a Synagogue Attic' (short, 67.6s). G:\\Mi unidad\\MythForge\\publicar\\The Golem of Prague - The Clay Giant Hidden in a Synagogue Attic",
-  "05:05:46 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
+  "05:05:46 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "06:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "09:00:03 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
+  "12:30:06 INFO    Video alojado en Zernio.",
+  "12:30:24 INFO    TikTok: publicado (post 6b01e32d50cfc13a3480ad13).",
+  "12:30:29 INFO    Instagram: publicado (post 6b01e33dd7535d9bc5f69db3).",
+  "12:30:29 INFO    Parte publicada: The Banshee | Part 3/6: The Night She Came (tiktok=ok, instagram=ok)"
  ]
 }

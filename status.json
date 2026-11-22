@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-21T12:30:30",
+ "generated_at": "2026-11-21T18:30:30",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -668,14 +668,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 24,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 824.0,
+  "disk_free_gb": 823.8,
   "topics_pending_short": 200,
   "topics_pending_long": 216,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-21T12:30:30",
+  "last_heartbeat": "2026-11-21T18:30:30",
   "last_success": "2026-11-21T05:05:42",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -694,8 +694,8 @@
     "id": "qUwbnb_Jn-c",
     "title": "The Golem of Prague - The Clay Giant Hidden in a Synagogue Attic",
     "published": "2026-11-21T11:20:38Z",
-    "views": 71,
-    "likes": 3,
+    "views": 106,
+    "likes": 5,
     "comments": 0,
     "duration": "PT1M8S"
    },
@@ -712,7 +712,7 @@
     "id": "cehiEWM3mZE",
     "title": "The Toyol - The Jar Spirit of Malaysia That Steals Money",
     "published": "2026-11-20T11:13:53Z",
-    "views": 56,
+    "views": 59,
     "likes": 2,
     "comments": 0,
     "duration": "PT1M6S"
@@ -775,7 +775,7 @@
     "id": "2sbwQrXv2YA",
     "title": "The Tuatha De Danann - Irish Gods Who Became the Fairies",
     "published": "2026-11-16T11:05:01Z",
-    "views": 188,
+    "views": 191,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M13S"
@@ -847,7 +847,7 @@
     "id": "3th5jgtAZ5Y",
     "title": "The Pied Piper of Hamelin - What Happened to the 130 Lost Children",
     "published": "2026-11-10T15:06:45Z",
-    "views": 298,
+    "views": 301,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M12S"
@@ -916,15 +916,21 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-21T12:30:30"
+  "fetched": "2026-11-21T18:30:30"
  },
  "parts": {
-  "pending": 21,
-  "published_total": 9,
-  "published_today": 1,
+  "pending": 20,
+  "published_total": 10,
+  "published_today": 2,
   "per_day": 2,
-  "next": "The Banshee · parte 4/6",
+  "next": "The Banshee · parte 5/6",
   "recent": [
+   {
+    "title": "The Banshee · parte 4/6",
+    "when": "2026-11-21T18:30:01",
+    "tiktok": "ok",
+    "instagram": "ok"
+   },
    {
     "title": "The Banshee · parte 3/6",
     "when": "2026-11-21T12:30:01",
@@ -952,12 +958,6 @@
    {
     "title": "The Boto · parte 5/6",
     "when": "2026-11-19T12:30:02",
-    "tiktok": "ok",
-    "instagram": "ok"
-   },
-   {
-    "title": "The Boto · parte 4/6",
-    "when": "2026-11-18T18:30:03",
     "tiktok": "ok",
     "instagram": "ok"
    }
@@ -1019,6 +1019,11 @@
   "12:30:06 INFO    Video alojado en Zernio.",
   "12:30:24 INFO    TikTok: publicado (post 6b01e32d50cfc13a3480ad13).",
   "12:30:29 INFO    Instagram: publicado (post 6b01e33dd7535d9bc5f69db3).",
-  "12:30:29 INFO    Parte publicada: The Banshee | Part 3/6: The Night She Came (tiktok=ok, instagram=ok)"
+  "12:30:29 INFO    Parte publicada: The Banshee | Part 3/6: The Night She Came (tiktok=ok, instagram=ok)",
+  "12:30:33 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "18:30:06 INFO    Video alojado en Zernio.",
+  "18:30:25 INFO    TikTok: publicado (post 6b02378c10db26267ea308ef).",
+  "18:30:29 INFO    Instagram: publicado (post 6b02379b2db799ab617c1925).",
+  "18:30:29 INFO    Parte publicada: The Banshee | Part 4/6: Washers, Queens and Witnesses (tiktok=ok, instagram=ok)"
  ]
 }

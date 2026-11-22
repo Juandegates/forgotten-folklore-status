@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-22T00:30:04",
+ "generated_at": "2026-11-22T05:05:09",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -13,23 +13,39 @@
  },
  "today": {
   "date": "2026-11-22",
-  "status": "pending",
+  "status": "ok",
   "is_long_day": false,
-  "short": null,
+  "short": {
+   "status": "ok",
+   "title": "The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves",
+   "topic": "The Ghoul",
+   "format": "short",
+   "duration": 66.1,
+   "elapsed_minutes": 5.1,
+   "images": 9,
+   "created": "2026-11-22T05:05:08",
+   "work": "C:\\Mythforge\\output\\work\\20261122_the-ghoul_short",
+   "ready_mp4": "C:\\Mythforge\\output\\ready\\The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves.mp4",
+   "meta": "C:\\Mythforge\\output\\ready\\The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves.json",
+   "published": "G:\\Mi unidad\\MythForge\\publicar\\The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves",
+   "tiktok": "ok",
+   "instagram": "ok",
+   "facebook": "ok"
+  },
   "long": null
  },
  "next": [
   {
    "date": "2026-11-23",
    "format": "short",
-   "title": "The Ghoul",
-   "region": "Arabia"
+   "title": "Urashima Taro",
+   "region": "Japan"
   },
   {
    "date": "2026-11-24",
    "format": "short",
-   "title": "Urashima Taro",
-   "region": "Japan"
+   "title": "The Huldra",
+   "region": "Norway / Sweden"
   },
   {
    "date": "2026-11-24",
@@ -40,20 +56,20 @@
   {
    "date": "2026-11-25",
    "format": "short",
-   "title": "The Huldra",
-   "region": "Norway / Sweden"
-  },
-  {
-   "date": "2026-11-26",
-   "format": "short",
    "title": "Mictecacihuatl, the Lady of the Dead",
    "region": "Mexico"
   },
   {
-   "date": "2026-11-27",
+   "date": "2026-11-26",
    "format": "short",
    "title": "Yasy Yatere, the little lord of the siesta",
    "region": "Paraguay"
+  },
+  {
+   "date": "2026-11-27",
+   "format": "short",
+   "title": "The Chupacabra",
+   "region": "Puerto Rico / Mexico"
   },
   {
    "date": "2026-11-27",
@@ -64,14 +80,14 @@
   {
    "date": "2026-11-28",
    "format": "short",
-   "title": "The Chupacabra",
-   "region": "Puerto Rico / Mexico"
+   "title": "La Tunda",
+   "region": "Colombia / Ecuador"
   },
   {
    "date": "2026-11-29",
    "format": "short",
-   "title": "La Tunda",
-   "region": "Colombia / Ecuador"
+   "title": "The Alley of the Kiss (Guanajuato)",
+   "region": "Mexico"
   }
  ],
  "history": [
@@ -614,6 +630,24 @@
    "instagram_error": null,
    "facebook": "ok",
    "facebook_error": null
+  },
+  {
+   "created": "2026-11-22T05:05:08",
+   "format": "short",
+   "title": "The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves",
+   "topic": "The Ghoul",
+   "status": "ok",
+   "duration": 66.1,
+   "elapsed_minutes": 5.1,
+   "published": true,
+   "images": 9,
+   "error": null,
+   "tiktok": "ok",
+   "tiktok_error": null,
+   "instagram": "ok",
+   "instagram_error": null,
+   "facebook": "ok",
+   "facebook_error": null
   }
  ],
  "errors": [
@@ -647,20 +681,20 @@
   }
  ],
  "quotas": {
-  "images_today": 0,
-  "cloudflare_neurons_estimate": 0,
+  "images_today": 9,
+  "cloudflare_neurons_estimate": 2700,
   "cloudflare_neurons_limit": 10000,
-  "zapier_tasks_month_estimate": 24,
+  "zapier_tasks_month_estimate": 25,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 826.1,
-  "topics_pending_short": 200,
+  "disk_free_gb": 825.4,
+  "topics_pending_short": 199,
   "topics_pending_long": 216,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-22T00:30:04",
-  "last_success": "2026-11-21T05:05:42",
+  "last_heartbeat": "2026-11-22T05:05:09",
+  "last_success": "2026-11-22T05:05:08",
   "last_error": {
    "when": "2026-11-14T09:02:58",
    "error": "Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
@@ -696,7 +730,7 @@
     "id": "cehiEWM3mZE",
     "title": "The Toyol - The Jar Spirit of Malaysia That Steals Money",
     "published": "2026-11-20T11:13:53Z",
-    "views": 62,
+    "views": 66,
     "likes": 2,
     "comments": 0,
     "duration": "PT1M6S"
@@ -759,7 +793,7 @@
     "id": "2sbwQrXv2YA",
     "title": "The Tuatha De Danann - Irish Gods Who Became the Fairies",
     "published": "2026-11-16T11:05:01Z",
-    "views": 191,
+    "views": 193,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M13S"
@@ -786,7 +820,7 @@
     "id": "JTBTsHuVXTc",
     "title": "Lemuria and Mu - How a Theory About Lemurs Became a Lost World",
     "published": "2026-11-13T12:33:40Z",
-    "views": 5,
+    "views": 6,
     "likes": 0,
     "comments": 0,
     "duration": "PT11M47S"
@@ -900,7 +934,7 @@
     "duration": "PT1M13S"
    }
   ],
-  "fetched": "2026-11-22T00:30:04"
+  "fetched": "2026-11-22T05:05:09"
  },
  "parts": {
   "pending": 20,
@@ -948,5 +982,51 @@
   ],
   "errors": []
  },
- "log_tail": []
+ "log_tail": [
+  "00:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "05:00:01 INFO    === MythForge run: formato=short proveedores=config ===",
+  "05:00:01 INFO    Tema: The Ghoul (Arabia) [short]",
+  "05:00:01 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
+  "05:00:32 INFO    Cerebro (claude_code): generando revisión de calidad...",
+  "05:00:57 INFO    QA encontró 6 punto(s): Scene one states the strike-twice rule as fact. Added a folklore frame: 'The old tales warn'.; Scene six presents graveyard feeding as part of the original legend. In the older pre-Islamic tradition the ghul mainly haunts the desert and misleads travelers. Graveyards and eating the dead come mostly from later stories, such as those in the Thousand and One Nights. Reframed as 'In later tales'.; The poet's name is spelled 'Taabata Sharran' in the narration but 'taabbata sharran' in the tags. Made it 'Taabbata Sharran' everywhere so the text-to-speech voice and the tags match.; Scene seven narrat",
+  "05:00:57 INFO    QA aplicó correcciones al guion.",
+  "05:00:57 INFO    Guion listo: 'The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves' — 9 escenas, 156 palabras.",
+  "05:01:19 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
+  "05:01:24 INFO    Voz 1/9 (6.7s)",
+  "05:01:25 INFO    Voz 2/9 (5.9s)",
+  "05:01:27 INFO    Voz 3/9 (6.3s)",
+  "05:01:28 INFO    Voz 4/9 (7.2s)",
+  "05:01:30 INFO    Voz 5/9 (7.6s)",
+  "05:01:31 INFO    Voz 6/9 (7.0s)",
+  "05:01:32 INFO    Voz 7/9 (7.8s)",
+  "05:01:34 INFO    Voz 8/9 (8.8s)",
+  "05:01:35 INFO    Voz 9/9 (5.7s)",
+  "05:01:35 INFO    Audio total: 66.1s",
+  "05:01:46 INFO    Imagen 1/9 lista",
+  "05:01:59 INFO    Imagen 2/9 lista",
+  "05:02:10 INFO    Imagen 3/9 lista",
+  "05:02:26 INFO    Imagen 4/9 lista",
+  "05:02:51 INFO    Imagen 5/9 lista",
+  "05:03:05 INFO    Imagen 6/9 lista",
+  "05:03:15 INFO    Imagen 7/9 lista",
+  "05:03:24 INFO    Imagen 8/9 lista",
+  "05:03:35 INFO    Imagen 9/9 lista",
+  "05:03:35 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
+  "05:03:36 INFO    Render escena 1/9 (7.1s)",
+  "05:03:38 INFO    Render escena 2/9 (6.2s)",
+  "05:03:39 INFO    Render escena 3/9 (6.6s)",
+  "05:03:39 INFO    Render escena 4/9 (7.5s)",
+  "05:03:40 INFO    Render escena 5/9 (7.9s)",
+  "05:03:42 INFO    Render escena 6/9 (7.3s)",
+  "05:03:43 INFO    Render escena 7/9 (8.1s)",
+  "05:03:44 INFO    Render escena 8/9 (9.1s)",
+  "05:03:45 INFO    Render escena 9/9 (6.1s)",
+  "05:03:53 INFO    Video armado: output.mp4 (9.3 MB)",
+  "05:03:53 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves",
+  "05:03:57 INFO    Video alojado en Zernio.",
+  "05:04:14 INFO    TikTok: publicado (post 6b02cc1e68ed0f4cc57a088e).",
+  "05:04:18 INFO    Instagram: publicado (post 6b02cc2d68ed0f4cc57a08c8).",
+  "05:05:08 INFO    Facebook: publicado (2600412887144238).",
+  "05:05:08 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves' (short, 66.1s). G:\\Mi unidad\\MythForge\\publicar\\The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves"
+ ]
 }

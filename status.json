@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-22T12:30:34",
+ "generated_at": "2026-11-22T18:30:27",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -686,14 +686,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 25,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 824.4,
+  "disk_free_gb": 822.4,
   "topics_pending_short": 199,
   "topics_pending_long": 216,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-22T12:30:34",
+  "last_heartbeat": "2026-11-22T18:30:28",
   "last_success": "2026-11-22T05:05:08",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -705,14 +705,14 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 17,
-  "views": 4745,
+  "views": 4821,
   "video_count": 27,
   "videos": [
    {
     "id": "TkK_ozvXAfU",
     "title": "The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves",
     "published": "2026-11-22T11:07:49Z",
-    "views": 73,
+    "views": 93,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M7S"
@@ -721,7 +721,7 @@
     "id": "qUwbnb_Jn-c",
     "title": "The Golem of Prague - The Clay Giant Hidden in a Synagogue Attic",
     "published": "2026-11-21T11:20:38Z",
-    "views": 121,
+    "views": 130,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M8S"
@@ -730,7 +730,7 @@
     "id": "DFUC0kr9R9g",
     "title": "Tengu - The Crow-Men Who Trained Samurai and Stole Monks",
     "published": "2026-11-20T12:38:34Z",
-    "views": 4,
+    "views": 5,
     "likes": 0,
     "comments": 0,
     "duration": "PT11M54S"
@@ -739,7 +739,7 @@
     "id": "cehiEWM3mZE",
     "title": "The Toyol - The Jar Spirit of Malaysia That Steals Money",
     "published": "2026-11-20T11:13:53Z",
-    "views": 70,
+    "views": 73,
     "likes": 2,
     "comments": 0,
     "duration": "PT1M6S"
@@ -802,7 +802,7 @@
     "id": "2sbwQrXv2YA",
     "title": "The Tuatha De Danann - Irish Gods Who Became the Fairies",
     "published": "2026-11-16T11:05:01Z",
-    "views": 194,
+    "views": 196,
     "likes": 11,
     "comments": 0,
     "duration": "PT1M13S"
@@ -811,7 +811,7 @@
     "id": "e0lgW998Ju4",
     "title": "The Nine Levels of Mictlan - The Aztec Journey of the Dead",
     "published": "2026-11-15T11:07:11Z",
-    "views": 484,
+    "views": 483,
     "likes": 12,
     "comments": 0,
     "duration": "PT1M22S"
@@ -847,7 +847,7 @@
     "id": "tBIoEZwxf-Y",
     "title": "Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
     "published": "2026-11-12T11:05:20Z",
-    "views": 70,
+    "views": 71,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
@@ -934,15 +934,21 @@
     "duration": "PT1M12S"
    }
   ],
-  "fetched": "2026-11-22T12:30:34"
+  "fetched": "2026-11-22T18:30:27"
  },
  "parts": {
-  "pending": 19,
-  "published_total": 11,
-  "published_today": 1,
+  "pending": 18,
+  "published_total": 12,
+  "published_today": 2,
   "per_day": 2,
-  "next": "The Banshee · parte 6/6",
+  "next": "Lemuria and Mu · parte 1/6",
   "recent": [
+   {
+    "title": "The Banshee · parte 6/6",
+    "when": "2026-11-22T18:30:01",
+    "tiktok": "ok",
+    "instagram": "ok"
+   },
    {
     "title": "The Banshee · parte 5/6",
     "when": "2026-11-22T12:30:03",
@@ -970,12 +976,6 @@
    {
     "title": "The Banshee · parte 1/6",
     "when": "2026-11-20T12:31:56",
-    "tiktok": "ok",
-    "instagram": "ok"
-   },
-   {
-    "title": "The Boto · parte 6/6",
-    "when": "2026-11-19T18:30:06",
     "tiktok": "ok",
     "instagram": "ok"
    }
@@ -1034,6 +1034,11 @@
   "12:30:07 INFO    Video alojado en Zernio.",
   "12:30:28 INFO    TikTok: publicado (post 6b0334af3426865d8dc77189).",
   "12:30:33 INFO    Instagram: publicado (post 6b0334c1dbe4d306c37d0ef0).",
-  "12:30:33 INFO    Parte publicada: The Banshee | Part 5/6: Owls, Grief and Old Songs (tiktok=ok, instagram=ok)"
+  "12:30:33 INFO    Parte publicada: The Banshee | Part 5/6: Owls, Grief and Old Songs (tiktok=ok, instagram=ok)",
+  "12:30:38 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "18:30:07 INFO    Video alojado en Zernio.",
+  "18:30:20 INFO    TikTok: publicado (post 6b03890b7963f73af5a0d008).",
+  "18:30:26 INFO    Instagram: publicado (post 6b038917849d110ab07fd061).",
+  "18:30:26 INFO    Parte publicada: The Banshee | Part 6/6: The Voice That Remembers (tiktok=ok, instagram=ok)"
  ]
 }

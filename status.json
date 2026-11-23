@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-23T00:30:04",
+ "generated_at": "2026-11-23T05:06:22",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -13,17 +13,33 @@
  },
  "today": {
   "date": "2026-11-23",
-  "status": "pending",
+  "status": "ok",
   "is_long_day": false,
-  "short": null,
+  "short": {
+   "status": "ok",
+   "title": "Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea",
+   "topic": "Urashima Taro",
+   "format": "short",
+   "duration": 73.0,
+   "elapsed_minutes": 6.3,
+   "images": 10,
+   "created": "2026-11-23T05:06:20",
+   "work": "C:\\Mythforge\\output\\work\\20261123_urashima-taro_short",
+   "ready_mp4": "C:\\Mythforge\\output\\ready\\Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea.mp4",
+   "meta": "C:\\Mythforge\\output\\ready\\Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea.json",
+   "published": "G:\\Mi unidad\\MythForge\\publicar\\Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea",
+   "tiktok": "ok",
+   "instagram": "ok",
+   "facebook": "ok"
+  },
   "long": null
  },
  "next": [
   {
    "date": "2026-11-24",
    "format": "short",
-   "title": "Urashima Taro",
-   "region": "Japan"
+   "title": "The Huldra",
+   "region": "Norway / Sweden"
   },
   {
    "date": "2026-11-24",
@@ -34,20 +50,20 @@
   {
    "date": "2026-11-25",
    "format": "short",
-   "title": "The Huldra",
-   "region": "Norway / Sweden"
-  },
-  {
-   "date": "2026-11-26",
-   "format": "short",
    "title": "Mictecacihuatl, the Lady of the Dead",
    "region": "Mexico"
   },
   {
-   "date": "2026-11-27",
+   "date": "2026-11-26",
    "format": "short",
    "title": "Yasy Yatere, the little lord of the siesta",
    "region": "Paraguay"
+  },
+  {
+   "date": "2026-11-27",
+   "format": "short",
+   "title": "The Chupacabra",
+   "region": "Puerto Rico / Mexico"
   },
   {
    "date": "2026-11-27",
@@ -58,20 +74,20 @@
   {
    "date": "2026-11-28",
    "format": "short",
-   "title": "The Chupacabra",
-   "region": "Puerto Rico / Mexico"
-  },
-  {
-   "date": "2026-11-29",
-   "format": "short",
    "title": "La Tunda",
    "region": "Colombia / Ecuador"
   },
   {
-   "date": "2026-11-30",
+   "date": "2026-11-29",
    "format": "short",
    "title": "The Alley of the Kiss (Guanajuato)",
    "region": "Mexico"
+  },
+  {
+   "date": "2026-11-30",
+   "format": "short",
+   "title": "The Lambton Worm",
+   "region": "England"
   }
  ],
  "history": [
@@ -632,6 +648,24 @@
    "instagram_error": null,
    "facebook": "ok",
    "facebook_error": null
+  },
+  {
+   "created": "2026-11-23T05:06:20",
+   "format": "short",
+   "title": "Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea",
+   "topic": "Urashima Taro",
+   "status": "ok",
+   "duration": 73.0,
+   "elapsed_minutes": 6.3,
+   "published": true,
+   "images": 10,
+   "error": null,
+   "tiktok": "ok",
+   "tiktok_error": null,
+   "instagram": "ok",
+   "instagram_error": null,
+   "facebook": "ok",
+   "facebook_error": null
   }
  ],
  "errors": [
@@ -665,20 +699,20 @@
   }
  ],
  "quotas": {
-  "images_today": 0,
-  "cloudflare_neurons_estimate": 0,
+  "images_today": 10,
+  "cloudflare_neurons_estimate": 3000,
   "cloudflare_neurons_limit": 10000,
-  "zapier_tasks_month_estimate": 25,
+  "zapier_tasks_month_estimate": 26,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 824.1,
-  "topics_pending_short": 199,
+  "disk_free_gb": 824.0,
+  "topics_pending_short": 198,
   "topics_pending_long": 216,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-23T00:30:04",
-  "last_success": "2026-11-22T05:05:08",
+  "last_heartbeat": "2026-11-23T05:06:22",
+  "last_success": "2026-11-23T05:06:20",
   "last_error": {
    "when": "2026-11-14T09:02:58",
    "error": "Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
@@ -696,7 +730,7 @@
     "id": "TkK_ozvXAfU",
     "title": "The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves",
     "published": "2026-11-22T11:07:49Z",
-    "views": 100,
+    "views": 108,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M7S"
@@ -705,7 +739,7 @@
     "id": "qUwbnb_Jn-c",
     "title": "The Golem of Prague - The Clay Giant Hidden in a Synagogue Attic",
     "published": "2026-11-21T11:20:38Z",
-    "views": 142,
+    "views": 149,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M8S"
@@ -732,7 +766,7 @@
     "id": "iDfNhuYxbcI",
     "title": "Why Tourists Mail Lava Rocks Back to Hawaii - The Curse of Pele",
     "published": "2026-11-19T11:10:12Z",
-    "views": 35,
+    "views": 36,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M10S"
@@ -822,7 +856,7 @@
     "id": "6MC0MmMtOSY",
     "title": "Taniwha - The Water Guardians That Changed a New Zealand Highway",
     "published": "2026-11-13T11:05:20Z",
-    "views": 844,
+    "views": 845,
     "likes": 30,
     "comments": 6,
     "duration": "PT1M15S"
@@ -831,7 +865,7 @@
     "id": "tBIoEZwxf-Y",
     "title": "Resurrection Mary - The Ghost Girl Who Vanishes at a Cemetery Gate",
     "published": "2026-11-12T11:05:20Z",
-    "views": 71,
+    "views": 73,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M13S"
@@ -918,7 +952,7 @@
     "duration": "PT1M12S"
    }
   ],
-  "fetched": "2026-11-23T00:30:04"
+  "fetched": "2026-11-23T05:06:22"
  },
  "parts": {
   "pending": 18,
@@ -966,5 +1000,65 @@
   ],
   "errors": []
  },
- "log_tail": []
+ "log_tail": [
+  "00:30:08 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "05:00:02 INFO    === MythForge run: formato=short proveedores=config ===",
+  "05:00:02 INFO    Tema: Urashima Taro (Japan) [short]",
+  "05:00:02 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
+  "05:00:58 INFO    Cerebro (claude_code): generando revisión de calidad...",
+  "05:01:23 INFO    QA encontró 6 punto(s): Honesty: the legend is told as plain fact. Scene two needs an 'according to the legend' frame, and the ending should say that versions differ.; Accuracy: three hundred years is only one version. Some tellings give seven hundred years, or say he turns into a crane. One short mention of variants was added.; Accuracy: the oldest tellings, from the eighth century, call the hero Urashimako, and there the turtle turns into a divine maiden rather than Princess Otohime. Scene nine now says this more precisely.; TTS readability: 'Ryugu-jo' has a hyphen that may cause an odd pause, so the narration now ",
+  "05:01:23 INFO    QA aplicó correcciones al guion.",
+  "05:01:23 INFO    Guion listo: 'Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea' — 10 escenas, 193 palabras.",
+  "05:01:46 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
+  "05:01:51 INFO    Voz 1/10 (5.9s)",
+  "05:01:53 INFO    Voz 2/10 (9.6s)",
+  "05:01:54 INFO    Voz 3/10 (5.5s)",
+  "05:01:56 INFO    Voz 4/10 (6.0s)",
+  "05:01:57 INFO    Voz 5/10 (6.7s)",
+  "05:01:58 INFO    Voz 6/10 (6.4s)",
+  "05:02:00 INFO    Voz 7/10 (8.5s)",
+  "05:02:02 INFO    Voz 8/10 (9.0s)",
+  "05:02:04 INFO    Voz 9/10 (10.9s)",
+  "05:02:06 INFO    Voz 10/10 (11.2s)",
+  "05:02:06 WARNING El Short dura 80s; se regenera la voz a velocidad 1.20.",
+  "05:02:07 INFO    Voz 1/10 (5.2s)",
+  "05:02:09 INFO    Voz 2/10 (8.5s)",
+  "05:02:10 INFO    Voz 3/10 (4.8s)",
+  "05:02:11 INFO    Voz 4/10 (5.1s)",
+  "05:02:12 INFO    Voz 5/10 (5.7s)",
+  "05:02:13 INFO    Voz 6/10 (5.7s)",
+  "05:02:15 INFO    Voz 7/10 (7.5s)",
+  "05:02:16 INFO    Voz 8/10 (7.8s)",
+  "05:02:18 INFO    Voz 9/10 (9.4s)",
+  "05:02:20 INFO    Voz 10/10 (9.8s)",
+  "05:02:20 INFO    Audio total: 73.0s",
+  "05:02:32 INFO    Imagen 1/10 lista",
+  "05:02:46 INFO    Imagen 2/10 lista",
+  "05:02:57 INFO    Imagen 3/10 lista",
+  "05:03:09 INFO    Imagen 4/10 lista",
+  "05:03:25 INFO    Imagen 5/10 lista",
+  "05:03:41 INFO    Imagen 6/10 lista",
+  "05:03:56 INFO    Imagen 7/10 lista",
+  "05:04:14 INFO    Imagen 8/10 lista",
+  "05:04:29 INFO    Imagen 9/10 lista",
+  "05:04:42 INFO    Imagen 10/10 lista",
+  "05:04:43 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
+  "05:04:43 INFO    Render escena 1/10 (5.6s)",
+  "05:04:45 INFO    Render escena 2/10 (8.8s)",
+  "05:04:46 INFO    Render escena 3/10 (5.2s)",
+  "05:04:47 INFO    Render escena 4/10 (5.5s)",
+  "05:04:47 INFO    Render escena 5/10 (6.0s)",
+  "05:04:48 INFO    Render escena 6/10 (6.0s)",
+  "05:04:49 INFO    Render escena 7/10 (7.8s)",
+  "05:04:50 INFO    Render escena 8/10 (8.1s)",
+  "05:04:51 INFO    Render escena 9/10 (9.7s)",
+  "05:04:53 INFO    Render escena 10/10 (10.1s)",
+  "05:05:02 INFO    Video armado: output.mp4 (11.7 MB)",
+  "05:05:02 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea",
+  "05:05:06 INFO    Video alojado en Zernio.",
+  "05:05:23 INFO    TikTok: publicado (post 6b041de3ab08e07ff677cb29).",
+  "05:05:27 INFO    Instagram: publicado (post 6b041df2c3ffe6fab39bfb39).",
+  "05:06:20 INFO    Facebook: publicado (1845739196459838).",
+  "05:06:20 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea' (short, 73.0s). G:\\Mi unidad\\MythForge\\publicar\\Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea"
+ ]
 }

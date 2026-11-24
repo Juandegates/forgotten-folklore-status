@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-23T12:30:36",
+ "generated_at": "2026-11-23T18:30:34",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -704,14 +704,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 26,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 828.9,
+  "disk_free_gb": 827.7,
   "topics_pending_short": 198,
   "topics_pending_long": 216,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-23T12:30:36",
+  "last_heartbeat": "2026-11-23T18:30:34",
   "last_success": "2026-11-23T05:06:20",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -723,14 +723,14 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 17,
-  "views": 4832,
+  "views": 4994,
   "video_count": 28,
   "videos": [
    {
     "id": "e2mTvfgIexw",
     "title": "Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea",
     "published": "2026-11-23T11:08:58Z",
-    "views": 19,
+    "views": 25,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M14S"
@@ -739,7 +739,7 @@
     "id": "TkK_ozvXAfU",
     "title": "The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves",
     "published": "2026-11-22T11:07:49Z",
-    "views": 119,
+    "views": 125,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M7S"
@@ -883,7 +883,7 @@
     "id": "lKXKOlyOCZw",
     "title": "The Manananggal - The Filipino Legend Who Leaves Half Behind",
     "published": "2026-11-11T11:04:47Z",
-    "views": 149,
+    "views": 150,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M10S"
@@ -952,15 +952,21 @@
     "duration": "PT1M11S"
    }
   ],
-  "fetched": "2026-11-23T12:30:36"
+  "fetched": "2026-11-23T18:30:34"
  },
  "parts": {
-  "pending": 17,
-  "published_total": 13,
-  "published_today": 1,
+  "pending": 16,
+  "published_total": 14,
+  "published_today": 2,
   "per_day": 2,
-  "next": "Lemuria and Mu · parte 2/6",
+  "next": "Lemuria and Mu · parte 3/6",
   "recent": [
+   {
+    "title": "Lemuria and Mu · parte 2/6",
+    "when": "2026-11-23T18:30:02",
+    "tiktok": "ok",
+    "instagram": "ok"
+   },
    {
     "title": "Lemuria and Mu · parte 1/6",
     "when": "2026-11-23T12:30:03",
@@ -988,12 +994,6 @@
    {
     "title": "The Banshee · parte 3/6",
     "when": "2026-11-21T12:30:01",
-    "tiktok": "ok",
-    "instagram": "ok"
-   },
-   {
-    "title": "The Banshee · parte 2/6",
-    "when": "2026-11-20T18:30:02",
     "tiktok": "ok",
     "instagram": "ok"
    }
@@ -1066,6 +1066,11 @@
   "12:30:09 INFO    Video alojado en Zernio.",
   "12:30:29 INFO    TikTok: publicado (post 6b04863088361ad31aaa94e4).",
   "12:30:35 INFO    Instagram: publicado (post 6b0486429881782e2fa7be49).",
-  "12:30:35 INFO    Parte publicada: Lemuria and Mu | Part 1/6: The Map With a Missing Land (tiktok=ok, instagram=ok)"
+  "12:30:35 INFO    Parte publicada: Lemuria and Mu | Part 1/6: The Map With a Missing Land (tiktok=ok, instagram=ok)",
+  "12:30:40 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "18:30:08 INFO    Video alojado en Zernio.",
+  "18:30:28 INFO    TikTok: publicado (post 6b04da8d94e41d6e7f8950d4).",
+  "18:30:33 INFO    Instagram: publicado (post 6b04da9f5d0c7b0137d84c62).",
+  "18:30:33 INFO    Parte publicada: Lemuria and Mu | Part 2/6: A Zoologist and His Lemurs (tiktok=ok, instagram=ok)"
  ]
 }

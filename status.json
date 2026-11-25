@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-25T05:04:56",
+ "generated_at": "2026-11-25T06:30:03",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -758,14 +758,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 29,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 831.9,
+  "disk_free_gb": 832.0,
   "topics_pending_short": 196,
   "topics_pending_long": 215,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-25T05:04:56",
+  "last_heartbeat": "2026-11-25T06:30:03",
   "last_success": "2026-11-25T05:04:55",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -778,8 +778,17 @@
   "title": "Forgotten Folklore Daily",
   "subscribers": 19,
   "views": 5208,
-  "video_count": 30,
+  "video_count": 31,
   "videos": [
+   {
+    "id": "jVVZLSVs8UM",
+    "title": "Mictecacihuatl - The Aztec Queen Behind the Day of the Dead",
+    "published": "2026-11-25T11:07:32Z",
+    "views": 16,
+    "likes": 1,
+    "comments": 0,
+    "duration": "PT1M15S"
+   },
    {
     "id": "8hNzLRO4xJw",
     "title": "The Puca - Ireland's Golden-Eyed Horse That Never Brings You Back the Same",
@@ -793,7 +802,7 @@
     "id": "Llbsz2L3YCU",
     "title": "The Huldra - The Forest Woman With a Cow's Tail and a Hollow Back",
     "published": "2026-11-24T11:14:50Z",
-    "views": 34,
+    "views": 35,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M7S"
@@ -811,7 +820,7 @@
     "id": "TkK_ozvXAfU",
     "title": "The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves",
     "published": "2026-11-22T11:07:49Z",
-    "views": 142,
+    "views": 145,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M7S"
@@ -820,7 +829,7 @@
     "id": "qUwbnb_Jn-c",
     "title": "The Golem of Prague - The Clay Giant Hidden in a Synagogue Attic",
     "published": "2026-11-21T11:20:38Z",
-    "views": 154,
+    "views": 156,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M8S"
@@ -995,18 +1004,9 @@
     "likes": 25,
     "comments": 1,
     "duration": "PT1M9S"
-   },
-   {
-    "id": "fE1lZLrUVQc",
-    "title": "The Bell Witch - The Tennessee Spirit That Spoke and Sang",
-    "published": "2026-11-07T11:05:51Z",
-    "views": 190,
-    "likes": 5,
-    "comments": 0,
-    "duration": "PT1M14S"
    }
   ],
-  "fetched": "2026-11-25T05:04:56"
+  "fetched": "2026-11-25T06:30:03"
  },
  "parts": {
   "pending": 20,
@@ -1099,6 +1099,7 @@
   "05:03:59 INFO    TikTok: publicado (post 6b06c09a8f0661c2a88c3859).",
   "05:04:03 INFO    Instagram: publicado (post 6b06c09e8f0661c2a88c386c).",
   "05:04:55 INFO    Facebook: publicado (2233574077536001).",
-  "05:04:55 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'Mictecacihuatl - The Aztec Queen Behind the Day of the Dead' (short, 74.2s). G:\\Mi unidad\\MythForge\\publicar\\Mictecacihuatl - The Aztec Queen Behind the Day of the Dead"
+  "05:04:55 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'Mictecacihuatl - The Aztec Queen Behind the Day of the Dead' (short, 74.2s). G:\\Mi unidad\\MythForge\\publicar\\Mictecacihuatl - The Aztec Queen Behind the Day of the Dead",
+  "05:04:59 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
  ]
 }

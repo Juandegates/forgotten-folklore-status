@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-24T12:32:20",
+ "generated_at": "2026-11-24T18:30:21",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -755,14 +755,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 28,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 832.8,
+  "disk_free_gb": 829.8,
   "topics_pending_short": 197,
   "topics_pending_long": 215,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-24T12:32:20",
+  "last_heartbeat": "2026-11-24T18:30:21",
   "last_success": "2026-11-24T06:31:09",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -773,16 +773,16 @@
  "youtube": {
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
-  "subscribers": 17,
-  "views": 5148,
-  "video_count": 29,
+  "subscribers": 18,
+  "views": 5173,
+  "video_count": 30,
   "videos": [
    {
     "id": "8hNzLRO4xJw",
     "title": "The Puca - Ireland's Golden-Eyed Horse That Never Brings You Back the Same",
     "published": "2026-11-24T12:46:18Z",
-    "views": 4,
-    "likes": 0,
+    "views": 8,
+    "likes": 1,
     "comments": 0,
     "duration": "PT10M59S"
    },
@@ -790,7 +790,7 @@
     "id": "Llbsz2L3YCU",
     "title": "The Huldra - The Forest Woman With a Cow's Tail and a Hollow Back",
     "published": "2026-11-24T11:14:50Z",
-    "views": 8,
+    "views": 10,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M7S"
@@ -799,7 +799,7 @@
     "id": "e2mTvfgIexw",
     "title": "Urashima Taro - The Fisherman Who Lost 300 Years Under the Sea",
     "published": "2026-11-23T11:08:58Z",
-    "views": 33,
+    "views": 35,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M14S"
@@ -808,7 +808,7 @@
     "id": "TkK_ozvXAfU",
     "title": "The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves",
     "published": "2026-11-22T11:07:49Z",
-    "views": 138,
+    "views": 140,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M7S"
@@ -1003,15 +1003,21 @@
     "duration": "PT1M14S"
    }
   ],
-  "fetched": "2026-11-24T12:32:20"
+  "fetched": "2026-11-24T18:30:21"
  },
  "parts": {
-  "pending": 21,
-  "published_total": 15,
-  "published_today": 1,
+  "pending": 20,
+  "published_total": 16,
+  "published_today": 2,
   "per_day": 2,
-  "next": "Lemuria and Mu · parte 4/6",
+  "next": "Lemuria and Mu · parte 5/6",
   "recent": [
+   {
+    "title": "Lemuria and Mu · parte 4/6",
+    "when": "2026-11-24T18:30:02",
+    "tiktok": "ok",
+    "instagram": "ok"
+   },
    {
     "title": "Lemuria and Mu · parte 3/6",
     "when": "2026-11-24T12:31:41",
@@ -1041,22 +1047,11 @@
     "when": "2026-11-22T12:30:03",
     "tiktok": "ok",
     "instagram": "ok"
-   },
-   {
-    "title": "The Banshee · parte 4/6",
-    "when": "2026-11-21T18:30:01",
-    "tiktok": "ok",
-    "instagram": "ok"
    }
   ],
   "errors": []
  },
  "log_tail": [
-  "06:22:40 INFO    Voz 32/43 (13.2s)",
-  "06:22:42 INFO    Voz 33/43 (13.9s)",
-  "06:22:45 INFO    Voz 34/43 (16.7s)",
-  "06:22:49 INFO    Voz 35/43 (16.8s)",
-  "06:22:52 INFO    Voz 36/43 (15.5s)",
   "06:22:54 INFO    Voz 37/43 (14.2s)",
   "06:22:57 INFO    Voz 38/43 (12.4s)",
   "06:23:00 INFO    Voz 39/43 (14.6s)",
@@ -1171,6 +1166,11 @@
   "12:31:48 INFO    Video alojado en Zernio.",
   "12:32:14 INFO    TikTok: publicado (post 6b05d816956f94de1dcc5874).",
   "12:32:18 INFO    Instagram: publicado (post 6b05d82ae6543d826edfc1ad).",
-  "12:32:18 INFO    Parte publicada: Lemuria and Mu | Part 3/6: The Rise and Fall of Mu (tiktok=ok, instagram=ok)"
+  "12:32:18 INFO    Parte publicada: Lemuria and Mu | Part 3/6: The Rise and Fall of Mu (tiktok=ok, instagram=ok)",
+  "12:32:24 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "18:30:05 INFO    Video alojado en Zernio.",
+  "18:30:13 INFO    TikTok: publicado (post 6b062c0a795b363648f7d5da).",
+  "18:30:19 INFO    Instagram: publicado (post 6b062c105e1bf44d59267d3b).",
+  "18:30:19 INFO    Parte publicada: Lemuria and Mu | Part 4/6: From Mount Shasta to Kumari Kandam (tiktok=ok, instagram=ok)"
  ]
 }

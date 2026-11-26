@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-26T05:04:44",
+ "generated_at": "2026-11-26T06:30:03",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -776,14 +776,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 30,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 831.1,
+  "disk_free_gb": 828.9,
   "topics_pending_short": 195,
   "topics_pending_long": 215,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-26T05:04:44",
+  "last_heartbeat": "2026-11-26T06:30:03",
   "last_success": "2026-11-26T05:04:43",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -796,13 +796,22 @@
   "title": "Forgotten Folklore Daily",
   "subscribers": 20,
   "views": 5409,
-  "video_count": 31,
+  "video_count": 32,
   "videos": [
+   {
+    "id": "JPqGSGXYe60",
+    "title": "Yasy Yatere - The Golden Child Who Lures Children at Siesta",
+    "published": "2026-11-26T11:11:47Z",
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "duration": "PT1M9S"
+   },
    {
     "id": "jVVZLSVs8UM",
     "title": "Mictecacihuatl - The Aztec Queen Behind the Day of the Dead",
     "published": "2026-11-25T11:07:32Z",
-    "views": 389,
+    "views": 392,
     "likes": 14,
     "comments": 0,
     "duration": "PT1M15S"
@@ -1013,18 +1022,9 @@
     "likes": 12,
     "comments": 0,
     "duration": "PT1M10S"
-   },
-   {
-    "id": "OELbz1k_yp4",
-    "title": "The Roc - The Giant Bird That Carried Elephants Across the Sea",
-    "published": "2026-11-08T11:05:45Z",
-    "views": 375,
-    "likes": 25,
-    "comments": 1,
-    "duration": "PT1M9S"
    }
   ],
-  "fetched": "2026-11-26T05:04:44"
+  "fetched": "2026-11-26T06:30:03"
  },
  "parts": {
   "pending": 18,
@@ -1117,6 +1117,7 @@
   "05:03:47 INFO    TikTok: publicado (post 6b08120ea5673270729cc5d5).",
   "05:03:51 INFO    Instagram: publicado (post 6b081211f1c6b1426590451b).",
   "05:04:43 INFO    Facebook: publicado (972484095667921).",
-  "05:04:43 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'Yasy Yatere - The Golden Child Who Lures Children at Siesta' (short, 68.0s). G:\\Mi unidad\\MythForge\\publicar\\Yasy Yatere - The Golden Child Who Lures Children at Siesta"
+  "05:04:43 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'Yasy Yatere - The Golden Child Who Lures Children at Siesta' (short, 68.0s). G:\\Mi unidad\\MythForge\\publicar\\Yasy Yatere - The Golden Child Who Lures Children at Siesta",
+  "05:04:48 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
  ]
 }

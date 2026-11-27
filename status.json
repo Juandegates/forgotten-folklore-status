@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-27T00:30:03",
+ "generated_at": "2026-11-27T05:04:42",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -13,35 +13,51 @@
  },
  "today": {
   "date": "2026-11-27",
-  "status": "pending",
+  "status": "partial",
   "is_long_day": true,
-  "short": null,
+  "short": {
+   "status": "ok",
+   "title": "The Chupacabra - The 1990s Panic That Spread From Puerto Rico",
+   "topic": "The Chupacabra",
+   "format": "short",
+   "duration": 71.4,
+   "elapsed_minutes": 4.6,
+   "images": 9,
+   "created": "2026-11-27T05:04:41",
+   "work": "C:\\Mythforge\\output\\work\\20261127_the-chupacabra_short",
+   "ready_mp4": "C:\\Mythforge\\output\\ready\\The Chupacabra - The 1990s Panic That Spread From Puerto Rico.mp4",
+   "meta": "C:\\Mythforge\\output\\ready\\The Chupacabra - The 1990s Panic That Spread From Puerto Rico.json",
+   "published": "G:\\Mi unidad\\MythForge\\publicar\\The Chupacabra - The 1990s Panic That Spread From Puerto Rico",
+   "tiktok": "ok",
+   "instagram": "ok",
+   "facebook": "ok"
+  },
   "long": null
  },
  "next": [
   {
    "date": "2026-11-28",
    "format": "short",
-   "title": "The Chupacabra",
-   "region": "Puerto Rico / Mexico"
-  },
-  {
-   "date": "2026-11-29",
-   "format": "short",
    "title": "La Tunda",
    "region": "Colombia / Ecuador"
   },
   {
-   "date": "2026-11-30",
+   "date": "2026-11-29",
    "format": "short",
    "title": "The Alley of the Kiss (Guanajuato)",
    "region": "Mexico"
   },
   {
-   "date": "2026-12-01",
+   "date": "2026-11-30",
    "format": "short",
    "title": "The Lambton Worm",
    "region": "England"
+  },
+  {
+   "date": "2026-12-01",
+   "format": "short",
+   "title": "The Kelpie",
+   "region": "Scotland"
   },
   {
    "date": "2026-12-01",
@@ -52,20 +68,20 @@
   {
    "date": "2026-12-02",
    "format": "short",
-   "title": "The Kelpie",
-   "region": "Scotland"
-  },
-  {
-   "date": "2026-12-03",
-   "format": "short",
    "title": "La Planchada, the ghost nurse",
    "region": "Mexico"
   },
   {
-   "date": "2026-12-04",
+   "date": "2026-12-03",
    "format": "short",
    "title": "Maui, the trickster who fished up islands",
    "region": "Polynesia"
+  },
+  {
+   "date": "2026-12-04",
+   "format": "short",
+   "title": "Rusalka, the drowned maidens",
+   "region": "Slavic"
   },
   {
    "date": "2026-12-04",
@@ -722,6 +738,24 @@
    "instagram_error": null,
    "facebook": "ok",
    "facebook_error": null
+  },
+  {
+   "created": "2026-11-27T05:04:41",
+   "format": "short",
+   "title": "The Chupacabra - The 1990s Panic That Spread From Puerto Rico",
+   "topic": "The Chupacabra",
+   "status": "ok",
+   "duration": 71.4,
+   "elapsed_minutes": 4.6,
+   "published": true,
+   "images": 9,
+   "error": null,
+   "tiktok": "ok",
+   "tiktok_error": null,
+   "instagram": "ok",
+   "instagram_error": null,
+   "facebook": "ok",
+   "facebook_error": null
   }
  ],
  "errors": [
@@ -755,20 +789,20 @@
   }
  ],
  "quotas": {
-  "images_today": 0,
-  "cloudflare_neurons_estimate": 0,
+  "images_today": 9,
+  "cloudflare_neurons_estimate": 2700,
   "cloudflare_neurons_limit": 10000,
-  "zapier_tasks_month_estimate": 30,
+  "zapier_tasks_month_estimate": 31,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 829.7,
-  "topics_pending_short": 195,
+  "disk_free_gb": 829.1,
+  "topics_pending_short": 194,
   "topics_pending_long": 215,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-27T00:30:03",
-  "last_success": "2026-11-26T05:04:43",
+  "last_heartbeat": "2026-11-27T05:04:42",
+  "last_success": "2026-11-27T05:04:41",
   "last_error": {
    "when": "2026-11-14T09:02:58",
    "error": "Claude Code devolvió error: API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)",
@@ -780,8 +814,17 @@
   "title": "Forgotten Folklore Daily",
   "subscribers": 20,
   "views": 5710,
-  "video_count": 32,
+  "video_count": 33,
   "videos": [
+   {
+    "id": "lkCbXBV0lG8",
+    "title": "The Chupacabra - The 1990s Panic That Spread From Puerto Rico",
+    "published": "2026-11-27T11:04:29Z",
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "duration": "PT1M12S"
+   },
    {
     "id": "JPqGSGXYe60",
     "title": "Yasy Yatere - The Golden Child Who Lures Children at Siesta",
@@ -795,7 +838,7 @@
     "id": "jVVZLSVs8UM",
     "title": "Mictecacihuatl - The Aztec Queen Behind the Day of the Dead",
     "published": "2026-11-25T11:07:32Z",
-    "views": 439,
+    "views": 444,
     "likes": 16,
     "comments": 0,
     "duration": "PT1M15S"
@@ -804,7 +847,7 @@
     "id": "8hNzLRO4xJw",
     "title": "The Puca - Ireland's Golden-Eyed Horse That Never Brings You Back the Same",
     "published": "2026-11-24T12:46:18Z",
-    "views": 24,
+    "views": 32,
     "likes": 1,
     "comments": 0,
     "duration": "PT10M59S"
@@ -894,7 +937,7 @@
     "id": "bd2gdwEFmq0",
     "title": "Mami Wata - The Water Spirit Who Crossed the Atlantic",
     "published": "2026-11-17T11:05:07Z",
-    "views": 89,
+    "views": 91,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M12S"
@@ -997,18 +1040,9 @@
     "likes": 11,
     "comments": 0,
     "duration": "PT1M12S"
-   },
-   {
-    "id": "J-51QABb0Es",
-    "title": "La Sayona - The Woman in White Who Hunts Unfaithful Men",
-    "published": "2026-11-09T11:05:40Z",
-    "views": 63,
-    "likes": 12,
-    "comments": 0,
-    "duration": "PT1M10S"
    }
   ],
-  "fetched": "2026-11-27T00:30:03"
+  "fetched": "2026-11-27T05:04:42"
  },
  "parts": {
   "pending": 16,
@@ -1056,5 +1090,51 @@
   ],
   "errors": []
  },
- "log_tail": []
+ "log_tail": [
+  "00:30:06 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "05:00:03 INFO    === MythForge run: formato=short proveedores=config ===",
+  "05:00:03 INFO    Tema: The Chupacabra (Puerto Rico / Mexico) [short]",
+  "05:00:03 INFO    Cerebro (claude_code): generando guion corto (intento 1)...",
+  "05:00:43 INFO    Cerebro (claude_code): generando revisión de calidad...",
+  "05:01:06 INFO    QA encontró 6 punto(s): Image prompts for scene six, a vintage radio, and scene seven, a paper map of the Americas, could make the image model draw labels, place names or brand logos. Both now say there is no writing.; Scene two states that the bodies were drained as a fact. It now reports this as what farmers say, which keeps the honesty framing.; The tense is mixed. Scenes one to seven tell real mid-1990s events in present tense, and scene eight switches to past tense. Since this is a modern historical panic and not an old legend, the past tense is now used throughout for the history, with a present-tense ending.; ",
+  "05:01:06 INFO    QA aplicó correcciones al guion.",
+  "05:01:06 INFO    Guion listo: 'The Chupacabra - The 1990s Panic That Spread From Puerto Rico' — 9 escenas, 159 palabras.",
+  "05:01:27 INFO    Cargando Kokoro (la primera vez descarga el modelo, ~330 MB)...",
+  "05:01:33 INFO    Voz 1/9 (7.4s)",
+  "05:01:34 INFO    Voz 2/9 (7.6s)",
+  "05:01:36 INFO    Voz 3/9 (7.1s)",
+  "05:01:37 INFO    Voz 4/9 (7.3s)",
+  "05:01:39 INFO    Voz 5/9 (5.9s)",
+  "05:01:40 INFO    Voz 6/9 (7.0s)",
+  "05:01:41 INFO    Voz 7/9 (7.3s)",
+  "05:01:43 INFO    Voz 8/9 (10.4s)",
+  "05:01:45 INFO    Voz 9/9 (8.1s)",
+  "05:01:45 INFO    Audio total: 71.4s",
+  "05:01:58 INFO    Imagen 1/9 lista",
+  "05:02:07 INFO    Imagen 2/9 lista",
+  "05:02:19 INFO    Imagen 3/9 lista",
+  "05:02:30 INFO    Imagen 4/9 lista",
+  "05:02:39 INFO    Imagen 5/9 lista",
+  "05:02:49 INFO    Imagen 6/9 lista",
+  "05:02:59 INFO    Imagen 7/9 lista",
+  "05:03:08 INFO    Imagen 8/9 lista",
+  "05:03:18 INFO    Imagen 9/9 lista",
+  "05:03:18 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
+  "05:03:19 INFO    Render escena 1/9 (7.7s)",
+  "05:03:20 INFO    Render escena 2/9 (8.0s)",
+  "05:03:21 INFO    Render escena 3/9 (7.4s)",
+  "05:03:22 INFO    Render escena 4/9 (7.7s)",
+  "05:03:23 INFO    Render escena 5/9 (6.2s)",
+  "05:03:24 INFO    Render escena 6/9 (7.3s)",
+  "05:03:25 INFO    Render escena 7/9 (7.7s)",
+  "05:03:26 INFO    Render escena 8/9 (10.8s)",
+  "05:03:28 INFO    Render escena 9/9 (8.5s)",
+  "05:03:37 INFO    Video armado: output.mp4 (9.9 MB)",
+  "05:03:37 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\The Chupacabra - The 1990s Panic That Spread From Puerto Rico",
+  "05:03:41 INFO    Video alojado en Zernio.",
+  "05:03:46 INFO    TikTok: publicado (post 6b09638da8273cde42883bc4).",
+  "05:03:50 INFO    Instagram: publicado (post 6b096391a8273cde42883bdc).",
+  "05:04:41 INFO    Facebook: publicado (2381116122722875).",
+  "05:04:41 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Chupacabra - The 1990s Panic That Spread From Puerto Rico' (short, 71.4s). G:\\Mi unidad\\MythForge\\publicar\\The Chupacabra - The 1990s Panic That Spread From Puerto Rico"
+ ]
 }

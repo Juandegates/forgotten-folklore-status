@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-26T12:30:24",
+ "generated_at": "2026-11-26T18:30:19",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -776,14 +776,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 30,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 829.9,
+  "disk_free_gb": 829.2,
   "topics_pending_short": 195,
   "topics_pending_long": 215,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-26T12:30:25",
+  "last_heartbeat": "2026-11-26T18:30:19",
   "last_success": "2026-11-26T05:04:43",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -795,7 +795,7 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 20,
-  "views": 5409,
+  "views": 5669,
   "video_count": 32,
   "videos": [
    {
@@ -811,7 +811,7 @@
     "id": "jVVZLSVs8UM",
     "title": "Mictecacihuatl - The Aztec Queen Behind the Day of the Dead",
     "published": "2026-11-25T11:07:32Z",
-    "views": 420,
+    "views": 428,
     "likes": 15,
     "comments": 0,
     "duration": "PT1M15S"
@@ -820,7 +820,7 @@
     "id": "8hNzLRO4xJw",
     "title": "The Puca - Ireland's Golden-Eyed Horse That Never Brings You Back the Same",
     "published": "2026-11-24T12:46:18Z",
-    "views": 9,
+    "views": 10,
     "likes": 1,
     "comments": 0,
     "duration": "PT10M59S"
@@ -847,7 +847,7 @@
     "id": "TkK_ozvXAfU",
     "title": "The Ghoul - The Desert Shapeshifter That Haunted Arabian Graves",
     "published": "2026-11-22T11:07:49Z",
-    "views": 148,
+    "views": 149,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M7S"
@@ -946,7 +946,7 @@
     "id": "e0lgW998Ju4",
     "title": "The Nine Levels of Mictlan - The Aztec Journey of the Dead",
     "published": "2026-11-15T11:07:11Z",
-    "views": 486,
+    "views": 487,
     "likes": 12,
     "comments": 0,
     "duration": "PT1M22S"
@@ -991,7 +991,7 @@
     "id": "lKXKOlyOCZw",
     "title": "The Manananggal - The Filipino Legend Who Leaves Half Behind",
     "published": "2026-11-11T11:04:47Z",
-    "views": 150,
+    "views": 151,
     "likes": 3,
     "comments": 0,
     "duration": "PT1M10S"
@@ -1024,15 +1024,21 @@
     "duration": "PT1M10S"
    }
   ],
-  "fetched": "2026-11-26T12:30:24"
+  "fetched": "2026-11-26T18:30:19"
  },
  "parts": {
-  "pending": 17,
-  "published_total": 19,
-  "published_today": 1,
+  "pending": 16,
+  "published_total": 20,
+  "published_today": 2,
   "per_day": 2,
-  "next": "The Antikythera Mechanism · parte 2/6",
+  "next": "The Antikythera Mechanism · parte 3/6",
   "recent": [
+   {
+    "title": "The Antikythera Mechanism · parte 2/6",
+    "when": "2026-11-26T18:30:02",
+    "tiktok": "ok",
+    "instagram": "ok"
+   },
    {
     "title": "The Antikythera Mechanism · parte 1/6",
     "when": "2026-11-26T12:30:02",
@@ -1060,12 +1066,6 @@
    {
     "title": "Lemuria and Mu · parte 3/6",
     "when": "2026-11-24T12:31:41",
-    "tiktok": "ok",
-    "instagram": "ok"
-   },
-   {
-    "title": "Lemuria and Mu · parte 2/6",
-    "when": "2026-11-23T18:30:02",
     "tiktok": "ok",
     "instagram": "ok"
    }
@@ -1124,6 +1124,11 @@
   "12:30:07 INFO    Video alojado en Zernio.",
   "12:30:19 INFO    TikTok: publicado (post 6b087aad08b25de4372ff84d).",
   "12:30:23 INFO    Instagram: publicado (post 6b087ab89967fc99caece6bc).",
-  "12:30:23 INFO    Parte publicada: The Antikythera Mechanism | Part 1/6: The Lump of Green Bronze (tiktok=ok, instagram=ok)"
+  "12:30:23 INFO    Parte publicada: The Antikythera Mechanism | Part 1/6: The Lump of Green Bronze (tiktok=ok, instagram=ok)",
+  "12:30:28 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "18:30:07 INFO    Video alojado en Zernio.",
+  "18:30:14 INFO    TikTok: publicado (post 6b08cf0b0c0da358dfcd9df3).",
+  "18:30:17 INFO    Instagram: publicado (post 6b08cf10d56c4ac9514c6e4e).",
+  "18:30:17 INFO    Parte publicada: The Antikythera Mechanism | Part 2/6: A Ship Sinks Near Antikythera (tiktok=ok, instagram=ok)"
  ]
 }

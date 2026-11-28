@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-27T12:32:08",
+ "generated_at": "2026-11-27T18:30:19",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -827,14 +827,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 32,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 827.1,
+  "disk_free_gb": 826.4,
   "topics_pending_short": 194,
   "topics_pending_long": 214,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-27T12:32:08",
+  "last_heartbeat": "2026-11-27T18:30:19",
   "last_success": "2026-11-27T06:32:02",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -846,14 +846,14 @@
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
   "subscribers": 20,
-  "views": 5710,
+  "views": 5756,
   "video_count": 34,
   "videos": [
    {
     "id": "9FT7t58SexI",
     "title": "The Bell Witch - The Spirit That Spoke to a Tennessee Family",
     "published": "2026-11-27T12:45:02Z",
-    "views": 4,
+    "views": 9,
     "likes": 0,
     "comments": 0,
     "duration": "PT11M53S"
@@ -862,7 +862,7 @@
     "id": "lkCbXBV0lG8",
     "title": "The Chupacabra - The 1990s Panic That Spread From Puerto Rico",
     "published": "2026-11-27T11:04:29Z",
-    "views": 11,
+    "views": 20,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M12S"
@@ -925,7 +925,7 @@
     "id": "qUwbnb_Jn-c",
     "title": "The Golem of Prague - The Clay Giant Hidden in a Synagogue Attic",
     "published": "2026-11-21T11:20:38Z",
-    "views": 156,
+    "views": 157,
     "likes": 5,
     "comments": 0,
     "duration": "PT1M8S"
@@ -1075,15 +1075,21 @@
     "duration": "PT11M34S"
    }
   ],
-  "fetched": "2026-11-27T12:32:08"
+  "fetched": "2026-11-27T18:30:19"
  },
  "parts": {
-  "pending": 21,
-  "published_total": 21,
-  "published_today": 1,
+  "pending": 20,
+  "published_total": 22,
+  "published_today": 2,
   "per_day": 2,
-  "next": "The Antikythera Mechanism · parte 4/6",
+  "next": "The Antikythera Mechanism · parte 5/6",
   "recent": [
+   {
+    "title": "The Antikythera Mechanism · parte 4/6",
+    "when": "2026-11-27T18:30:03",
+    "tiktok": "ok",
+    "instagram": "ok"
+   },
    {
     "title": "The Antikythera Mechanism · parte 3/6",
     "when": "2026-11-27T12:31:53",
@@ -1113,22 +1119,11 @@
     "when": "2026-11-25T12:30:02",
     "tiktok": "ok",
     "instagram": "ok"
-   },
-   {
-    "title": "Lemuria and Mu · parte 4/6",
-    "when": "2026-11-24T18:30:02",
-    "tiktok": "ok",
-    "instagram": "ok"
    }
   ],
   "errors": []
  },
  "log_tail": [
-  "06:22:52 INFO    Voz 39/45 (16.4s)",
-  "06:22:55 INFO    Voz 40/45 (16.1s)",
-  "06:22:58 INFO    Voz 41/45 (16.4s)",
-  "06:23:01 INFO    Voz 42/45 (15.7s)",
-  "06:23:04 INFO    Voz 43/45 (16.5s)",
   "06:23:08 INFO    Voz 44/45 (17.8s)",
   "06:23:11 INFO    Voz 45/45 (16.5s)",
   "06:23:11 INFO    Audio total: 711.8s",
@@ -1243,6 +1238,11 @@
   "12:31:58 INFO    Video alojado en Zernio.",
   "12:32:03 INFO    TikTok: publicado (post 6b09cc9c8198f2f6402616c4).",
   "12:32:07 INFO    Instagram: publicado (post 6b09cc9f6a84e4665f57f37d).",
-  "12:32:07 INFO    Parte publicada: The Antikythera Mechanism | Part 3/6: The Machine That Counted Heaven (tiktok=ok, instagram=ok)"
+  "12:32:07 INFO    Parte publicada: The Antikythera Mechanism | Part 3/6: The Machine That Counted Heaven (tiktok=ok, instagram=ok)",
+  "12:32:12 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
+  "18:30:07 INFO    Video alojado en Zernio.",
+  "18:30:13 INFO    TikTok: publicado (post 6b0a208ce1bc569ed87a0434).",
+  "18:30:18 INFO    Instagram: publicado (post 6b0a20900aa6c8e63f2e1424).",
+  "18:30:18 INFO    Parte publicada: The Antikythera Mechanism | Part 4/6: Archimedes, Aliens and Retellings (tiktok=ok, instagram=ok)"
  ]
 }

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-27T18:30:19",
+ "generated_at": "2026-11-28T00:30:03",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -12,67 +12,30 @@
   "long": "martes y viernes 06:15 (respaldo 10:00)"
  },
  "today": {
-  "date": "2026-11-27",
-  "status": "ok",
-  "is_long_day": true,
-  "short": {
-   "status": "ok",
-   "title": "The Chupacabra - The 1990s Panic That Spread From Puerto Rico",
-   "topic": "The Chupacabra",
-   "format": "short",
-   "duration": 71.4,
-   "elapsed_minutes": 4.6,
-   "images": 9,
-   "created": "2026-11-27T05:04:41",
-   "work": "C:\\Mythforge\\output\\work\\20261127_the-chupacabra_short",
-   "ready_mp4": "C:\\Mythforge\\output\\ready\\The Chupacabra - The 1990s Panic That Spread From Puerto Rico.mp4",
-   "meta": "C:\\Mythforge\\output\\ready\\The Chupacabra - The 1990s Panic That Spread From Puerto Rico.json",
-   "published": "G:\\Mi unidad\\MythForge\\publicar\\The Chupacabra - The 1990s Panic That Spread From Puerto Rico",
-   "tiktok": "ok",
-   "instagram": "ok",
-   "facebook": "ok"
-  },
-  "long": {
-   "status": "ok",
-   "title": "The Bell Witch - The Spirit That Spoke to a Tennessee Family",
-   "topic": "The Bell Witch",
-   "format": "long",
-   "duration": 711.8,
-   "elapsed_minutes": 17.0,
-   "images": 45,
-   "created": "2026-11-27T06:32:02",
-   "work": "C:\\Mythforge\\output\\work\\20261127_the-bell-witch_long",
-   "ready_mp4": "C:\\Mythforge\\output\\ready\\The Bell Witch - The Spirit That Spoke to a Tennessee Family.mp4",
-   "meta": "C:\\Mythforge\\output\\ready\\The Bell Witch - The Spirit That Spoke to a Tennessee Family.json",
-   "thumbnail": "C:\\Mythforge\\output\\ready\\The Bell Witch - The Spirit That Spoke to a Tennessee Family.jpg",
-   "published": "G:\\Mi unidad\\MythForge\\publicar\\The Bell Witch - The Spirit That Spoke to a Tennessee Family",
-   "facebook": "ok"
-  }
+  "date": "2026-11-28",
+  "status": "pending",
+  "is_long_day": false,
+  "short": null,
+  "long": null
  },
  "next": [
   {
-   "date": "2026-11-28",
+   "date": "2026-11-29",
    "format": "short",
    "title": "La Tunda",
    "region": "Colombia / Ecuador"
   },
   {
-   "date": "2026-11-29",
+   "date": "2026-11-30",
    "format": "short",
    "title": "The Alley of the Kiss (Guanajuato)",
    "region": "Mexico"
   },
   {
-   "date": "2026-11-30",
+   "date": "2026-12-01",
    "format": "short",
    "title": "The Lambton Worm",
    "region": "England"
-  },
-  {
-   "date": "2026-12-01",
-   "format": "short",
-   "title": "The Kelpie",
-   "region": "Scotland"
   },
   {
    "date": "2026-12-01",
@@ -83,26 +46,32 @@
   {
    "date": "2026-12-02",
    "format": "short",
+   "title": "The Kelpie",
+   "region": "Scotland"
+  },
+  {
+   "date": "2026-12-03",
+   "format": "short",
    "title": "La Planchada, the ghost nurse",
    "region": "Mexico"
   },
   {
-   "date": "2026-12-03",
+   "date": "2026-12-04",
    "format": "short",
    "title": "Maui, the trickster who fished up islands",
    "region": "Polynesia"
   },
   {
    "date": "2026-12-04",
-   "format": "short",
-   "title": "Rusalka, the drowned maidens",
-   "region": "Slavic"
-  },
-  {
-   "date": "2026-12-04",
    "format": "long",
    "title": "La Sayona",
    "region": "Venezuela"
+  },
+  {
+   "date": "2026-12-05",
+   "format": "short",
+   "title": "Rusalka, the drowned maidens",
+   "region": "Slavic"
   }
  ],
  "history": [
@@ -822,19 +791,19 @@
   }
  ],
  "quotas": {
-  "images_today": 54,
-  "cloudflare_neurons_estimate": 9900,
+  "images_today": 0,
+  "cloudflare_neurons_estimate": 0,
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 32,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 826.4,
+  "disk_free_gb": 826.3,
   "topics_pending_short": 194,
   "topics_pending_long": 214,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-27T18:30:19",
+  "last_heartbeat": "2026-11-28T00:30:03",
   "last_success": "2026-11-27T06:32:02",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -845,16 +814,16 @@
  "youtube": {
   "channel_id": "UCHaadVDcJeoyZNfqkxPT3Ug",
   "title": "Forgotten Folklore Daily",
-  "subscribers": 20,
-  "views": 5756,
+  "subscribers": 21,
+  "views": 5788,
   "video_count": 34,
   "videos": [
    {
     "id": "9FT7t58SexI",
     "title": "The Bell Witch - The Spirit That Spoke to a Tennessee Family",
     "published": "2026-11-27T12:45:02Z",
-    "views": 9,
-    "likes": 0,
+    "views": 10,
+    "likes": 1,
     "comments": 0,
     "duration": "PT11M53S"
    },
@@ -862,7 +831,7 @@
     "id": "lkCbXBV0lG8",
     "title": "The Chupacabra - The 1990s Panic That Spread From Puerto Rico",
     "published": "2026-11-27T11:04:29Z",
-    "views": 20,
+    "views": 30,
     "likes": 1,
     "comments": 0,
     "duration": "PT1M12S"
@@ -880,7 +849,7 @@
     "id": "jVVZLSVs8UM",
     "title": "Mictecacihuatl - The Aztec Queen Behind the Day of the Dead",
     "published": "2026-11-25T11:07:32Z",
-    "views": 445,
+    "views": 446,
     "likes": 16,
     "comments": 0,
     "duration": "PT1M15S"
@@ -1075,12 +1044,12 @@
     "duration": "PT11M34S"
    }
   ],
-  "fetched": "2026-11-27T18:30:19"
+  "fetched": "2026-11-28T00:30:03"
  },
  "parts": {
   "pending": 20,
   "published_total": 22,
-  "published_today": 2,
+  "published_today": 0,
   "per_day": 2,
   "next": "The Antikythera Mechanism · parte 5/6",
   "recent": [
@@ -1123,126 +1092,5 @@
   ],
   "errors": []
  },
- "log_tail": [
-  "06:23:08 INFO    Voz 44/45 (17.8s)",
-  "06:23:11 INFO    Voz 45/45 (16.5s)",
-  "06:23:11 INFO    Audio total: 711.8s",
-  "06:23:19 INFO    Imagen 1/45 lista",
-  "06:23:27 INFO    Imagen 2/45 lista",
-  "06:23:33 INFO    Imagen 3/45 lista",
-  "06:23:41 INFO    Imagen 4/45 lista",
-  "06:23:49 INFO    Imagen 5/45 lista",
-  "06:23:59 INFO    Imagen 6/45 lista",
-  "06:24:08 INFO    Imagen 7/45 lista",
-  "06:24:08 WARNING Cloudflare falló (intento 1/4): HTTP 500: {\"errors\":[{\"message\":\"AiError: AiError: Internal server error (d4204d02-aa50-45fb-81f5-961d4b4c92dc)\",\"code\":8004}],\"success\":false,\"result\":{},\"messages\":[]}",
-  "06:24:23 INFO    Imagen 8/45 lista",
-  "06:24:34 INFO    Imagen 9/45 lista",
-  "06:24:43 INFO    Imagen 10/45 lista",
-  "06:24:55 INFO    Imagen 11/45 lista",
-  "06:25:04 INFO    Imagen 12/45 lista",
-  "06:25:17 INFO    Imagen 13/45 lista",
-  "06:25:26 INFO    Imagen 14/45 lista",
-  "06:25:35 INFO    Imagen 15/45 lista",
-  "06:25:43 INFO    Imagen 16/45 lista",
-  "06:25:52 INFO    Imagen 17/45 lista",
-  "06:26:02 INFO    Imagen 18/45 lista",
-  "06:26:11 INFO    Imagen 19/45 lista",
-  "06:26:20 INFO    Imagen 20/45 lista",
-  "06:26:29 INFO    Imagen 21/45 lista",
-  "06:26:39 INFO    Imagen 22/45 lista",
-  "06:26:46 INFO    Imagen 23/45 lista",
-  "06:26:55 INFO    Imagen 24/45 lista",
-  "06:27:03 INFO    Imagen 25/45 lista",
-  "06:27:12 INFO    Imagen 26/45 lista",
-  "06:27:18 INFO    Imagen 27/45 lista",
-  "06:27:26 INFO    Imagen 28/45 lista",
-  "06:27:35 INFO    Imagen 29/45 lista",
-  "06:27:43 INFO    Imagen 30/45 lista",
-  "06:27:52 INFO    Imagen 31/45 lista",
-  "06:28:01 INFO    Imagen 32/45 lista",
-  "06:28:10 INFO    Imagen 33/45 lista",
-  "06:28:18 INFO    Imagen 34/45 lista",
-  "06:28:26 INFO    Imagen 35/45 lista",
-  "06:28:35 INFO    Imagen 36/45 lista",
-  "06:28:46 INFO    Imagen 37/45 lista",
-  "06:28:53 INFO    Imagen 38/45 lista",
-  "06:29:04 INFO    Imagen 39/45 lista",
-  "06:29:11 INFO    Imagen 40/45 lista",
-  "06:29:21 INFO    Imagen 41/45 lista",
-  "06:29:30 INFO    Imagen 42/45 lista",
-  "06:29:38 INFO    Imagen 43/45 lista",
-  "06:29:48 INFO    Imagen 44/45 lista",
-  "06:29:59 INFO    Imagen 45/45 lista",
-  "06:29:59 INFO    Sin archivos en assets/music: se genera un ambiente procedural.",
-  "06:30:02 INFO    Latido: hay una producción en curso; no se lanza el respaldo.",
-  "06:30:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "06:30:07 INFO    Render escena 1/45 (17.3s)",
-  "06:30:10 INFO    Render escena 2/45 (14.9s)",
-  "06:30:12 INFO    Render escena 3/45 (12.3s)",
-  "06:30:13 INFO    Render escena 4/45 (13.2s)",
-  "06:30:15 INFO    Render escena 5/45 (15.8s)",
-  "06:30:17 INFO    Render escena 6/45 (16.9s)",
-  "06:30:19 INFO    Render escena 7/45 (13.2s)",
-  "06:30:21 INFO    Render escena 8/45 (13.9s)",
-  "06:30:22 INFO    Render escena 9/45 (13.8s)",
-  "06:30:24 INFO    Render escena 10/45 (11.7s)",
-  "06:30:26 INFO    Render escena 11/45 (15.9s)",
-  "06:30:28 INFO    Render escena 12/45 (17.9s)",
-  "06:30:30 INFO    Render escena 13/45 (13.8s)",
-  "06:30:32 INFO    Render escena 14/45 (13.0s)",
-  "06:30:33 INFO    Render escena 15/45 (14.6s)",
-  "06:30:35 INFO    Render escena 16/45 (12.2s)",
-  "06:30:36 INFO    Render escena 17/45 (18.0s)",
-  "06:30:39 INFO    Render escena 18/45 (15.4s)",
-  "06:30:41 INFO    Render escena 19/45 (19.0s)",
-  "06:30:43 INFO    Render escena 20/45 (15.9s)",
-  "06:30:45 INFO    Render escena 21/45 (14.2s)",
-  "06:30:47 INFO    Render escena 22/45 (15.9s)",
-  "06:30:49 INFO    Render escena 23/45 (13.1s)",
-  "06:30:50 INFO    Render escena 24/45 (13.7s)",
-  "06:30:52 INFO    Render escena 25/45 (18.3s)",
-  "06:30:54 INFO    Render escena 26/45 (17.8s)",
-  "06:30:56 INFO    Render escena 27/45 (16.4s)",
-  "06:30:58 INFO    Render escena 28/45 (13.5s)",
-  "06:31:00 INFO    Render escena 29/45 (17.5s)",
-  "06:31:02 INFO    Render escena 30/45 (19.1s)",
-  "06:31:04 INFO    Render escena 31/45 (16.0s)",
-  "06:31:06 INFO    Render escena 32/45 (16.9s)",
-  "06:31:08 INFO    Render escena 33/45 (16.3s)",
-  "06:31:10 INFO    Render escena 34/45 (19.9s)",
-  "06:31:13 INFO    Render escena 35/45 (17.2s)",
-  "06:31:15 INFO    Render escena 36/45 (15.7s)",
-  "06:31:17 INFO    Render escena 37/45 (17.6s)",
-  "06:31:19 INFO    Render escena 38/45 (15.8s)",
-  "06:31:21 INFO    Render escena 39/45 (16.8s)",
-  "06:31:23 INFO    Render escena 40/45 (16.4s)",
-  "06:31:25 INFO    Render escena 41/45 (16.8s)",
-  "06:31:27 INFO    Render escena 42/45 (16.0s)",
-  "06:31:29 INFO    Render escena 43/45 (16.8s)",
-  "06:31:31 INFO    Render escena 44/45 (18.1s)",
-  "06:31:33 INFO    Render escena 45/45 (16.8s)",
-  "06:31:53 INFO    Video armado: output.mp4 (51.4 MB)",
-  "06:31:53 INFO    Video entregado a la carpeta de publicación: G:\\Mi unidad\\MythForge\\publicar\\The Bell Witch - The Spirit That Spoke to a Tennessee Family",
-  "06:32:02 INFO    Facebook: publicado (2240019030195936).",
-  "06:32:02 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'The Bell Witch - The Spirit That Spoke to a Tennessee Family' (long, 711.8s). G:\\Mi unidad\\MythForge\\publicar\\The Bell Witch - The Spirit That Spoke to a Tennessee Family",
-  "06:32:07 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "09:00:03 INFO    Hoy ya hay un video 'short' exitoso; la corrida de respaldo no hace nada.",
-  "10:00:01 INFO    Hoy ya hay un video 'long' exitoso; la corrida de respaldo no hace nada.",
-  "12:30:02 INFO    Parte vertical 1/6 de 'The Bell Witch - The Spirit That Spoke to a Tennessee Family' (0-117 s)",
-  "12:30:21 INFO    Parte vertical 2/6 de 'The Bell Witch - The Spirit That Spoke to a Tennessee Family' (117-230 s)",
-  "12:30:38 INFO    Parte vertical 3/6 de 'The Bell Witch - The Spirit That Spoke to a Tennessee Family' (230-355 s)",
-  "12:30:57 INFO    Parte vertical 4/6 de 'The Bell Witch - The Spirit That Spoke to a Tennessee Family' (355-474 s)",
-  "12:31:16 INFO    Parte vertical 5/6 de 'The Bell Witch - The Spirit That Spoke to a Tennessee Family' (474-593 s)",
-  "12:31:34 INFO    Parte vertical 6/6 de 'The Bell Witch - The Spirit That Spoke to a Tennessee Family' (593-712 s)",
-  "12:31:53 INFO    Partes listas: 6 de 'The Bell Witch - The Spirit That Spoke to a Tennessee Family'",
-  "12:31:58 INFO    Video alojado en Zernio.",
-  "12:32:03 INFO    TikTok: publicado (post 6b09cc9c8198f2f6402616c4).",
-  "12:32:07 INFO    Instagram: publicado (post 6b09cc9f6a84e4665f57f37d).",
-  "12:32:07 INFO    Parte publicada: The Antikythera Mechanism | Part 3/6: The Machine That Counted Heaven (tiktok=ok, instagram=ok)",
-  "12:32:12 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/",
-  "18:30:07 INFO    Video alojado en Zernio.",
-  "18:30:13 INFO    TikTok: publicado (post 6b0a208ce1bc569ed87a0434).",
-  "18:30:18 INFO    Instagram: publicado (post 6b0a20900aa6c8e63f2e1424).",
-  "18:30:18 INFO    Parte publicada: The Antikythera Mechanism | Part 4/6: Archimedes, Aliens and Retellings (tiktok=ok, instagram=ok)"
- ]
+ "log_tail": []
 }

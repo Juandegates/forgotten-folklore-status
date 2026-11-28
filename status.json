@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-28T05:04:59",
+ "generated_at": "2026-11-28T06:30:04",
  "timezone": "America/Mexico_City",
  "channel": {
   "name": "Forgotten Folklore Daily",
@@ -830,14 +830,14 @@
   "cloudflare_neurons_limit": 10000,
   "zapier_tasks_month_estimate": 33,
   "zapier_tasks_limit": 100,
-  "disk_free_gb": 826.0,
+  "disk_free_gb": 826.1,
   "topics_pending_short": 193,
   "topics_pending_long": 214,
   "topics_total": 221
  },
  "system": {
   "hostname": "DESKTOP-3D2HAHF",
-  "last_heartbeat": "2026-11-28T05:04:59",
+  "last_heartbeat": "2026-11-28T06:30:04",
   "last_success": "2026-11-28T05:04:57",
   "last_error": {
    "when": "2026-11-14T09:02:58",
@@ -850,8 +850,17 @@
   "title": "Forgotten Folklore Daily",
   "subscribers": 21,
   "views": 5788,
-  "video_count": 34,
+  "video_count": 35,
   "videos": [
+   {
+    "id": "HdIL7dPNFXo",
+    "title": "La Tunda - The Mangrove Spirit Who Wears Your Mother's Face",
+    "published": "2026-11-28T11:13:11Z",
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "duration": "PT1M10S"
+   },
    {
     "id": "9FT7t58SexI",
     "title": "The Bell Witch - The Spirit That Spoke to a Tennessee Family",
@@ -1067,18 +1076,9 @@
     "likes": 3,
     "comments": 0,
     "duration": "PT1M10S"
-   },
-   {
-    "id": "__gP0Wyl0kw",
-    "title": "The Banshee - The Irish Wailing Woman Who Cries Before a Death",
-    "published": "2026-11-10T16:22:47Z",
-    "views": 3,
-    "likes": 0,
-    "comments": 0,
-    "duration": "PT11M34S"
    }
   ],
-  "fetched": "2026-11-28T05:04:59"
+  "fetched": "2026-11-28T06:30:04"
  },
  "parts": {
   "pending": 20,
@@ -1174,6 +1174,7 @@
   "05:04:02 INFO    TikTok: publicado (post 6b0ab51c40c5615453307364).",
   "05:04:06 INFO    Instagram: publicado (post 6b0ab5212571708c1156d876).",
   "05:04:57 INFO    Facebook: publicado (1196696023055083).",
-  "05:04:57 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'La Tunda - The Mangrove Spirit Who Wears Your Mother's Face' (short, 69.8s). G:\\Mi unidad\\MythForge\\publicar\\La Tunda - The Mangrove Spirit Who Wears Your Mother's Face"
+  "05:04:57 INFO    AVISO: ✅ Forgotten Folklore Daily: listo 'La Tunda - The Mangrove Spirit Who Wears Your Mother's Face' (short, 69.8s). G:\\Mi unidad\\MythForge\\publicar\\La Tunda - The Mangrove Spirit Who Wears Your Mother's Face",
+  "05:05:02 INFO    Estado publicado para el panel: https://juandegates.github.io/forgotten-folklore-status/"
  ]
 }
